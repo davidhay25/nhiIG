@@ -1,0 +1,1 @@
+New Zealand ethnicity codes drawn from level 4 ethnicity codes. Refer to [the spec](https://www.health.govt.nz/publication/hiso-100012017-ethnicity-data-protocols) for details

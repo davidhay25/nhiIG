@@ -1,0 +1,48 @@
+{
+    "sct-edition": "http://snomed.info/sct/32506021000036107",
+    "version": "3.0.1",
+    "source": "ig.xml",
+    "dependencyList": [],
+    "spreadsheets": [],
+    "special-urls": [
+        "https://standards.digital.health.nz/valueset/ethnic-group-level-4",
+        "https://standards.digital.health.nz/codesystem/ethnic-group-level-4",
+        "https://standards.digital.health.nz/valueset/nzinfosource"
+    ],
+    "npm-name": "hl7.fhir.nz.nhi",
+    "extraTemplates": ["mappings"],
+    "defaults": {
+      
+        "Any": {
+            "template-base": "base.html",
+            "template-format": "format.html"
+        },
+        "StructureDefinition": {
+            "template-base": "sd.html",
+            "template-defns": "sd-definitions.html",
+            "template-mappings": "sd-mappings.html"
+        },
+      "ValueSet": 
+        {
+            "template-base": "vs.html"
+        }
+   },
+    "tool": "jekyll",
+    "license": "CC0-1.0",
+    "canonicalBase": "http://hl7.org.nz/fhir",
+    "paths": {
+        "temp": "temp",
+        "resources": [
+            "resources",
+            "examples"
+        ],
+        "pages": "pages",
+        "txCache": "txCache",
+        "output": "output",
+        "qa": "qa",
+        "specification": "http://hl7.org/fhir/STU3"
+    },
+    "resources": {
+        
+    }
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="nz-base"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="/Users/davidhay/nzIG/resources"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="/Users/davidhay/nzIG/examples"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
+    <valueString value="/Users/davidhay/nzIG/pages"/>
+  </extension>
+  <url value="http://hl7.org.nz/fhir/ImplementationGuide/nz-base"/>
+  <version value="1.0.2"/>
+  <name value="Implementation Guide Template"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2010-02-15T00:00:00+13:00"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="David Hay"/>
+    <telecom>
+      <system value="email"/>
+      <value value="david.hay25@gmail.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <packageId value="hl7.fhir.nz.nhi"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="3.0.1"/>
+  <fhirVersion value="3.0.1"/>
+  <definition>
+    <grouping id="p1">
+      <name value="base"/>
+    </grouping>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/nzethnicity"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-birthplace"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/patient-nzcitizenship"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/informationsource"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/NhiPatient"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/ethnic-group-level-4"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/nzinfosource"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <page>
+      <nameUrl value="index.html"/>
+      <title value="New Zealand Base Profiles Implementation Guide"/>
+      <generation value="html"/>
+    </page>
+    <parameter>
+      <code value="generate-json"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="generate-xml"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="generate-turtle"/>
+      <value value="true"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

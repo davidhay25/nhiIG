@@ -1,0 +1,51 @@
+﻿Implementation Guide Template : Validation Results
+=========================================
+
+err = 4, warn = 0, info = 0
+Generated Mon Apr 01 12:09:12 NZDT 2019. FHIR version 4.1.0 for hl7.fhir.nz.nhi#3.0.1 (canonical = http://hl7.org.nz/fhir)
+
+ Build Errors : 24 / 0
+ /Users/davidhay/nzIG/resources/ig : 0 / 0
+ /Users/davidhay/nzIG/resources/informationsource.structuredefinition : 0 / 0
+ /Users/davidhay/nzIG/resources/nzethnicity.structuredefinition : 0 / 0
+ /Users/davidhay/nzIG/resources/patient-birthplace.structuredefinition : 0 / 0
+ /Users/davidhay/nzIG/resources/patient-nzcitizenship.structuredefinition : 0 / 0
+ /Users/davidhay/nzIG/resources/structuredefinition-NhiPatient : 0 / 0
+ /Users/davidhay/nzIG/resources/valueset-ethnic-group-level-4 : 1 / 0
+ /Users/davidhay/nzIG/resources/valueset-nzinfosource : 1 / 0
+</table>
+== n/a ==
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 233, column 1600: The link 'StructureDefinition/nzethnicity.html' for "http://hl7.org.nz/fhir/StructureDefinition/nzethnicity" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 233, column 1757: The link 'ValueSet/ethnic-group-level-4.html' for "NZ Ethnicity Level 4" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 234, column 1596: The link 'StructureDefinition/patient-birthplace.html' for "http://hl7.org.nz/fhir/StructureDefinition/patient-birthplace" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 235, column 1546: The link 'StructureDefinition/patient-nzcitizenship.html' for "http://hl7.org.nz/fhir/StructureDefinition/patient-nzcitizenship" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 240, column 1737: The link 'StructureDefinition/informationsource.html' for "http://hl7.org.nz/fhir/StructureDefinition/informationsource" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 240, column 1906: The link 'ValueSet/nzinfosource.html' for "Information Source" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 257, column 1690: The link 'StructureDefinition/nzethnicity.html' for "http://hl7.org.nz/fhir/StructureDefinition/nzethnicity" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 258, column 1686: The link 'StructureDefinition/patient-birthplace.html' for "http://hl7.org.nz/fhir/StructureDefinition/patient-birthplace" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 259, column 1636: The link 'StructureDefinition/patient-nzcitizenship.html' for "http://hl7.org.nz/fhir/StructureDefinition/patient-nzcitizenship" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 271, column 1823: The link 'StructureDefinition/informationsource.html' for "http://hl7.org.nz/fhir/StructureDefinition/informationsource" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 464, column 1600: The link 'StructureDefinition/nzethnicity.html' for "http://hl7.org.nz/fhir/StructureDefinition/nzethnicity" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 464, column 1757: The link 'ValueSet/ethnic-group-level-4.html' for "NZ Ethnicity Level 4" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 465, column 1596: The link 'StructureDefinition/patient-birthplace.html' for "http://hl7.org.nz/fhir/StructureDefinition/patient-birthplace" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 466, column 1546: The link 'StructureDefinition/patient-nzcitizenship.html' for "http://hl7.org.nz/fhir/StructureDefinition/patient-nzcitizenship" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 471, column 1737: The link 'StructureDefinition/informationsource.html' for "http://hl7.org.nz/fhir/StructureDefinition/informationsource" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 471, column 1906: The link 'ValueSet/nzinfosource.html' for "Information Source" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 486, column 1690: The link 'StructureDefinition/nzethnicity.html' for "http://hl7.org.nz/fhir/StructureDefinition/nzethnicity" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 487, column 1686: The link 'StructureDefinition/patient-birthplace.html' for "http://hl7.org.nz/fhir/StructureDefinition/patient-birthplace" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 488, column 1636: The link 'StructureDefinition/patient-nzcitizenship.html' for "http://hl7.org.nz/fhir/StructureDefinition/patient-nzcitizenship" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 500, column 1823: The link 'StructureDefinition/informationsource.html' for "http://hl7.org.nz/fhir/StructureDefinition/informationsource" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient-definitions.html#/html/body/div/div/div/div/div/table/tr/td/br/tr/td/a at Line 173, column 154: The link 'StructureDefinition/nzethnicity.html' for "nzethnicity" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient-definitions.html#/html/body/div/div/div/div/div/table/tr/td/br/tr/td/a at Line 180, column 154: The link 'StructureDefinition/patient-birthplace.html' for "patient-birthplace" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient-definitions.html#/html/body/div/div/div/div/div/table/tr/td/br/tr/td/a at Line 187, column 154: The link 'StructureDefinition/patient-nzcitizenship.html' for "patient-nzcitizenship" cannot be resolved
+ERROR: /Users/davidhay/nzIG/output/StructureDefinition-NhiPatient-definitions.html#/html/body/div/div/div/div/div/table/tr/td/br/tr/td/a at Line 290, column 154: The link 'StructureDefinition/informationsource.html' for "informationsource" cannot be resolved
+== /Users/davidhay/nzIG/resources/ig.xml ==
+== /Users/davidhay/nzIG/resources/informationSource.StructureDefinition.xml ==
+== /Users/davidhay/nzIG/resources/nzethnicity.StructureDefinition.xml ==
+== /Users/davidhay/nzIG/resources/patient-birthplace.StructureDefinition.xml ==
+== /Users/davidhay/nzIG/resources/patient-nzcitizenship.StructureDefinition.xml ==
+== /Users/davidhay/nzIG/resources/structuredefinition-nhipatient.json ==
+== /Users/davidhay/nzIG/resources/valueset-ethnic-group-level-4.xml ==
+ERROR: ethnic-group-level-4: Error from server: Operation Outcome ERROR [] unable to find code system https://standards.digital.health.nz/codesystem/ethnic-group-level-4
+== /Users/davidhay/nzIG/resources/valueset-nzinfosource.json ==
+ERROR: nzinfosource: Error from server: Operation Outcome ERROR [] unable to find code system https://standards.digital.health.nz/codesystem/nzinfosource

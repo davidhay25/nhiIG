@@ -1,0 +1,12 @@
+﻿{
+  "url": "http://hl7.org.nz/fhir/ImplementationGuide/nz-base",
+  "name": "Implementation Guide Template",
+  "package-id": "hl7.fhir.nz.nhi",
+  "ig-ver": "1.0.2",
+  "date": "Mon, 01 Apr, 2019 12:09:04 +1300",
+  "errs": 4,
+  "warnings": 0,
+  "hints": 0,
+  "version": "3.0.1",
+  "tool": "4.1.0 (3)"
+}

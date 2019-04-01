@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="informationsource" />
+  <url value="http://hl7.org.nz/fhir/StructureDefinition/informationsource" />
+  <version value=".1" />
+  <name value="informationsource" />
+  <status value="draft" />
+  <description value="The source of the information" />
+  <fhirVersion value="3.0.1" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <contextType value="datatype" />
+  <context value="Resource" />
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="http://hl7.org.nz/fhir/StructureDefinition/informationsource" />
+    </element>
+    <element id="Extension.value[x]:valueCodeableConcept">
+      <path value="Extension.valueCodeableConcept" />
+      <sliceName value="valueCodeableConcept" />
+      <min value="1" />
+      <type>
+        <code value="CodeableConcept" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

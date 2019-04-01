@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "https://standards.digital.health.nz/codesystem/nzinfosource"
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Operation Outcome ERROR [] unable to find code system https://standards.digital.health.nz/codesystem/nzinfosource"
+}
+-------------------------------------------------------------------------------------

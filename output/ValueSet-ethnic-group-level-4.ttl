@@ -1,0 +1,1003 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org.nz/fhir/ValueSet/ethnic-group-level-4> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ethnic-group-level-4"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NZ Ethnicity Level 4</h2><div><p>Value Set of all NZ Ethnicity Level 4 Codes</p>\n</div><p><b>Copyright Statement:</b> © 2010+ New Zealand Crown Copyright</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <code>https://standards.digital.health.nz/codesystem/ethnic-group-level-4</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>10000</td><td>European NFD</td><td/></tr><tr><td>11111</td><td>New Zealand European</td><td/></tr><tr><td>12100</td><td>British NFD</td><td/></tr><tr><td>12111</td><td>Celtic</td><td/></tr><tr><td>12112</td><td>Channel Islander</td><td/></tr><tr><td>12113</td><td>Cornish</td><td/></tr><tr><td>12114</td><td>English</td><td/></tr><tr><td>12115</td><td>Gaelic</td><td/></tr><tr><td>12116</td><td>Irish</td><td/></tr><tr><td>12117</td><td>Manx</td><td/></tr><tr><td>12118</td><td>Orkney Islander</td><td/></tr><tr><td>12119</td><td>Scottish (Scots)</td><td/></tr><tr><td>12120</td><td>Shetland Islander</td><td/></tr><tr><td>12121</td><td>Welsh</td><td/></tr><tr><td>12199</td><td>British NEC</td><td/></tr><tr><td>12211</td><td>Dutch/Netherlands</td><td/></tr><tr><td>12311</td><td>Greek (including Greek Cypriot)</td><td/></tr><tr><td>12411</td><td>Polish</td><td/></tr><tr><td>12500</td><td>South Slav (formerly Yugoslav groups) NFD</td><td/></tr><tr><td>12511</td><td>Croat/Croatian</td><td/></tr><tr><td>12512</td><td>Dalmatian</td><td/></tr><tr><td>12513</td><td>Macedonian</td><td/></tr><tr><td>12514</td><td>Serb/Serbian</td><td/></tr><tr><td>12515</td><td>Slovene/Slovenian</td><td/></tr><tr><td>12516</td><td>Bosnian</td><td/></tr><tr><td>12599</td><td>South Slav (formerly Yugoslav groups) NEC</td><td/></tr><tr><td>12611</td><td>Italian</td><td/></tr><tr><td>12711</td><td>German</td><td/></tr><tr><td>12811</td><td>Australian</td><td/></tr><tr><td>12911</td><td>Albanian</td><td/></tr><tr><td>12912</td><td>Armenian</td><td/></tr><tr><td>12913</td><td>Austrian</td><td/></tr><tr><td>12914</td><td>Belgian</td><td/></tr><tr><td>12915</td><td>Bulgarian</td><td/></tr><tr><td>12916</td><td>Belorussian</td><td/></tr><tr><td>12917</td><td>Corsican</td><td/></tr><tr><td>12918</td><td>Cypriot Unspecified</td><td/></tr><tr><td>12919</td><td>Czech</td><td/></tr><tr><td>12920</td><td>Danish</td><td/></tr><tr><td>12921</td><td>Estonian</td><td/></tr><tr><td>12922</td><td>Finnish</td><td/></tr><tr><td>12923</td><td>Flemish</td><td/></tr><tr><td>12924</td><td>French</td><td/></tr><tr><td>12925</td><td>Greenlander</td><td/></tr><tr><td>12926</td><td>Hungarian</td><td/></tr><tr><td>12927</td><td>Icelander</td><td/></tr><tr><td>12928</td><td>Latvian</td><td/></tr><tr><td>12929</td><td>Lithuanian</td><td/></tr><tr><td>12930</td><td>Maltese</td><td/></tr><tr><td>12931</td><td>Norwegian</td><td/></tr><tr><td>12932</td><td>Portuguese</td><td/></tr><tr><td>12933</td><td>Romanian / Rumanian</td><td/></tr><tr><td>12934</td><td>Romany / Gypsy</td><td/></tr><tr><td>12935</td><td>Russian</td><td/></tr><tr><td>12936</td><td>Sardinian</td><td/></tr><tr><td>12937</td><td>Slavic / Slav</td><td/></tr><tr><td>12938</td><td>Slovak</td><td/></tr><tr><td>12939</td><td>Spanish</td><td/></tr><tr><td>12940</td><td>Swedish</td><td/></tr><tr><td>12941</td><td>Swiss</td><td/></tr><tr><td>12942</td><td>Ukrainian</td><td/></tr><tr><td>12943</td><td>American (US)</td><td/></tr><tr><td>12944</td><td>Burgher</td><td/></tr><tr><td>12945</td><td>Canadian</td><td/></tr><tr><td>12946</td><td>Falkland Islander / Kelper</td><td/></tr><tr><td>12947</td><td>New Caledonian</td><td/></tr><tr><td>12948</td><td>South African</td><td/></tr><tr><td>12949</td><td>Afrikaner</td><td/></tr><tr><td>12950</td><td>Zimbabwean</td><td/></tr><tr><td>12999</td><td>European NEC</td><td/></tr><tr><td>21111</td><td>Māori</td><td/></tr><tr><td>30000</td><td>Pacific peoples NFD</td><td/></tr><tr><td>31111</td><td>Samoan</td><td/></tr><tr><td>32100</td><td>Cook Island Māori NFD</td><td/></tr><tr><td>32111</td><td>Aitutaki Islander</td><td/></tr><tr><td>32112</td><td>Atiu Islander</td><td/></tr><tr><td>32113</td><td>Mangaia Islander</td><td/></tr><tr><td>32114</td><td>Manihiki Islander</td><td/></tr><tr><td>32115</td><td>Mauke Islander</td><td/></tr><tr><td>32116</td><td>Mitiaro Islander</td><td/></tr><tr><td>32117</td><td>Palmerston Islander</td><td/></tr><tr><td>32118</td><td>Penrhyn Islander</td><td/></tr><tr><td>32119</td><td>Pukapuka Islander</td><td/></tr><tr><td>32120</td><td>Rakahanga Islander</td><td/></tr><tr><td>32121</td><td>Rarotongan</td><td/></tr><tr><td>33111</td><td>Tongan</td><td/></tr><tr><td>34111</td><td>Niuean</td><td/></tr><tr><td>35111</td><td>Tokelauan</td><td/></tr><tr><td>36111</td><td>Fijian (except Fiji Indian / Indo-Fijian)</td><td/></tr><tr><td>37111</td><td>Admiralty Islander</td><td/></tr><tr><td>37112</td><td>Australian Aboriginal</td><td/></tr><tr><td>37113</td><td>Austral Islander</td><td/></tr><tr><td>37114</td><td>Belau / Palau Islander</td><td/></tr><tr><td>37115</td><td>Bismark Archipelagoan</td><td/></tr><tr><td>37116</td><td>Bougainvillean</td><td/></tr><tr><td>37117</td><td>Caroline Islander</td><td/></tr><tr><td>37118</td><td>Easter Islander</td><td/></tr><tr><td>37119</td><td>Gambier Islander</td><td/></tr><tr><td>37120</td><td>Guadalcanalian</td><td/></tr><tr><td>37121</td><td>Guam Islander / Chamorro</td><td/></tr><tr><td>37122</td><td>Hawaiian</td><td/></tr><tr><td>37123</td><td>Kanaka / Kanak</td><td/></tr><tr><td>37124</td><td>I-Kiribati / Gilbertese</td><td/></tr><tr><td>37125</td><td>Malaitian</td><td/></tr><tr><td>37126</td><td>Manus Islander</td><td/></tr><tr><td>37127</td><td>Marianas Islander</td><td/></tr><tr><td>37128</td><td>Marquesas Islander</td><td/></tr><tr><td>37129</td><td>Marshall Islander</td><td/></tr><tr><td>37130</td><td>Nauru Islander</td><td/></tr><tr><td>37131</td><td>New Britain Islander</td><td/></tr><tr><td>37132</td><td>New Georgian</td><td/></tr><tr><td>37133</td><td>New Irelander</td><td/></tr><tr><td>37134</td><td>Ocean Islander / Banaban</td><td/></tr><tr><td>37135</td><td>Papuan / New Guinean / Irian Jayan</td><td/></tr><tr><td>37136</td><td>Phoenix Islander</td><td/></tr><tr><td>37137</td><td>Pitcairn Islander</td><td/></tr><tr><td>37138</td><td>Rotuman / Rotuman Islander</td><td/></tr><tr><td>37139</td><td>Santa Cruz Islander</td><td/></tr><tr><td>37140</td><td>Society Islander (including Tahitian)</td><td/></tr><tr><td>37141</td><td>Solomon Islander</td><td/></tr><tr><td>37142</td><td>Torres Strait Islander / Thursday Islander</td><td/></tr><tr><td>37143</td><td>Tuamotu Islander</td><td/></tr><tr><td>37144</td><td>Tuvalu Islander / Ellice Islander</td><td/></tr><tr><td>37145</td><td>Vanuatu Islander / New Hebridean</td><td/></tr><tr><td>37146</td><td>Wake Islander</td><td/></tr><tr><td>37147</td><td>Wallis Islander</td><td/></tr><tr><td>37148</td><td>Yap Islander</td><td/></tr><tr><td>37199</td><td>Other Pacific peoples NEC</td><td/></tr><tr><td>40000</td><td>Asian NFD</td><td/></tr><tr><td>41000</td><td>Southeast Asian NFD</td><td/></tr><tr><td>41111</td><td>Filipino</td><td/></tr><tr><td>41211</td><td>Khmer / Kampuchean / Cambodian</td><td/></tr><tr><td>41311</td><td>Vietnamese</td><td/></tr><tr><td>41411</td><td>Burmese</td><td/></tr><tr><td>41412</td><td>Indonesian (including Javanese / Sundanese / Sumatran)</td><td/></tr><tr><td>41413</td><td>Lao / Laotian</td><td/></tr><tr><td>41414</td><td>Malay / Malayan</td><td/></tr><tr><td>41415</td><td>Thai / Tai / Siamese</td><td/></tr><tr><td>41499</td><td>Other Southeast Asian NEC</td><td/></tr><tr><td>42100</td><td>Chinese NFD</td><td/></tr><tr><td>42111</td><td>Hong Kong Chinese</td><td/></tr><tr><td>42112</td><td>Kampuchean Chinese</td><td/></tr><tr><td>42113</td><td>Malaysian Chinese</td><td/></tr><tr><td>42114</td><td>Singaporean Chinese</td><td/></tr><tr><td>42115</td><td>Vietnamese Chinese</td><td/></tr><tr><td>42116</td><td>Taiwanese Chinese</td><td/></tr><tr><td>42199</td><td>Chinese NEC</td><td/></tr><tr><td>43100</td><td>Indian NFD</td><td/></tr><tr><td>43111</td><td>Bengali</td><td/></tr><tr><td>43112</td><td>Fijian Indian / Indo-Fijian</td><td/></tr><tr><td>43113</td><td>Gujarati</td><td/></tr><tr><td>43114</td><td>Tamil</td><td/></tr><tr><td>43115</td><td>Punjabi</td><td/></tr><tr><td>43116</td><td>Sikh</td><td/></tr><tr><td>43117</td><td>Anglo Indian</td><td/></tr><tr><td>43199</td><td>Indian NEC</td><td/></tr><tr><td>44100</td><td>Sri Lankan NFD</td><td/></tr><tr><td>44111</td><td>Sinhalese</td><td/></tr><tr><td>44112</td><td>Sri Lankan Tamil</td><td/></tr><tr><td>44199</td><td>Sri Lankan NEC</td><td/></tr><tr><td>44211</td><td>Japanese</td><td/></tr><tr><td>44311</td><td>Korean</td><td/></tr><tr><td>44411</td><td>Afghani</td><td/></tr><tr><td>44412</td><td>Bangladeshi</td><td/></tr><tr><td>44413</td><td>Nepalese</td><td/></tr><tr><td>44414</td><td>Pakistani</td><td/></tr><tr><td>44415</td><td>Tibetan</td><td/></tr><tr><td>44416</td><td>Eurasian</td><td/></tr><tr><td>44499</td><td>Other Asian NEC</td><td/></tr><tr><td>51100</td><td>Middle Eastern NFD</td><td/></tr><tr><td>51111</td><td>Algerian</td><td/></tr><tr><td>51112</td><td>Arab</td><td/></tr><tr><td>51113</td><td>Assyrian</td><td/></tr><tr><td>51114</td><td>Egyptian</td><td/></tr><tr><td>51115</td><td>Iranian / Persian</td><td/></tr><tr><td>51116</td><td>Iraqi</td><td/></tr><tr><td>51117</td><td>Israeli / Jewish / Hebrew</td><td/></tr><tr><td>51118</td><td>Jordanian</td><td/></tr><tr><td>51119</td><td>Kurd</td><td/></tr><tr><td>51120</td><td>Lebanese</td><td/></tr><tr><td>51121</td><td>Libyan</td><td/></tr><tr><td>51122</td><td>Moroccan</td><td/></tr><tr><td>51123</td><td>Omani</td><td/></tr><tr><td>51124</td><td>Palestinian</td><td/></tr><tr><td>51125</td><td>Syrian</td><td/></tr><tr><td>51126</td><td>Tunisian</td><td/></tr><tr><td>51127</td><td>Turkish (including Turkish Cypriot)</td><td/></tr><tr><td>51128</td><td>Yemeni</td><td/></tr><tr><td>51199</td><td>Middle Eastern NEC</td><td/></tr><tr><td>52100</td><td>Latin American / Hispanic NFD</td><td/></tr><tr><td>52111</td><td>Argentinian</td><td/></tr><tr><td>52112</td><td>Bolivian</td><td/></tr><tr><td>52113</td><td>Brazilian</td><td/></tr><tr><td>52114</td><td>Chilean</td><td/></tr><tr><td>52115</td><td>Colombian</td><td/></tr><tr><td>52116</td><td>Costa Rican</td><td/></tr><tr><td>52117</td><td>Creole (Latin America)</td><td/></tr><tr><td>52118</td><td>Ecuadorian</td><td/></tr><tr><td>52119</td><td>Guatemalan</td><td/></tr><tr><td>52120</td><td>Guyanese</td><td/></tr><tr><td>52121</td><td>Honduran</td><td/></tr><tr><td>52122</td><td>Malvinian (Spanish-speaking Falkland Islander)</td><td/></tr><tr><td>52123</td><td>Mexican</td><td/></tr><tr><td>52124</td><td>Nicaraguan</td><td/></tr><tr><td>52125</td><td>Panamanian</td><td/></tr><tr><td>52126</td><td>Paraguayan</td><td/></tr><tr><td>52127</td><td>Peruvian</td><td/></tr><tr><td>52128</td><td>Puerto Rican</td><td/></tr><tr><td>52129</td><td>Uruguayan</td><td/></tr><tr><td>52130</td><td>Venezuelan</td><td/></tr><tr><td>52199</td><td>Latin American / Hispanic NEC</td><td/></tr><tr><td>53100</td><td>African NFD</td><td/></tr><tr><td>53112</td><td>Creole (US)</td><td/></tr><tr><td>53113</td><td>Jamaican</td><td/></tr><tr><td>53114</td><td>Kenyan</td><td/></tr><tr><td>53115</td><td>Nigerian</td><td/></tr><tr><td>53116</td><td>African American</td><td/></tr><tr><td>53117</td><td>Ugandan</td><td/></tr><tr><td>53118</td><td>West Indian / Caribbean</td><td/></tr><tr><td>53119</td><td>Somali</td><td/></tr><tr><td>53120</td><td>Eritrean</td><td/></tr><tr><td>53121</td><td>Ethiopian</td><td/></tr><tr><td>53122</td><td>Ghanaian</td><td/></tr><tr><td>53199</td><td>Other African NEC</td><td/></tr><tr><td>61111</td><td>Central American Indian</td><td/></tr><tr><td>61112</td><td>Inuit / Eskimo</td><td/></tr><tr><td>61113</td><td>North American Indian</td><td/></tr><tr><td>61114</td><td>South American Indian</td><td/></tr><tr><td>61115</td><td>Mauritian</td><td/></tr><tr><td>61116</td><td>Seychelles Islander</td><td/></tr><tr><td>61117</td><td>South African Coloured</td><td/></tr><tr><td>61118</td><td>New Zealander</td><td/></tr><tr><td>61199</td><td>Other NEC</td><td/></tr><tr><td>94444</td><td>Don't know</td><td/></tr><tr><td>95555</td><td>Refused to answer</td><td/></tr><tr><td>96666</td><td>Repeated Value</td><td/></tr><tr><td>97777</td><td>Response unidentifiable</td><td/></tr><tr><td>98888</td><td>Response Outside Scope</td><td/></tr><tr><td>99999</td><td>Not stated</td><td/></tr></table></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "https://standards.digital.health.nz/valueset/ethnic-group-level-4"];
+  fhir:ValueSet.version [ fhir:value "1.0.1"];
+  fhir:ValueSet.name [ fhir:value "NZ Ethnicity Level 4"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:ValueSet.date [ fhir:value "2019-03-07T00:00:00+13:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Patients First Ltd"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "peter.jordan@patientsfirst.org.nz" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Value Set of all NZ Ethnicity Level 4 Codes"];
+  fhir:ValueSet.copyright [ fhir:value "© 2010+ New Zealand Crown Copyright"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://standards.digital.health.nz/codesystem/ethnic-group-level-4" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "1.0.1" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "10000" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "European NFD" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "11111" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "New Zealand European" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12100" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "British NFD" ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12111" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Celtic" ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12112" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Channel Islander" ]
+       ], [
+         fhir:index 5;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12113" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cornish" ]
+       ], [
+         fhir:index 6;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12114" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "English" ]
+       ], [
+         fhir:index 7;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12115" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gaelic" ]
+       ], [
+         fhir:index 8;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12116" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Irish" ]
+       ], [
+         fhir:index 9;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12117" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Manx" ]
+       ], [
+         fhir:index 10;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12118" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Orkney Islander" ]
+       ], [
+         fhir:index 11;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12119" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Scottish (Scots)" ]
+       ], [
+         fhir:index 12;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12120" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Shetland Islander" ]
+       ], [
+         fhir:index 13;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12121" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Welsh" ]
+       ], [
+         fhir:index 14;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12199" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "British NEC" ]
+       ], [
+         fhir:index 15;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12211" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dutch/Netherlands" ]
+       ], [
+         fhir:index 16;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12311" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Greek (including Greek Cypriot)" ]
+       ], [
+         fhir:index 17;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12411" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Polish" ]
+       ], [
+         fhir:index 18;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12500" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "South Slav (formerly Yugoslav groups) NFD" ]
+       ], [
+         fhir:index 19;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12511" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Croat/Croatian" ]
+       ], [
+         fhir:index 20;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12512" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dalmatian" ]
+       ], [
+         fhir:index 21;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12513" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Macedonian" ]
+       ], [
+         fhir:index 22;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12514" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Serb/Serbian" ]
+       ], [
+         fhir:index 23;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12515" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Slovene/Slovenian" ]
+       ], [
+         fhir:index 24;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12516" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bosnian" ]
+       ], [
+         fhir:index 25;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12599" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "South Slav (formerly Yugoslav groups) NEC" ]
+       ], [
+         fhir:index 26;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12611" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Italian" ]
+       ], [
+         fhir:index 27;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12711" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "German" ]
+       ], [
+         fhir:index 28;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12811" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Australian" ]
+       ], [
+         fhir:index 29;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12911" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Albanian" ]
+       ], [
+         fhir:index 30;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12912" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Armenian" ]
+       ], [
+         fhir:index 31;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12913" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Austrian" ]
+       ], [
+         fhir:index 32;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12914" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Belgian" ]
+       ], [
+         fhir:index 33;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12915" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bulgarian" ]
+       ], [
+         fhir:index 34;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12916" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Belorussian" ]
+       ], [
+         fhir:index 35;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12917" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Corsican" ]
+       ], [
+         fhir:index 36;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12918" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cypriot Unspecified" ]
+       ], [
+         fhir:index 37;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12919" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Czech" ]
+       ], [
+         fhir:index 38;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12920" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Danish" ]
+       ], [
+         fhir:index 39;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12921" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Estonian" ]
+       ], [
+         fhir:index 40;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12922" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Finnish" ]
+       ], [
+         fhir:index 41;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12923" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Flemish" ]
+       ], [
+         fhir:index 42;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12924" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "French" ]
+       ], [
+         fhir:index 43;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12925" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Greenlander" ]
+       ], [
+         fhir:index 44;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12926" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hungarian" ]
+       ], [
+         fhir:index 45;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12927" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Icelander" ]
+       ], [
+         fhir:index 46;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12928" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Latvian" ]
+       ], [
+         fhir:index 47;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12929" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lithuanian" ]
+       ], [
+         fhir:index 48;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12930" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maltese" ]
+       ], [
+         fhir:index 49;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12931" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Norwegian" ]
+       ], [
+         fhir:index 50;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12932" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Portuguese" ]
+       ], [
+         fhir:index 51;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12933" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Romanian / Rumanian" ]
+       ], [
+         fhir:index 52;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12934" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Romany / Gypsy" ]
+       ], [
+         fhir:index 53;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12935" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Russian" ]
+       ], [
+         fhir:index 54;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12936" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sardinian" ]
+       ], [
+         fhir:index 55;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12937" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Slavic / Slav" ]
+       ], [
+         fhir:index 56;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12938" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Slovak" ]
+       ], [
+         fhir:index 57;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12939" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spanish" ]
+       ], [
+         fhir:index 58;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12940" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Swedish" ]
+       ], [
+         fhir:index 59;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12941" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Swiss" ]
+       ], [
+         fhir:index 60;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12942" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ukrainian" ]
+       ], [
+         fhir:index 61;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12943" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "American (US)" ]
+       ], [
+         fhir:index 62;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12944" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Burgher" ]
+       ], [
+         fhir:index 63;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12945" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Canadian" ]
+       ], [
+         fhir:index 64;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12946" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Falkland Islander / Kelper" ]
+       ], [
+         fhir:index 65;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12947" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "New Caledonian" ]
+       ], [
+         fhir:index 66;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12948" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "South African" ]
+       ], [
+         fhir:index 67;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12949" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Afrikaner" ]
+       ], [
+         fhir:index 68;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12950" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Zimbabwean" ]
+       ], [
+         fhir:index 69;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "12999" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "European NEC" ]
+       ], [
+         fhir:index 70;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "21111" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Māori" ]
+       ], [
+         fhir:index 71;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "30000" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pacific peoples NFD" ]
+       ], [
+         fhir:index 72;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "31111" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Samoan" ]
+       ], [
+         fhir:index 73;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "32100" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cook Island Māori NFD" ]
+       ], [
+         fhir:index 74;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "32111" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Aitutaki Islander" ]
+       ], [
+         fhir:index 75;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "32112" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Atiu Islander" ]
+       ], [
+         fhir:index 76;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "32113" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mangaia Islander" ]
+       ], [
+         fhir:index 77;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "32114" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Manihiki Islander" ]
+       ], [
+         fhir:index 78;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "32115" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mauke Islander" ]
+       ], [
+         fhir:index 79;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "32116" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mitiaro Islander" ]
+       ], [
+         fhir:index 80;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "32117" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Palmerston Islander" ]
+       ], [
+         fhir:index 81;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "32118" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Penrhyn Islander" ]
+       ], [
+         fhir:index 82;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "32119" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pukapuka Islander" ]
+       ], [
+         fhir:index 83;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "32120" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rakahanga Islander" ]
+       ], [
+         fhir:index 84;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "32121" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rarotongan" ]
+       ], [
+         fhir:index 85;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "33111" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tongan" ]
+       ], [
+         fhir:index 86;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "34111" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Niuean" ]
+       ], [
+         fhir:index 87;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "35111" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tokelauan" ]
+       ], [
+         fhir:index 88;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "36111" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fijian (except Fiji Indian / Indo-Fijian)" ]
+       ], [
+         fhir:index 89;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37111" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Admiralty Islander" ]
+       ], [
+         fhir:index 90;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37112" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Australian Aboriginal" ]
+       ], [
+         fhir:index 91;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37113" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Austral Islander" ]
+       ], [
+         fhir:index 92;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37114" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Belau / Palau Islander" ]
+       ], [
+         fhir:index 93;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37115" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bismark Archipelagoan" ]
+       ], [
+         fhir:index 94;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37116" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bougainvillean" ]
+       ], [
+         fhir:index 95;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37117" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Caroline Islander" ]
+       ], [
+         fhir:index 96;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37118" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Easter Islander" ]
+       ], [
+         fhir:index 97;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37119" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gambier Islander" ]
+       ], [
+         fhir:index 98;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37120" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Guadalcanalian" ]
+       ], [
+         fhir:index 99;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37121" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Guam Islander / Chamorro" ]
+       ], [
+         fhir:index 100;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37122" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hawaiian" ]
+       ], [
+         fhir:index 101;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37123" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kanaka / Kanak" ]
+       ], [
+         fhir:index 102;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37124" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "I-Kiribati / Gilbertese" ]
+       ], [
+         fhir:index 103;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37125" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Malaitian" ]
+       ], [
+         fhir:index 104;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37126" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Manus Islander" ]
+       ], [
+         fhir:index 105;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37127" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Marianas Islander" ]
+       ], [
+         fhir:index 106;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37128" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Marquesas Islander" ]
+       ], [
+         fhir:index 107;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37129" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Marshall Islander" ]
+       ], [
+         fhir:index 108;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37130" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nauru Islander" ]
+       ], [
+         fhir:index 109;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37131" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "New Britain Islander" ]
+       ], [
+         fhir:index 110;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37132" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "New Georgian" ]
+       ], [
+         fhir:index 111;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37133" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "New Irelander" ]
+       ], [
+         fhir:index 112;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37134" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ocean Islander / Banaban" ]
+       ], [
+         fhir:index 113;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37135" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Papuan / New Guinean / Irian Jayan" ]
+       ], [
+         fhir:index 114;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37136" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Phoenix Islander" ]
+       ], [
+         fhir:index 115;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37137" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pitcairn Islander" ]
+       ], [
+         fhir:index 116;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37138" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rotuman / Rotuman Islander" ]
+       ], [
+         fhir:index 117;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37139" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Santa Cruz Islander" ]
+       ], [
+         fhir:index 118;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37140" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Society Islander (including Tahitian)" ]
+       ], [
+         fhir:index 119;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37141" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Solomon Islander" ]
+       ], [
+         fhir:index 120;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37142" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Torres Strait Islander / Thursday Islander" ]
+       ], [
+         fhir:index 121;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37143" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tuamotu Islander" ]
+       ], [
+         fhir:index 122;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37144" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tuvalu Islander / Ellice Islander" ]
+       ], [
+         fhir:index 123;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37145" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vanuatu Islander / New Hebridean" ]
+       ], [
+         fhir:index 124;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37146" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wake Islander" ]
+       ], [
+         fhir:index 125;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37147" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wallis Islander" ]
+       ], [
+         fhir:index 126;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37148" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Yap Islander" ]
+       ], [
+         fhir:index 127;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "37199" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Other Pacific peoples NEC" ]
+       ], [
+         fhir:index 128;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "40000" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Asian NFD" ]
+       ], [
+         fhir:index 129;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41000" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Southeast Asian NFD" ]
+       ], [
+         fhir:index 130;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41111" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Filipino" ]
+       ], [
+         fhir:index 131;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41211" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Khmer / Kampuchean / Cambodian" ]
+       ], [
+         fhir:index 132;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41311" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vietnamese" ]
+       ], [
+         fhir:index 133;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41411" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Burmese" ]
+       ], [
+         fhir:index 134;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41412" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indonesian (including Javanese / Sundanese / Sumatran)" ]
+       ], [
+         fhir:index 135;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41413" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lao / Laotian" ]
+       ], [
+         fhir:index 136;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41414" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Malay / Malayan" ]
+       ], [
+         fhir:index 137;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41415" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thai / Tai / Siamese" ]
+       ], [
+         fhir:index 138;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "41499" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Other Southeast Asian NEC" ]
+       ], [
+         fhir:index 139;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42100" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chinese NFD" ]
+       ], [
+         fhir:index 140;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42111" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hong Kong Chinese" ]
+       ], [
+         fhir:index 141;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42112" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kampuchean Chinese" ]
+       ], [
+         fhir:index 142;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42113" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Malaysian Chinese" ]
+       ], [
+         fhir:index 143;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42114" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Singaporean Chinese" ]
+       ], [
+         fhir:index 144;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42115" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vietnamese Chinese" ]
+       ], [
+         fhir:index 145;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42116" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Taiwanese Chinese" ]
+       ], [
+         fhir:index 146;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "42199" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chinese NEC" ]
+       ], [
+         fhir:index 147;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43100" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indian NFD" ]
+       ], [
+         fhir:index 148;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43111" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bengali" ]
+       ], [
+         fhir:index 149;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43112" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fijian Indian / Indo-Fijian" ]
+       ], [
+         fhir:index 150;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43113" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gujarati" ]
+       ], [
+         fhir:index 151;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43114" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tamil" ]
+       ], [
+         fhir:index 152;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43115" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Punjabi" ]
+       ], [
+         fhir:index 153;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43116" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sikh" ]
+       ], [
+         fhir:index 154;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43117" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anglo Indian" ]
+       ], [
+         fhir:index 155;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "43199" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indian NEC" ]
+       ], [
+         fhir:index 156;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44100" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sri Lankan NFD" ]
+       ], [
+         fhir:index 157;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44111" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sinhalese" ]
+       ], [
+         fhir:index 158;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44112" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sri Lankan Tamil" ]
+       ], [
+         fhir:index 159;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44199" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sri Lankan NEC" ]
+       ], [
+         fhir:index 160;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44211" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Japanese" ]
+       ], [
+         fhir:index 161;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44311" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Korean" ]
+       ], [
+         fhir:index 162;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44411" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Afghani" ]
+       ], [
+         fhir:index 163;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44412" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bangladeshi" ]
+       ], [
+         fhir:index 164;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44413" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nepalese" ]
+       ], [
+         fhir:index 165;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44414" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pakistani" ]
+       ], [
+         fhir:index 166;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44415" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tibetan" ]
+       ], [
+         fhir:index 167;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44416" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Eurasian" ]
+       ], [
+         fhir:index 168;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "44499" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Other Asian NEC" ]
+       ], [
+         fhir:index 169;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51100" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Middle Eastern NFD" ]
+       ], [
+         fhir:index 170;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51111" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Algerian" ]
+       ], [
+         fhir:index 171;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51112" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Arab" ]
+       ], [
+         fhir:index 172;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51113" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Assyrian" ]
+       ], [
+         fhir:index 173;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51114" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Egyptian" ]
+       ], [
+         fhir:index 174;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51115" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Iranian / Persian" ]
+       ], [
+         fhir:index 175;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51116" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Iraqi" ]
+       ], [
+         fhir:index 176;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51117" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Israeli / Jewish / Hebrew" ]
+       ], [
+         fhir:index 177;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51118" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jordanian" ]
+       ], [
+         fhir:index 178;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51119" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kurd" ]
+       ], [
+         fhir:index 179;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51120" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lebanese" ]
+       ], [
+         fhir:index 180;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51121" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Libyan" ]
+       ], [
+         fhir:index 181;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51122" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Moroccan" ]
+       ], [
+         fhir:index 182;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51123" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Omani" ]
+       ], [
+         fhir:index 183;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51124" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Palestinian" ]
+       ], [
+         fhir:index 184;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51125" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Syrian" ]
+       ], [
+         fhir:index 185;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51126" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tunisian" ]
+       ], [
+         fhir:index 186;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51127" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Turkish (including Turkish Cypriot)" ]
+       ], [
+         fhir:index 187;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51128" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Yemeni" ]
+       ], [
+         fhir:index 188;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "51199" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Middle Eastern NEC" ]
+       ], [
+         fhir:index 189;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52100" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Latin American / Hispanic NFD" ]
+       ], [
+         fhir:index 190;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52111" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Argentinian" ]
+       ], [
+         fhir:index 191;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52112" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bolivian" ]
+       ], [
+         fhir:index 192;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52113" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Brazilian" ]
+       ], [
+         fhir:index 193;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52114" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chilean" ]
+       ], [
+         fhir:index 194;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52115" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Colombian" ]
+       ], [
+         fhir:index 195;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52116" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Costa Rican" ]
+       ], [
+         fhir:index 196;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52117" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Creole (Latin America)" ]
+       ], [
+         fhir:index 197;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52118" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ecuadorian" ]
+       ], [
+         fhir:index 198;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52119" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Guatemalan" ]
+       ], [
+         fhir:index 199;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52120" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Guyanese" ]
+       ], [
+         fhir:index 200;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52121" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Honduran" ]
+       ], [
+         fhir:index 201;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52122" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Malvinian (Spanish-speaking Falkland Islander)" ]
+       ], [
+         fhir:index 202;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52123" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mexican" ]
+       ], [
+         fhir:index 203;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52124" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nicaraguan" ]
+       ], [
+         fhir:index 204;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52125" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Panamanian" ]
+       ], [
+         fhir:index 205;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52126" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Paraguayan" ]
+       ], [
+         fhir:index 206;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52127" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Peruvian" ]
+       ], [
+         fhir:index 207;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52128" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Puerto Rican" ]
+       ], [
+         fhir:index 208;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52129" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Uruguayan" ]
+       ], [
+         fhir:index 209;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52130" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Venezuelan" ]
+       ], [
+         fhir:index 210;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "52199" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Latin American / Hispanic NEC" ]
+       ], [
+         fhir:index 211;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "53100" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "African NFD" ]
+       ], [
+         fhir:index 212;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "53112" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Creole (US)" ]
+       ], [
+         fhir:index 213;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "53113" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jamaican" ]
+       ], [
+         fhir:index 214;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "53114" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Kenyan" ]
+       ], [
+         fhir:index 215;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "53115" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nigerian" ]
+       ], [
+         fhir:index 216;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "53116" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "African American" ]
+       ], [
+         fhir:index 217;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "53117" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ugandan" ]
+       ], [
+         fhir:index 218;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "53118" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "West Indian / Caribbean" ]
+       ], [
+         fhir:index 219;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "53119" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Somali" ]
+       ], [
+         fhir:index 220;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "53120" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Eritrean" ]
+       ], [
+         fhir:index 221;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "53121" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ethiopian" ]
+       ], [
+         fhir:index 222;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "53122" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ghanaian" ]
+       ], [
+         fhir:index 223;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "53199" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Other African NEC" ]
+       ], [
+         fhir:index 224;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "61111" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Central American Indian" ]
+       ], [
+         fhir:index 225;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "61112" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Inuit / Eskimo" ]
+       ], [
+         fhir:index 226;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "61113" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "North American Indian" ]
+       ], [
+         fhir:index 227;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "61114" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "South American Indian" ]
+       ], [
+         fhir:index 228;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "61115" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mauritian" ]
+       ], [
+         fhir:index 229;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "61116" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Seychelles Islander" ]
+       ], [
+         fhir:index 230;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "61117" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "South African Coloured" ]
+       ], [
+         fhir:index 231;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "61118" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "New Zealander" ]
+       ], [
+         fhir:index 232;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "61199" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Other NEC" ]
+       ], [
+         fhir:index 233;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "94444" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Don't know" ]
+       ], [
+         fhir:index 234;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "95555" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Refused to answer" ]
+       ], [
+         fhir:index 235;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "96666" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Repeated Value" ]
+       ], [
+         fhir:index 236;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "97777" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Response unidentifiable" ]
+       ], [
+         fhir:index 237;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "98888" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Response Outside Scope" ]
+       ], [
+         fhir:index 238;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "99999" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Not stated" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org.nz/fhir/ValueSet/ethnic-group-level-4.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

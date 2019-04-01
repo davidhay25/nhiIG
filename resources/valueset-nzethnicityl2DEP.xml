@@ -1,0 +1,303 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="NzEthnicityL2" />
+    <text>
+        <status value="generated" />
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <h2>NZ Ethnicity Level 2</h2>
+            <p>Value Set of all NZ Ethnicity Level 2 Codes</p>
+            <table>
+                <tr>
+                    <td>Id</td>
+                    <td>NzEthnicityL2</td>
+                </tr>
+                <tr>
+                    <td>Url</td>
+                    <td>https://standards.digital.health.nz/valueset/ethnic-group-level-2</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.0.1</td>
+                </tr>
+                <tr>
+                    <td>Publisher</td>
+                    <td>Patients First Ltd</td>
+                </tr>
+                <tr>
+                    <td>Copyright</td>
+                    <td>© 2010+ New Zealand Crown Copyright</td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>Status Date</td>
+                    <td>2019-03-07</td>
+                </tr>
+                <tr>
+                    <td>Experimental</td>
+                    <td>False</td>
+                </tr>
+                <tr>
+                    <td>Code System(s)</td>
+                    <td>https://standards.digital.health.nz/codesystem/ethnic-group-level-2 (version 1.0.1) : </td>
+                </tr>
+                <tr>
+                    <td>Filter(s)</td>
+                    <td></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th>Code</th>
+                    <th>Display</th>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>European NFD</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>NZ European</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Other European</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>NZ Māori</td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>Pacific Island NFD</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>Samoan</td>
+                </tr>
+                <tr>
+                    <td>32</td>
+                    <td>Cook Island Māori</td>
+                </tr>
+                <tr>
+                    <td>33</td>
+                    <td>Tongan</td>
+                </tr>
+                <tr>
+                    <td>34</td>
+                    <td>Niuean</td>
+                </tr>
+                <tr>
+                    <td>35</td>
+                    <td>Tokelauan</td>
+                </tr>
+                <tr>
+                    <td>36</td>
+                    <td>Fijian</td>
+                </tr>
+                <tr>
+                    <td>37</td>
+                    <td>Other Pacific Island</td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td>Asian NFD</td>
+                </tr>
+                <tr>
+                    <td>41</td>
+                    <td>Southeast Asian</td>
+                </tr>
+                <tr>
+                    <td>42</td>
+                    <td>Chinese</td>
+                </tr>
+                <tr>
+                    <td>43</td>
+                    <td>Indian</td>
+                </tr>
+                <tr>
+                    <td>44</td>
+                    <td>Other Asian</td>
+                </tr>
+                <tr>
+                    <td>51</td>
+                    <td>Middle Eastern</td>
+                </tr>
+                <tr>
+                    <td>52</td>
+                    <td>Latin American / Hispanic</td>
+                </tr>
+                <tr>
+                    <td>53</td>
+                    <td>African</td>
+                </tr>
+                <tr>
+                    <td>54</td>
+                    <td>Other (retired on 1/07/2009)</td>
+                </tr>
+                <tr>
+                    <td>61</td>
+                    <td>Other Ethnicity</td>
+                </tr>
+                <tr>
+                    <td>94</td>
+                    <td>Don't Know</td>
+                </tr>
+                <tr>
+                    <td>95</td>
+                    <td>Refused to Answer</td>
+                </tr>
+                <tr>
+                    <td>96</td>
+                    <td>Repeated Value</td>
+                </tr>
+                <tr>
+                    <td>97</td>
+                    <td>Response Unidentifiable</td>
+                </tr>
+                <tr>
+                    <td>98</td>
+                    <td>Response Outside Scope</td>
+                </tr>
+                <tr>
+                    <td>99</td>
+                    <td>Not Stated</td>
+                </tr>
+            </table>
+        </div>
+    </text>
+    <url value="https://standards.digital.health.nz/valueset/ethnic-group-level-2" />
+    <version value="1.0.1" />
+    <name value="NZ Ethnicity Level 2" />
+    <status value="active" />
+    <experimental value="false" />
+    <date value="2019-03-07" />
+    <publisher value="Patients First Ltd" />
+    <contact>
+        <telecom>
+            <system value="email" />
+            <value value="peter.jordan@patientsfirst.org.nz" />
+        </telecom>
+    </contact>
+    <description value="Value Set of all NZ Ethnicity Level 2 Codes" />
+    <copyright value="© 2010+ New Zealand Crown Copyright" />
+    <compose>
+        <include>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-2" />
+            <version value="1.0.1" />
+            <concept>
+                <code value="10" />
+                <display value="European NFD" />
+            </concept>
+            <concept>
+                <code value="11" />
+                <display value="NZ European" />
+            </concept>
+            <concept>
+                <code value="12" />
+                <display value="Other European" />
+            </concept>
+            <concept>
+                <code value="21" />
+                <display value="NZ Māori" />
+            </concept>
+            <concept>
+                <code value="30" />
+                <display value="Pacific Island NFD" />
+            </concept>
+            <concept>
+                <code value="31" />
+                <display value="Samoan" />
+            </concept>
+            <concept>
+                <code value="32" />
+                <display value="Cook Island Māori" />
+            </concept>
+            <concept>
+                <code value="33" />
+                <display value="Tongan" />
+            </concept>
+            <concept>
+                <code value="34" />
+                <display value="Niuean" />
+            </concept>
+            <concept>
+                <code value="35" />
+                <display value="Tokelauan" />
+            </concept>
+            <concept>
+                <code value="36" />
+                <display value="Fijian" />
+            </concept>
+            <concept>
+                <code value="37" />
+                <display value="Other Pacific Island" />
+            </concept>
+            <concept>
+                <code value="40" />
+                <display value="Asian NFD" />
+            </concept>
+            <concept>
+                <code value="41" />
+                <display value="Southeast Asian" />
+            </concept>
+            <concept>
+                <code value="42" />
+                <display value="Chinese" />
+            </concept>
+            <concept>
+                <code value="43" />
+                <display value="Indian" />
+            </concept>
+            <concept>
+                <code value="44" />
+                <display value="Other Asian" />
+            </concept>
+            <concept>
+                <code value="51" />
+                <display value="Middle Eastern" />
+            </concept>
+            <concept>
+                <code value="52" />
+                <display value="Latin American / Hispanic" />
+            </concept>
+            <concept>
+                <code value="53" />
+                <display value="African" />
+            </concept>
+            <concept>
+                <code value="54" />
+                <display value="Other (retired on 1/07/2009)" />
+            </concept>
+            <concept>
+                <code value="61" />
+                <display value="Other Ethnicity" />
+            </concept>
+            <concept>
+                <code value="94" />
+                <display value="Don't Know" />
+            </concept>
+            <concept>
+                <code value="95" />
+                <display value="Refused to Answer" />
+            </concept>
+            <concept>
+                <code value="96" />
+                <display value="Repeated Value" />
+            </concept>
+            <concept>
+                <code value="97" />
+                <display value="Response Unidentifiable" />
+            </concept>
+            <concept>
+                <code value="98" />
+                <display value="Response Outside Scope" />
+            </concept>
+            <concept>
+                <code value="99" />
+                <display value="Not Stated" />
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

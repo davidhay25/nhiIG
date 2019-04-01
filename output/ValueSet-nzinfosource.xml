@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="nzinfosource"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Information Source</h2><div><p>The source of information.</p>
+</div><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <code>https://standards.digital.health.nz/codesystem/nzinfosource</code></li></ul></div>
+  </text>
+  <url value="https://standards.digital.health.nz/valueset/nzinfosource"/>
+  <name value="Information Source"/>
+  <status value="draft"/>
+  <date value="2019-04-01T12:09:04+13:00"/>
+  <publisher value="David Hay"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="david.hay25@gmail.com"/>
+    </telecom>
+  </contact>
+  <description value="The source of information."/>
+  <immutable value="true"/>
+  <compose>
+    <include>
+      <system value="https://standards.digital.health.nz/codesystem/nzinfosource"/>
+    </include>
+  </compose>
+</ValueSet>

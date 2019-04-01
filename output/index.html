@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+   <meta charset="UTF-8"/>
+  <title>NZ NHI</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="New Zealand NHI Implementation Guide" />
+<meta name="author" content="http://hl7.org.au"/>
+
+  <link href="fhir.css" rel="stylesheet"/>
+
+   <!-- Bootstrap core CSS -->
+  <link href="dist/css/bootstrap.css" rel="stylesheet"/>
+  <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+  <!-- Project extras -->
+  <link href="assets/css/project.css" rel="stylesheet"/>
+  <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+	<link href="jquery-ui.css" rel="stylesheet"/>
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+  <link rel="shortcut icon" href="/assets/ico/favicon.png"/>
+ </head>
+
+<body markdown="1">
+
+
+ <div id="segment-header" class="segment">  <!-- segment-header -->
+  <div class="container">  <!-- container -->
+   <a id="logo" no-external="true" href="http://hl7.org/fhir"><img alt="logo fhir" src="assets/images/fhir-logo-www.png"/> </a>
+   <div id="hl7-status">
+    <b>New Zealand NHI Implementation Guide</b>
+   </div>
+
+   <div id="hl7-nav">
+     <a id="hl7-logo" no-external="true" href="http://www.hl7.org">
+     <img height="50" alt="visit the hl7 website" width="42" src="assets/images/hl7-logo.png"/>
+    </a>
+   </div>
+  </div>
+  <div class="container">  <!-- container -->
+ </div></div>  <!-- /segment-header -->
+
+ <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+  <div id="stripe"> </div>
+  <div class="container">  <!-- container -->
+   <!-- HEADER CONTENT -->
+
+   <nav class="navbar navbar-inverse">
+    <div class="container">
+     <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+      <span class="icon-bar"> </span>
+      <span class="icon-bar"> </span>
+      <span class="icon-bar"> </span>
+     </button>
+     <a class="navbar-brand hidden" href="http://hl7.org/fhir/STU3/index.html">FHIR</a>
+     <div class="nav-collapse collapse navbar-inverse-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="guidance.html">Guidance</a></li>
+        <li><a href="profiles.html">Profiles</a></li>
+        <li><a href="extensions.html">Extensions</a></li>
+        <li><a href="terminology.html">Terminology</a></li>
+        <!--<li><a href="searchparams.html">Search Parameters</a></li>
+        <li><a href="capstatements.html">Capability Statements</a></li>
+        <li><a href="security.html">Security</a></li>-->
+        <li><a href="downloads.html">Downloads</a></li>
+      </ul>
+
+     </div>  <!-- /.nav-collapse -->
+    </div>  <!-- /.container -->
+   </nav>  <!-- /.navbar -->
+
+  <!-- /HEADER CONTENT -->
+  </div>  <!-- /container -->
+ </div>  <!-- /segment-navbar -->
+
+
+
+  <!-- ============BreadCrumb=============== -->
+
+  </div>  <!-- /container -->
+ </div>  <!-- /segment-breadcrumb -->
+
+ <div id="segment-content" class="segment">  <!-- segment-content -->
+ <div class="container">  <!-- container -->
+	<div class="row">
+		<div class="inner-wrapper">
+			<div class="col-12">
+
+
+  <!-- ============CONTENT CONTENT=============== -->
+
+<p style="background-color: gold; border:1px solid maroon; padding: 5px;">
+This is the Continuous Integration Build of the New Zealand NHI Implementation Guide, based on <a href="http://hl7.org/fhir/STU3/index.html">FHIR Version 3.0.1</a>. (will be incorrect/inconsistent at times). See the <a href="http://hl7.org.au/fhir/index.html">Directory of published versions <img src="external.png" style="text-align: baseline"></img></a>
+</p>
+
+<h1 id="new-zealand-nhi-implementation-guide">New Zealand NHI Implementation Guide</h1>
+
+<h2 id="introduction">Introduction</h2>
+<p>This implementation guide is provided to describe the FHIR interface being developed 
+to provide access to the New Zealand NHI (National Health Identifier).</p>
+
+<p>This document is a working specification that is expected to be implemented and tested by FHIR<sup>®©</sup> system producers
+to enable feedback to improve the content of this guide.</p>
+
+<p>There’s more detail on the NHI on the <a href="https://www.health.govt.nz/our-work/health-identity/national-health-index" target="_blank">Ministry Of Health website</a></p>
+
+<p>The sole resource that is profiled for this guide is the Patient resource.</p>
+
+<p>Concurrently with this work is the development of a ‘core’ Patient resource 
+for New Zealand that will be intended for more general use (such as supporting
+the exchange of clinical data between systems). The profiles defined in this
+guide will be compatible with the core profiles, specifically:</p>
+
+<ul>
+  <li>Where there is the same concept between the core Patient and the NHI patient profiles that is represented by an extension, then the same extension definition will be used. For example ethnicity.</li>
+  <li>In most cases, ValueSets in core will be the same as those used in the NHI profile</li>
+  <li>If an element is removed from core, it will not be present in the NHI profile. (But the NHI profile may remove elements from core)</li>
+  <li>The core profile will describe ‘must support’ elements. The intention is that the NHI prpfile will apply ‘must support’ to the same elements</li>
+</ul>
+
+<h2 id="scope">Scope</h2>
+
+<p>This document presents New Zealand use concepts defined via FHIR processable artefacts; these are collaborative outputs with agreed approaches to varied kinds of healthcare related information based on the core FHIR STU3 specification.</p>
+<ul>
+  <li><a href="profiles.html">Profiles</a> - are useful constraints of core FHIR resources and datatype for New Zealand use. IN this guide, it is only the Patient</li>
+  <li><a href="extensions.html">Extensions</a> - are FHIR extensions that are added for local use, covering needed New Zealand concepts</li>
+  <li><a href="terminology.html">Terminologies</a> - are defined or referenced code systems and value sets for New Zealand context</li>
+</ul>
+
+<h2 id="usage">Usage</h2>
+
+<p>This document is a working specification that may be directly implemented by FHIR<sup>®©</sup> system producers.</p>
+
+<p>Information contained in this document is aimed at accessing the NHI system</p>
+
+<p>– more detail on the interface –</p>
+
+<h2 id="security">Security</h2>
+
+<p>– details on security here</p>
+
+<p>FHIR<sup>®©</sup> connectathon events are key to the verification of the guide as being suitable for 
+implementation. This implementation guide will be used as the basis for New Zealand connectathon events.</p>
+
+
+
+  <!-- ==============END CONTENT END CONTENT=================== -->
+
+ </div>
+
+    </div>  <!-- /inner-wrapper -->
+            </div>  <!-- /row -->
+        </div>  <!-- /container -->
+
+    </div>  <!-- /segment-content -->
+
+
+</div>
+
+    </div>  <!-- /inner-wrapper -->
+            </div>  <!-- /row -->
+        </div>  <!-- /container -->
+
+    </div>  <!-- /segment-content -->
+
+
+<div id="segment-footer" class="segment">  <!-- segment-footer -->
+  <div class="container">  <!-- container -->
+   <div class="inner-wrapper">
+    <p>
+        NZ Base &copy; FHIR STU3 (IG Publisher v3.0.1-11917) generated on Mon, Apr 1, 2019 12:09+1300. |
+             <!--  <a style="color: #81BEF7" rel="license" <!-- <href="../license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> -->
+                <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a>
+        </span>
+        </p>
+   </div>  <!-- /inner-wrapper -->
+  </div>  <!-- /container -->
+ </div>  <!-- /segment-footer -->
+  <!-- disqus thread -->
+  <!-- disqus -->
+  <!-- end disqus -->
+
+ <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+  <div class="container">  <!-- container -->
+  </div>  <!-- /container -->
+ </div>  <!-- /segment-post-footer -->
+ <script type="text/javascript" src="assets/js/hl7-jira.js"></script>
+ <script type="text/javascript">
+	window.ATL_JQ_PAGE_PROPS = $.extend(window.ATL_JQ_PAGE_PROPS, {
+
+	// ==== custom trigger function ====
+	triggerFunction : function( showCollectorDialog ) {
+		$('#feedback-button').on( 'click', function(e) {
+			e.preventDefault();
+			showCollectorDialog();
+		}); 
+	},
+	// ==== we add the code below to set the field values ====
+	fieldValues: {
+		description: 'url: ' + window.location.href + '\r\n',
+		'customfield_10200' :  [ '10205' ]
+	}	
+});
+ </script>
+</body>
+</html>
+

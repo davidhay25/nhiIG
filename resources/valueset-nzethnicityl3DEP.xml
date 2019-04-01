@@ -1,0 +1,423 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="NzEthnicityL3" />
+    <text>
+        <status value="generated" />
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <h2>NZ Ethnicity Level 3</h2>
+            <p>Value Set of all NZ Ethnicity Level 3 Codes</p>
+            <table>
+                <tr>
+                    <td>Id</td>
+                    <td>NzEthnicityL3</td>
+                </tr>
+                <tr>
+                    <td>Url</td>
+                    <td>https://standards.digital.health.nz/valueset/ethnic-group-level-3</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.0.1</td>
+                </tr>
+                <tr>
+                    <td>Publisher</td>
+                    <td>Patients First Ltd</td>
+                </tr>
+                <tr>
+                    <td>Copyright</td>
+                    <td>© 2010+ New Zealand Crown Copyright</td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>Status Date</td>
+                    <td>2019-03-07</td>
+                </tr>
+                <tr>
+                    <td>Experimental</td>
+                    <td>False</td>
+                </tr>
+                <tr>
+                    <td>Code System(s)</td>
+                    <td>https://standards.digital.health.nz/codesystem/ethnic-group-level-3 (version 1.0.1) : </td>
+                </tr>
+                <tr>
+                    <td>Filter(s)</td>
+                    <td></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th>Code</th>
+                    <th>Display</th>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td>European NFD</td>
+                </tr>
+                <tr>
+                    <td>111</td>
+                    <td>New Zealand European</td>
+                </tr>
+                <tr>
+                    <td>120</td>
+                    <td>Other European NFD</td>
+                </tr>
+                <tr>
+                    <td>121</td>
+                    <td>British and Irish</td>
+                </tr>
+                <tr>
+                    <td>122</td>
+                    <td>Dutch</td>
+                </tr>
+                <tr>
+                    <td>123</td>
+                    <td>Greek (including Greek Cypriot)</td>
+                </tr>
+                <tr>
+                    <td>124</td>
+                    <td>Polish</td>
+                </tr>
+                <tr>
+                    <td>125</td>
+                    <td>South Slav (formerly Yugoslav)</td>
+                </tr>
+                <tr>
+                    <td>126</td>
+                    <td>Italian</td>
+                </tr>
+                <tr>
+                    <td>127</td>
+                    <td>German</td>
+                </tr>
+                <tr>
+                    <td>128</td>
+                    <td>Australian</td>
+                </tr>
+                <tr>
+                    <td>129</td>
+                    <td>Other European</td>
+                </tr>
+                <tr>
+                    <td>211</td>
+                    <td>Māori</td>
+                </tr>
+                <tr>
+                    <td>300</td>
+                    <td>Pacific Peoples NFD</td>
+                </tr>
+                <tr>
+                    <td>311</td>
+                    <td>Samoan</td>
+                </tr>
+                <tr>
+                    <td>321</td>
+                    <td>Cook Island Māori</td>
+                </tr>
+                <tr>
+                    <td>331</td>
+                    <td>Tongan</td>
+                </tr>
+                <tr>
+                    <td>341</td>
+                    <td>Niuean</td>
+                </tr>
+                <tr>
+                    <td>351</td>
+                    <td>Tokelauan</td>
+                </tr>
+                <tr>
+                    <td>361</td>
+                    <td>Fijian</td>
+                </tr>
+                <tr>
+                    <td>371</td>
+                    <td>Other Pacific Peoples</td>
+                </tr>
+                <tr>
+                    <td>400</td>
+                    <td>Asian NFD</td>
+                </tr>
+                <tr>
+                    <td>410</td>
+                    <td>Southeast Asian NFD</td>
+                </tr>
+                <tr>
+                    <td>411</td>
+                    <td>Filipino</td>
+                </tr>
+                <tr>
+                    <td>412</td>
+                    <td>Khmer / Kampuchean / Cambodian</td>
+                </tr>
+                <tr>
+                    <td>413</td>
+                    <td>Vietnamese</td>
+                </tr>
+                <tr>
+                    <td>414</td>
+                    <td>Other Southeast Asian</td>
+                </tr>
+                <tr>
+                    <td>421</td>
+                    <td>Chinese</td>
+                </tr>
+                <tr>
+                    <td>431</td>
+                    <td>Indian</td>
+                </tr>
+                <tr>
+                    <td>441</td>
+                    <td>Sri Lankan</td>
+                </tr>
+                <tr>
+                    <td>442</td>
+                    <td>Japanese</td>
+                </tr>
+                <tr>
+                    <td>443</td>
+                    <td>Korean</td>
+                </tr>
+                <tr>
+                    <td>444</td>
+                    <td>Other Asian</td>
+                </tr>
+                <tr>
+                    <td>511</td>
+                    <td>Middle Eastern</td>
+                </tr>
+                <tr>
+                    <td>521</td>
+                    <td>Latin American / Hispanic</td>
+                </tr>
+                <tr>
+                    <td>531</td>
+                    <td>African(or cultural group of African origin)</td>
+                </tr>
+                <tr>
+                    <td>611</td>
+                    <td>Other Ethnicity</td>
+                </tr>
+                <tr>
+                    <td>944</td>
+                    <td>Don't Know</td>
+                </tr>
+                <tr>
+                    <td>955</td>
+                    <td>Refused to Answer</td>
+                </tr>
+                <tr>
+                    <td>966</td>
+                    <td>Repeated value</td>
+                </tr>
+                <tr>
+                    <td>977</td>
+                    <td>Response unidentifiable</td>
+                </tr>
+                <tr>
+                    <td>988</td>
+                    <td>Response outside scope</td>
+                </tr>
+                <tr>
+                    <td>999</td>
+                    <td>Not stated</td>
+                </tr>
+            </table>
+        </div>
+    </text>
+    <url value="https://standards.digital.health.nz/valueset/ethnic-group-level-3" />
+    <version value="1.0.1" />
+    <name value="NZ Ethnicity Level 3" />
+    <status value="active" />
+    <experimental value="false" />
+    <date value="2019-03-07" />
+    <publisher value="Patients First Ltd" />
+    <contact>
+        <telecom>
+            <system value="email" />
+            <value value="peter.jordan@patientsfirst.org.nz" />
+        </telecom>
+    </contact>
+    <description value="Value Set of all NZ Ethnicity Level 3 Codes" />
+    <copyright value="© 2010+ New Zealand Crown Copyright" />
+    <compose>
+        <include>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-3" />
+            <version value="1.0.1" />
+            <concept>
+                <code value="100" />
+                <display value="European NFD" />
+            </concept>
+            <concept>
+                <code value="111" />
+                <display value="New Zealand European" />
+            </concept>
+            <concept>
+                <code value="120" />
+                <display value="Other European NFD" />
+            </concept>
+            <concept>
+                <code value="121" />
+                <display value="British and Irish" />
+            </concept>
+            <concept>
+                <code value="122" />
+                <display value="Dutch" />
+            </concept>
+            <concept>
+                <code value="123" />
+                <display value="Greek (including Greek Cypriot)" />
+            </concept>
+            <concept>
+                <code value="124" />
+                <display value="Polish" />
+            </concept>
+            <concept>
+                <code value="125" />
+                <display value="South Slav (formerly Yugoslav)" />
+            </concept>
+            <concept>
+                <code value="126" />
+                <display value="Italian" />
+            </concept>
+            <concept>
+                <code value="127" />
+                <display value="German" />
+            </concept>
+            <concept>
+                <code value="128" />
+                <display value="Australian" />
+            </concept>
+            <concept>
+                <code value="129" />
+                <display value="Other European" />
+            </concept>
+            <concept>
+                <code value="211" />
+                <display value="Māori" />
+            </concept>
+            <concept>
+                <code value="300" />
+                <display value="Pacific Peoples NFD" />
+            </concept>
+            <concept>
+                <code value="311" />
+                <display value="Samoan" />
+            </concept>
+            <concept>
+                <code value="321" />
+                <display value="Cook Island Māori" />
+            </concept>
+            <concept>
+                <code value="331" />
+                <display value="Tongan" />
+            </concept>
+            <concept>
+                <code value="341" />
+                <display value="Niuean" />
+            </concept>
+            <concept>
+                <code value="351" />
+                <display value="Tokelauan" />
+            </concept>
+            <concept>
+                <code value="361" />
+                <display value="Fijian" />
+            </concept>
+            <concept>
+                <code value="371" />
+                <display value="Other Pacific Peoples" />
+            </concept>
+            <concept>
+                <code value="400" />
+                <display value="Asian NFD" />
+            </concept>
+            <concept>
+                <code value="410" />
+                <display value="Southeast Asian NFD" />
+            </concept>
+            <concept>
+                <code value="411" />
+                <display value="Filipino" />
+            </concept>
+            <concept>
+                <code value="412" />
+                <display value="Khmer / Kampuchean / Cambodian" />
+            </concept>
+            <concept>
+                <code value="413" />
+                <display value="Vietnamese" />
+            </concept>
+            <concept>
+                <code value="414" />
+                <display value="Other Southeast Asian" />
+            </concept>
+            <concept>
+                <code value="421" />
+                <display value="Chinese" />
+            </concept>
+            <concept>
+                <code value="431" />
+                <display value="Indian" />
+            </concept>
+            <concept>
+                <code value="441" />
+                <display value="Sri Lankan" />
+            </concept>
+            <concept>
+                <code value="442" />
+                <display value="Japanese" />
+            </concept>
+            <concept>
+                <code value="443" />
+                <display value="Korean" />
+            </concept>
+            <concept>
+                <code value="444" />
+                <display value="Other Asian" />
+            </concept>
+            <concept>
+                <code value="511" />
+                <display value="Middle Eastern" />
+            </concept>
+            <concept>
+                <code value="521" />
+                <display value="Latin American / Hispanic" />
+            </concept>
+            <concept>
+                <code value="531" />
+                <display value="African(or cultural group of African origin)" />
+            </concept>
+            <concept>
+                <code value="611" />
+                <display value="Other Ethnicity" />
+            </concept>
+            <concept>
+                <code value="944" />
+                <display value="Don't Know" />
+            </concept>
+            <concept>
+                <code value="955" />
+                <display value="Refused to Answer" />
+            </concept>
+            <concept>
+                <code value="966" />
+                <display value="Repeated value" />
+            </concept>
+            <concept>
+                <code value="977" />
+                <display value="Response unidentifiable" />
+            </concept>
+            <concept>
+                <code value="988" />
+                <display value="Response outside scope" />
+            </concept>
+            <concept>
+                <code value="999" />
+                <display value="Not stated" />
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

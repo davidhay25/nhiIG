@@ -1,0 +1,135 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="NzEthnicityL1" />
+    <text>
+        <status value="generated" />
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <h2>NZ Ethnicity Level 1</h2>
+            <p>Value Set of all NZ Ethnicity Level 1 Codes</p>
+            <table>
+                <tr>
+                    <td>Id</td>
+                    <td>NzEthnicityL1</td>
+                </tr>
+                <tr>
+                    <td>Url</td>
+                    <td>https://standards.digital.health.nz/valueset/ethnic-group-level-1</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.0.1</td>
+                </tr>
+                <tr>
+                    <td>Publisher</td>
+                    <td>Patients First Ltd</td>
+                </tr>
+                <tr>
+                    <td>Copyright</td>
+                    <td>© 2010+ New Zealand Crown Copyright</td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>Status Date</td>
+                    <td>2019-03-07</td>
+                </tr>
+                <tr>
+                    <td>Experimental</td>
+                    <td>False</td>
+                </tr>
+                <tr>
+                    <td>Code System(s)</td>
+                    <td>https://standards.digital.health.nz/codesystem/ethnic-group-level-1 (version 1.0.1) : </td>
+                </tr>
+                <tr>
+                    <td>Filter(s)</td>
+                    <td></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th>Code</th>
+                    <th>Display</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>European</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Māori</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Pacific Peoples</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Asian</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Middle Eastern/Latin American/African</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Other Ethnicity</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Residual Categories</td>
+                </tr>
+            </table>
+        </div>
+    </text>
+    <url value="https://standards.digital.health.nz/valueSet/ethnic-group-level-1" />
+    <version value="1.0.1" />
+    <name value="NZ Ethnicity Level 1" />
+    <status value="active" />
+    <experimental value="false" />
+    <date value="2019-03-07" />
+    <publisher value="Patients First Ltd" />
+    <contact>
+        <telecom>
+            <system value="email" />
+            <value value="peter.jordan@patientsfirst.org.nz" />
+        </telecom>
+    </contact>
+    <description value="Value Set of all NZ Ethnicity Level 1 Codes" />
+    <copyright value="© 2010+ New Zealand Crown Copyright" />
+    <compose>
+        <include>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-1" />
+            <version value="1.0.1" />
+            <concept>
+                <code value="1" />
+                <display value="European" />
+            </concept>
+            <concept>
+                <code value="2" />
+                <display value="Māori" />
+            </concept>
+            <concept>
+                <code value="3" />
+                <display value="Pacific Peoples" />
+            </concept>
+            <concept>
+                <code value="4" />
+                <display value="Asian" />
+            </concept>
+            <concept>
+                <code value="5" />
+                <display value="Middle Eastern/Latin American/African" />
+            </concept>
+            <concept>
+                <code value="6" />
+                <display value="Other Ethnicity" />
+            </concept>
+            <concept>
+                <code value="9" />
+                <display value="Residual Categories" />
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

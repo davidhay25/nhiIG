@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="nzpatient" />
+  <url value="http://hl7.org.nz/fhir/StructureDefinition/nzpatient" />
+  <name value="nzpatient" />
+  <status value="draft" />
+  <fhirVersion value="3.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Patient" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Patient" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Patient.extension">
+      <path value="Patient.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Patient.extension:ethnicity">
+      <path value="Patient.extension" />
+      <sliceName value="ethnicity" />
+      <short value="New Zealand Ethnicity" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org.nz/fhir/StructureDefinition/nzethnicity" />
+      </type>
+    </element>
+    <element id="Patient.identifier">
+      <path value="Patient.identifier" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Patient.identifier:NHI">
+      <path value="Patient.identifier" />
+      <sliceName value="NHI" />
+      <max value="1" />
+    </element>
+    <element id="Patient.identifier:NHI.system">
+      <path value="Patient.identifier.system" />
+      <fixedUri value="https://standards.digital.health.nz/nhi" />
+    </element>
+    <element id="Patient.identifier:Others">
+      <path value="Patient.identifier" />
+      <sliceName value="Others" />
+    </element>
+  </differential>
+</StructureDefinition>

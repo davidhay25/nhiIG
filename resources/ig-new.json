@@ -1,0 +1,107 @@
+{
+  "resourceType" : "ImplementationGuide",
+  "id" : "nz-base",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
+    "valueString" : "/Users/davidhay/nzIG/resources"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
+    "valueString" : "/Users/davidhay/nzIG/examples"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
+    "valueString" : "/Users/davidhay/nzIG/pages"
+  }],
+  "url" : "http://hl7.org.nz/fhir/ImplementationGuide/nz-base",
+  "version" : "1.0.2",
+  "name" : "Implementation Guide Template",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2010-02-15T00:00:00+13:00",
+  "publisher" : "HL7 New Zealand",
+  "contact" : [{
+    "name" : "David Hay",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "david.hay25@gmail.com",
+      "use" : "work"
+    }]
+  }],
+  "packageId" : "hl7.fhir.nz.nhi",
+  "license" : "CC0-1.0",
+  "fhirVersion" : ["3.0.1",
+  "3.0.1"],
+  "definition" : {
+    "grouping" : [{
+      "id" : "p1",
+      "name" : "base"
+    }],
+    "resource" : [{
+      "reference" : {
+        "reference" : "StructureDefinition/nzethnicity"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/patient-birthplace"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/patient-nzcitizenship"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/informationsource"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/NhiPatient"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/ethnic-group-level-4"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/nzinfosource"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    }],
+    "page" : {
+      "nameUrl" : "index.html",
+      "title" : "New Zealand Base Profiles Implementation Guide",
+      "generation" : "html"
+    },
+    "parameter" : [{
+      "code" : "generate-json",
+      "value" : "true"
+    },
+    {
+      "code" : "generate-xml",
+      "value" : "true"
+    },
+    {
+      "code" : "generate-turtle",
+      "value" : "true"
+    }]
+  }
+}

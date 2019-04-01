@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="hl7.fhir.nz.nhi-null"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Implementation Guide Template</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org.nz/fhir/ImplementationGuide/nz-base</pre></div>
+  </text>
+  <url value="http://hl7.org.nz/fhir/ImplementationGuide/nz-base"/>
+  <version value="1.0.2"/>
+  <name value="Implementation Guide Template"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2010-02-15T00:00:00+13:00"/>
+  <publisher value="HL7 New Zealand"/>
+  <contact>
+    <name value="David Hay"/>
+    <telecom>
+      <system value="email"/>
+      <value value="david.hay25@gmail.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <fhirVersion value="3.0.1"/>
+  <package id="p1">
+    <name value="base"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-nzethnicity.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/nzethnicity"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-patient-birthplace.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/patient-birthplace"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-patient-nzcitizenship.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/patient-nzcitizenship"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-informationsource.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/informationsource"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-NhiPatient.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/NhiPatient"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-ethnic-group-level-4.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/ethnic-group-level-4"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-nzinfosource.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/nzinfosource"/>
+      </sourceReference>
+    </resource>
+  </package>
+  <page>
+    <source value="index.html"/>
+    <title value="New Zealand Base Profiles Implementation Guide"/>
+    <kind value="page"/>
+  </page>
+</ImplementationGuide>

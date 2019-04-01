@@ -1,0 +1,125 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "hl7.fhir.nz.nhi-null",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Implementation Guide Template</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org.nz/fhir/ImplementationGuide/nz-base</pre></div>"
+  },
+  "url": "http://hl7.org.nz/fhir/ImplementationGuide/nz-base",
+  "version": "1.0.2",
+  "name": "Implementation Guide Template",
+  "status": "draft",
+  "experimental": true,
+  "date": "2010-02-15T00:00:00+13:00",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "name": "David Hay",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "david.hay25@gmail.com",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "3.0.1",
+  "package": [
+    {
+      "id": "p1",
+      "name": "base",
+      "resource": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-nzethnicity.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/nzethnicity"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-patient-birthplace.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/patient-birthplace"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-patient-nzcitizenship.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/patient-nzcitizenship"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-informationsource.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/informationsource"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-NhiPatient.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/NhiPatient"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-ethnic-group-level-4.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/ethnic-group-level-4"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-nzinfosource.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/nzinfosource"
+          }
+        }
+      ]
+    }
+  ],
+  "page": {
+    "source": "index.html",
+    "title": "New Zealand Base Profiles Implementation Guide",
+    "kind": "page"
+  }
+}

@@ -1,0 +1,32 @@
+ {
+    "resourceType": "ValueSet",
+    "id": "nzinfosource",
+    "url": "https://standards.digital.health.nz/valueset/nzinfosource",
+    "name": "Information Source",
+    "status": "draft",
+    "publisher": "David Hay",
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org/fhir"
+                },
+                {
+                    "system": "email",
+                    "value": "david.hay25@gmail.com"
+                }
+            ]
+        }
+    ],
+    "description": "The source of information.",
+    "immutable": true,
+    "compose": {
+        "include": [
+            {
+                "system": "https://standards.digital.health.nz/codesystem/nzinfosource"
+            }
+        ]
+    }
+}
+

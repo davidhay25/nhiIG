@@ -1,0 +1,36 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nzinfosource",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Information Source</h2><div><p>The source of information.</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <code>https://standards.digital.health.nz/codesystem/nzinfosource</code></li></ul></div>"
+  },
+  "url": "https://standards.digital.health.nz/valueset/nzinfosource",
+  "name": "Information Source",
+  "status": "draft",
+  "date": "2019-04-01T12:09:04+13:00",
+  "publisher": "David Hay",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org/fhir"
+        },
+        {
+          "system": "email",
+          "value": "david.hay25@gmail.com"
+        }
+      ]
+    }
+  ],
+  "description": "The source of information.",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/codesystem/nzinfosource"
+      }
+    ]
+  }
+}
