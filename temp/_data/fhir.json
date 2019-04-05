@@ -1,0 +1,37 @@
+﻿{
+  "path": "http://hl7.org/fhir/STU3/",
+  "canonical": "http://hl7.org.nz/fhir",
+  "igId": "nz-base",
+  "igName": "Implementation Guide Template",
+  "packageId": "hl7.fhir.nz.nhi",
+  "errorCount": 2,
+  "version": "3.0.1",
+  "revision": "11917",
+  "versionFull": "3.0.1-11917",
+  "toolingVersion": "4.1.0",
+  "toolingRevision": "3",
+  "toolingVersionFull": "4.1.0 (3)",
+  "totalFiles": 9,
+  "processedFiles": 117,
+  "genDate": "Fri, Apr 5, 2019 14:48+1300",
+  "genDay": "05/04/2019",
+  "ig": {
+    "id": "nz-base",
+    "name": "Implementation Guide Template",
+    "url": "http://hl7.org.nz/fhir/ImplementationGuide/nz-base",
+    "version": "1.0.2",
+    "status": "draft",
+    "experimental": true,
+    "publisher": "HL7 New Zealand",
+    "contact": [
+      {
+        "name": "David Hay",
+        "telecom": [
+          "david.hay25@gmail.com"
+        ]
+      }
+    ],
+    "date": "2010-02-15T00:00:00+13:00",
+    "fhirVersion": "3.0.1"
+  }
+}

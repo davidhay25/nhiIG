@@ -1,0 +1,18 @@
+<OperationDefinition  xmlns="http://hl7.org/fhir">
+    <id value="nzAddressUpdate"/>
+    <url value="http://hl7.org.nz/fhir/OperationDefinition/nzAddressUpdate" />
+    <name value="nhi address update"/>
+    <status value="draft"/>
+    <kind value="operation"/>
+    <code value="addressUpdate"/>
+    <system value="false"/>
+    <type value="false"/>
+    <instance value="true"/>
+    <parameter>
+        <name value="address"/>
+        <use value="in"/>
+        <min value ="1"/>
+        <max value="1"/>
+        <type value="Address"/>
+    </parameter>
+</OperationDefinition>

@@ -1,0 +1,29 @@
+http://wiki.hl7.org/index.php?title=IG_Publisher_Documentation
+
+
+--------------
+ig.xml file (the IG)
+
+the extensions must appear before the profiles
+
+-------------
+
+ValueSet (at least)
+
+url, filename  and id must match eg:
+
+entry in IG:
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/ethnic-group-level-4"/>
+      </sourceReference>
+    </resource>
+
+id=ethnic-group-level-4
+url=https://standards.digital.health.nz/valueset/ethnic-group-level-4
+filename=valueset-ethnic-group-level-4
+
+NOTE:must have an entry in the ig.json file 'special-urls' for canonical urls
+
+---------------------------

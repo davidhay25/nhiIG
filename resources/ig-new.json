@@ -3,15 +3,15 @@
   "id" : "nz-base",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "/Users/davidhay/nzIG/resources"
+    "valueString" : "/Users/davidhay/nhiIG/resources"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "/Users/davidhay/nzIG/examples"
+    "valueString" : "/Users/davidhay/nhiIG/examples"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
-    "valueString" : "/Users/davidhay/nzIG/pages"
+    "valueString" : "/Users/davidhay/nhiIG/pages"
   }],
   "url" : "http://hl7.org.nz/fhir/ImplementationGuide/nz-base",
   "version" : "1.0.2",
@@ -82,6 +82,13 @@
     {
       "reference" : {
         "reference" : "ValueSet/nzinfosource"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "OperationDefinition/nzAddressUpdate"
       },
       "exampleBoolean" : false,
       "groupingId" : "p1"

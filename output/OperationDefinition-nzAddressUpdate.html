@@ -1,0 +1,160 @@
+﻿<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+   <meta charset="UTF-8"/>
+  <title>NZ NHI</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="New Zealand NHI Implementation Guide"/>
+<meta name="author" content="http://hl7.org.au"/>
+
+  <link rel="stylesheet" href="fhir.css"/>
+
+     <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="dist/css/bootstrap.css"/>
+  <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+    <!-- Project extras -->
+  <link rel="stylesheet" href="assets/css/project.css"/>
+  <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+	<link rel="stylesheet" href="jquery-ui.css"/>
+
+    <!-- Favicons -->
+  <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+  <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+  <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+  <link rel="shortcut icon" href="/assets/ico/favicon.png"/>
+ </head>
+
+<body markdown="1">
+
+
+ <div id="segment-header" class="segment">    <!-- segment-header -->
+  <div class="container">    <!-- container -->
+   <a no-external="true" id="logo" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="logo fhir"/> </a>
+   <div id="hl7-status">
+    <b>New Zealand NHI Implementation Guide</b>
+   </div>
+
+   <div id="hl7-nav"><a name="20462e98-8e0c-47c1-af56-817605a1c760">​</a>
+     <a no-external="true" id="hl7-logo" href="null">
+       <!-- >
+     <img height="50" alt="visit the hl7 website" width="42" src="assets/images/hl7-logo.png"/> -->
+     <img src="assets/images/hl7nz-logo.jpg" alt="visit the hl7 website" width="50" height="50"/>
+     
+     <img src="assets/images/hiso.jpg" width="100" alt="visit the hl7 website" height="50"/>
+    </a>
+   </div>
+  </div>
+  
+  
+  <div class="container">    <!-- container -->
+ </div></div>    <!-- /segment-header -->
+
+ <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+  <div id="stripe"> </div>
+  <div class="container">    <!-- container -->
+     <!-- HEADER CONTENT -->
+
+   <nav class="navbar navbar-inverse">
+    <div class="container">
+     <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+      <span class="icon-bar"> </span>
+      <span class="icon-bar"> </span>
+      <span class="icon-bar"> </span>
+     </button>
+     <a href="http://hl7.org/fhir/STU3/index.html" class="navbar-brand hidden">FHIR</a>
+     <div class="nav-collapse collapse navbar-inverse-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="guidance.html">Guidance</a></li>
+        <li><a href="profiles.html">Profiles</a></li>
+        <li><a href="extensions.html">Extensions</a></li>
+        <li><a href="terminology.html">Terminology</a></li>
+        <li><a href="operations.html">Operations</a></li>
+          <!-- <li><a href="searchparams.html">Search Parameters</a></li>
+        <li><a href="capstatements.html">Capability Statements</a></li>
+        <li><a href="security.html">Security</a></li> -->
+        <li><a href="downloads.html">Downloads</a></li>
+      </ul>
+
+     </div>    <!-- /.nav-collapse -->
+    </div>    <!-- /.container -->
+   </nav>    <!-- /.navbar -->
+
+    <!-- /HEADER CONTENT -->
+  </div>    <!-- /container -->
+ </div>    <!-- /segment-navbar -->
+
+
+      <!-- /container -->
+     <!-- /segment-breadcrumb -->
+
+ <div id="segment-content" class="segment">    <!-- segment-content -->
+ <div class="container">    <!-- container -->
+	<div class="row">
+		<div class="inner-wrapper">
+			<div class="col-12">
+
+<nav class="breadcrumb">
+  
+    
+    
+      <a href="index.html" class="breadcrumb-item">Home</a>
+      /
+      <a href="profiles.html" class="breadcrumb-item">Profiles</a>
+      /
+      <span class="breadcrumb-item active">OperationDefinition-nzAddressUpdate</span>
+    
+    
+    
+
+</nav>
+
+
+
+
+
+
+<p><br/></p>
+<h2 id="address-change">Address change</h2>
+
+<p>This operation allows a patients address to be changed by an authorized user.</p>
+
+<p>The operation is invoked against an instance of a Patient and takes in a single parameter which is a FHIR <a href="http://hl7.org/fhir/datatypes.html#Address">Address</a> data type.</p>
+
+<p>There is no return value - in the event of a failure, a 4xx status will be returned, along with an <a href="http://hl7.org/fhir/operationoutcome.html">OperationOutcome</a> resource that may provide further details about the failure.</p>
+
+<p>If the user is not authorized to make the update, then a 403 status will be returned.</p>
+
+<h3 id="example">Example</h3>
+
+<p>POST [host]/Patient/1234/$addressUpdate</p>
+
+<p>(with the body as an Address object)</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+      "use": "home",
+      "type": "both",
+      "text": "534 Erewhon St PeasantVille, Rainbow, Vic  3999",
+      "line": [
+        "534 Erewhon St"
+      ],
+      "city": "PleasantVille",
+      "district": "Rainbow",
+      "state": "Vic",
+      "postalCode": "3999",
+      "period": {
+        "start": "1974-12-25"
+      }
+    }
+</code></pre></div></div>
+
+<h3 id="questions-for-the-design-team">Questions for the design team</h3>
+
+<ul>
+  <li>What elements within the address datatype are supported</li>
+</ul>
+
+</div></div></div></div></div></body></html>

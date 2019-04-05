@@ -11,6 +11,7 @@
     ],
     "npm-name": "hl7.fhir.nz.nhi",
     "extraTemplates": ["mappings"],
+    "path-pattern" : "[type]-[id].html",
     "defaults": {
       
         "Any": {
@@ -25,7 +26,9 @@
       "ValueSet": 
         {
             "template-base": "vs.html"
-        }
+        },
+        "OperationDefinition" :
+        { "template-base": "opdef.html"}
    },
     "tool": "jekyll",
     "license": "CC0-1.0",

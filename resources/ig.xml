@@ -81,6 +81,12 @@
       </sourceReference>
     </resource>    
 
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="OperationDefinition/nzAddressUpdate"/>
+      </sourceReference>
+    </resource>    
     
   </package>
   <page>
