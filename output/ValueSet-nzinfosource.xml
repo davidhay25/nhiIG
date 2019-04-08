@@ -4,12 +4,12 @@
   <id value="nzinfosource"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Information Source</h2><div><p>The source of information.</p>
-</div><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <code>https://standards.digital.health.nz/codesystem/nzinfosource</code></li></ul></div>
+</div><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href="CodeSystem-nzinfosource.html"><code>https://standards.digital.health.nz/codesystem/nzinfosource</code></a></li></ul></div>
   </text>
   <url value="https://standards.digital.health.nz/valueset/nzinfosource"/>
   <name value="Information Source"/>
   <status value="draft"/>
-  <date value="2019-04-08T16:13:10+12:00"/>
+  <date value="2019-04-08T16:31:42+12:00"/>
   <publisher value="David Hay"/>
   <contact>
     <telecom>

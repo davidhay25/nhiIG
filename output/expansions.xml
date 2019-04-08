@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="bf12cbc5-544b-496d-9a8c-a730a57fc13c"/>
+  <id value="d6da92af-d92e-414c-9aff-a58360b884ce"/>
   <meta>
-    <lastUpdated value="2019-04-08T16:13:10.601+12:00"/>
+    <lastUpdated value="2019-04-08T16:31:42.124+12:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -1964,8 +1964,8 @@
         <description value="Value Set of all NZ Ethnicity Level 4 Codes"/>
         <copyright value="&#xA9; 2010+ New Zealand Crown Copyright"/>
         <expansion>
-          <identifier value="urn:uuid:841119cb-b3e5-4784-93c3-dfb148c0c0ec"/>
-          <timestamp value="2019-04-08T16:13:15+12:00"/>
+          <identifier value="urn:uuid:c67e748f-cbe5-4fea-874f-ae2af51a3d1a"/>
+          <timestamp value="2019-04-08T16:31:47+12:00"/>
           <total value="239"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3231,7 +3231,7 @@
         <url value="https://standards.digital.health.nz/valueset/NzCitizenship"/>
         <name value="NzCitizenship"/>
         <status value="draft"/>
-        <date value="2019-04-08T16:13:10+12:00"/>
+        <date value="2019-04-08T16:31:42+12:00"/>
         <publisher value="David Hay"/>
         <contact>
           <telecom>
@@ -3246,8 +3246,8 @@
         <description value="New Zealand Citizenship status"/>
         <immutable value="true"/>
         <expansion>
-          <identifier value="urn:uuid:ce35cb05-16a9-4821-a4d2-91bcfcb0feff"/>
-          <timestamp value="2019-04-08T16:13:15+12:00"/>
+          <identifier value="urn:uuid:03104b5b-8397-4559-afac-4488524b7655"/>
+          <timestamp value="2019-04-08T16:31:47+12:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>

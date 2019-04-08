@@ -1,0 +1,99 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org.nz/fhir/CodeSystem/nzinfosource> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "nzinfosource"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>New Zealand Information source for DOB &amp; DOD</h2><p>This code system https://standards.digital.health.nz/codesystem/nzinfosource defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">BRCT<a name=\"nzinfosource-BRCT\"> </a></td><td>Birth Certificate</td><td>The source of the information was from a Birth Certificate</td></tr><tr><td style=\"white-space:nowrap\">BREG<a name=\"nzinfosource-BREG\"> </a></td><td>Birth Register</td><td/></tr><tr><td style=\"white-space:nowrap\">HL7<a name=\"nzinfosource-HL7\"> </a></td><td>HL7 applied</td><td/></tr><tr><td style=\"white-space:nowrap\">MIGR<a name=\"nzinfosource-MIGR\"> </a></td><td>Migrated</td><td/></tr><tr><td style=\"white-space:nowrap\">NPRF<a name=\"nzinfosource-NPRF\"> </a></td><td>Proof not sighted</td><td/></tr><tr><td style=\"white-space:nowrap\">NZCI<a name=\"nzinfosource-NZCI\"> </a></td><td>New Zealand Certificate of Identity</td><td/></tr><tr><td style=\"white-space:nowrap\">NZCT<a name=\"nzinfosource-NZCT\"> </a></td><td>New Zealand Citizenship Certificate</td><td/></tr><tr><td style=\"white-space:nowrap\">NZET<a name=\"nzinfosource-NZET\"> </a></td><td>New Zealand Emergency Travel Document</td><td/></tr><tr><td style=\"white-space:nowrap\">NZRT<a name=\"nzinfosource-NZRT\"> </a></td><td>New Zealand Refugee Travel Document</td><td/></tr><tr><td style=\"white-space:nowrap\">OTHR<a name=\"nzinfosource-OTHR\"> </a></td><td>Other</td><td/></tr><tr><td style=\"white-space:nowrap\">PPRT<a name=\"nzinfosource-PPRT\"> </a></td><td>Passport</td><td/></tr><tr><td style=\"white-space:nowrap\">NZRS<a name=\"nzinfosource-NZRS\"> </a></td><td>New Zealand Residency</td><td/></tr><tr><td style=\"white-space:nowrap\">TRANS<a name=\"nzinfosource-TRANS\"> </a></td><td>Transition Default</td><td/></tr><tr><td style=\"white-space:nowrap\">NZPV<a name=\"nzinfosource-NZPV\"> </a></td><td>New Zealand Permanent Visa</td><td/></tr><tr><td style=\"white-space:nowrap\">NZTV<a name=\"nzinfosource-NZTV\"> </a></td><td>New Zealand Resident Visa</td><td/></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://standards.digital.health.nz/codesystem/nzinfosource"];
+  fhir:CodeSystem.name [ fhir:value "New Zealand Information source for DOB & DOD"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2019-04-08T16:31:42+12:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "David Hay"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "david hay" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "david.hay25@gmail.com" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "BRCT" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Birth Certificate" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "The source of the information was from a Birth Certificate" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "BREG" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Birth Register" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "HL7" ];
+     fhir:CodeSystem.concept.display [ fhir:value "HL7 applied" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "MIGR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Migrated" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "NPRF" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Proof not sighted" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "NZCI" ];
+     fhir:CodeSystem.concept.display [ fhir:value "New Zealand Certificate of Identity" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "NZCT" ];
+     fhir:CodeSystem.concept.display [ fhir:value "New Zealand Citizenship Certificate" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "NZET" ];
+     fhir:CodeSystem.concept.display [ fhir:value "New Zealand Emergency Travel Document" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "NZRT" ];
+     fhir:CodeSystem.concept.display [ fhir:value "New Zealand Refugee Travel Document" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "OTHR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Other" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "PPRT" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Passport" ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "NZRS" ];
+     fhir:CodeSystem.concept.display [ fhir:value "New Zealand Residency" ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "TRANS" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Transition Default" ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "NZPV" ];
+     fhir:CodeSystem.concept.display [ fhir:value "New Zealand Permanent Visa" ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "NZTV" ];
+     fhir:CodeSystem.concept.display [ fhir:value "New Zealand Resident Visa" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org.nz/fhir/CodeSystem/nzinfosource.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

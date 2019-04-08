@@ -102,6 +102,13 @@
     },
     {
       "reference" : {
+        "reference" : "CodeSystem/nzinfosource"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
         "reference" : "ValueSet/nzinfosource"
       },
       "exampleBoolean" : false,

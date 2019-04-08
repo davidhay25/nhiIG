@@ -1,6 +1,8 @@
 {
   "resourceType":"CodeSystem",
+  "id":"nzinfosource",
   "url":"https://standards.digital.health.nz/codesystem/nzinfosource",
+  "name":"New Zealand Information source for DOB & DOD",
   "status":"draft",
     "publisher" : "David Hay",
   "contact" : [
@@ -8,7 +10,7 @@
   ],
   "content":"complete",
   "concept": [
-    {"code":"BRCT","display":"Birth Certificate"},
+    {"code":"BRCT","display":"Birth Certificate","definition":"The source of the information was from a Birth Certificate"},
     {"code":"BREG","display":"Birth Register"},
     {"code":"HL7","display":"HL7 applied"},
     {"code":"MIGR","display":"Migrated"},

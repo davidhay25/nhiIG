@@ -10,12 +10,12 @@
   fhir:Resource.id [ fhir:value "nzinfosource"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Information Source</h2><div><p>The source of information.</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <code>https://standards.digital.health.nz/codesystem/nzinfosource</code></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Information Source</h2><div><p>The source of information.</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-nzinfosource.html\"><code>https://standards.digital.health.nz/codesystem/nzinfosource</code></a></li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "https://standards.digital.health.nz/valueset/nzinfosource"];
   fhir:ValueSet.name [ fhir:value "Information Source"];
   fhir:ValueSet.status [ fhir:value "draft"];
-  fhir:ValueSet.date [ fhir:value "2019-04-08T16:13:10+12:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2019-04-08T16:31:42+12:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "David Hay"];
   fhir:ValueSet.contact [
      fhir:index 0;

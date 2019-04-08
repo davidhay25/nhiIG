@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "bf12cbc5-544b-496d-9a8c-a730a57fc13c",
+  "id" : "d6da92af-d92e-414c-9aff-a58360b884ce",
   "meta" : {
-    "lastUpdated" : "2019-04-08T16:13:10.601+12:00"
+    "lastUpdated" : "2019-04-08T16:31:42.124+12:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -30,8 +30,8 @@
       "description" : "Value Set of all NZ Ethnicity Level 4 Codes",
       "copyright" : "© 2010+ New Zealand Crown Copyright",
       "expansion" : {
-        "identifier" : "urn:uuid:841119cb-b3e5-4784-93c3-dfb148c0c0ec",
-        "timestamp" : "2019-04-08T16:13:15+12:00",
+        "identifier" : "urn:uuid:c67e748f-cbe5-4fea-874f-ae2af51a3d1a",
+        "timestamp" : "2019-04-08T16:31:47+12:00",
         "total" : 239,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1251,7 +1251,7 @@
       "url" : "https://standards.digital.health.nz/valueset/NzCitizenship",
       "name" : "NzCitizenship",
       "status" : "draft",
-      "date" : "2019-04-08T16:13:10+12:00",
+      "date" : "2019-04-08T16:31:42+12:00",
       "publisher" : "David Hay",
       "contact" : [{
         "telecom" : [{
@@ -1266,8 +1266,8 @@
       "description" : "New Zealand Citizenship status",
       "immutable" : true,
       "expansion" : {
-        "identifier" : "urn:uuid:ce35cb05-16a9-4821-a4d2-91bcfcb0feff",
-        "timestamp" : "2019-04-08T16:13:15+12:00",
+        "identifier" : "urn:uuid:03104b5b-8397-4559-afac-4488524b7655",
+        "timestamp" : "2019-04-08T16:31:47+12:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",

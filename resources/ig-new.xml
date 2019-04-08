@@ -99,6 +99,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="CodeSystem/nzinfosource"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/nzinfosource"/>
       </reference>
       <exampleBoolean value="false"/>

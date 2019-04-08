@@ -95,6 +95,15 @@
       </sourceReference>
     </resource>
     
+    
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="CodeSystem/nzinfosource"/>
+      </sourceReference>
+    </resource>    
+    
+    
     <resource>
       <example value="false"/>
       <sourceReference>

@@ -1,13 +1,14 @@
 ﻿Implementation Guide Template : Validation Results
 =========================================
 
-err = 2, warn = 0, info = 0
-Generated Mon Apr 08 16:13:20 NZST 2019. FHIR version 4.1.0 for hl7.fhir.nz.nhi#3.0.1 (canonical = http://hl7.org.nz/fhir)
+err = 6, warn = 0, info = 0
+Generated Mon Apr 08 16:31:51 NZST 2019. FHIR version 4.1.0 for hl7.fhir.nz.nhi#3.0.1 (canonical = http://hl7.org.nz/fhir)
 
- Build Errors : 484 / 0
+ Build Errors : 485 / 0
  /Users/davidhay/nhiIG/examples/patient-example : 0 / 0
  /Users/davidhay/nhiIG/resources/codesystem-NzCitizenship : 0 / 0
  /Users/davidhay/nhiIG/resources/codesystem-NzEthnicityL4 : 0 / 0
+ /Users/davidhay/nhiIG/resources/codesystem-nzinfosource : 2 / 0
  /Users/davidhay/nhiIG/resources/ig : 0 / 0
  /Users/davidhay/nhiIG/resources/informationsource.structuredefinition : 0 / 0
  /Users/davidhay/nhiIG/resources/nzethnicity.structuredefinition : 0 / 0
@@ -20,6 +21,15 @@ Generated Mon Apr 08 16:13:20 NZST 2019. FHIR version 4.1.0 for hl7.fhir.nz.nhi#
  /Users/davidhay/nhiIG/resources/valueset-nzinfosource : 1 / 0
 </table>
 == n/a ==
+ERROR: /Users/davidhay/nhiIG/output/CodeSystem-nzinfosource.html: unable to parse character reference ' DOD</h2>
+
+<p>
+Formats: <a href="CodeSystem-nzinfosource.xml.html">XML</a>, <a href="CodeSystem-nzinfosource.json.html">JSON</a>, <a href="CodeSystem-nzinfosource.ttl.html">Turtle</a>
+</p>
+
+<div xmlns="http://www.w3.org/1999/xhtml"><h2>New Zealand Information source for DOB &amp'' (last text = '
+
+' at line 130 column 91
 ERROR: /Users/davidhay/nhiIG/output/ValueSet-NzCitizenship.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 139, column 343: The link 'CodeSystem-NzCitizenship.html#NzCitizenship-Y' for "Y" cannot be resolved (valid targets: [segment-header, hl7-status, hl7-logo, stripe, segment-footer, segment-post-footer, logo, hl7-nav, segment-navbar, segment-content])
 ERROR: /Users/davidhay/nhiIG/output/ValueSet-NzCitizenship.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 139, column 452: The link 'CodeSystem-NzCitizenship.html#NzCitizenship-N' for "N" cannot be resolved (valid targets: [segment-header, hl7-status, hl7-logo, stripe, segment-footer, segment-post-footer, logo, hl7-nav, segment-navbar, segment-content])
 ERROR: /Users/davidhay/nhiIG/output/ValueSet-NzCitizenship.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 139, column 565: The link 'CodeSystem-NzCitizenship.html#NzCitizenship-U' for "U" cannot be resolved (valid targets: [segment-header, hl7-status, hl7-logo, stripe, segment-footer, segment-post-footer, logo, hl7-nav, segment-navbar, segment-content])
@@ -507,6 +517,9 @@ ERROR: /Users/davidhay/nhiIG/output/ValueSet-ethnic-group-level-4.html#/html/bod
 == /Users/davidhay/nhiIG/examples/patient-example.xml ==
 == /Users/davidhay/nhiIG/resources/codesystem-NzCitizenship.xml ==
 == /Users/davidhay/nhiIG/resources/codesystem-NzEthnicityL4.xml ==
+== /Users/davidhay/nhiIG/resources/codesystem-nzinfosource.json ==
+ERROR: https://standards.digital.health.nz/codesystem/nzinfosource: conformance resource /Users/davidhay/nhiIG/resources/codesystem-nzinfosource.json canonical URL (http://hl7.org.nz/fhir/CodeSystem/nzinfosource) does not match the URL (https://standards.digital.health.nz/codesystem/nzinfosource)
+ERROR: /Users/davidhay/nhiIG/resources/codesystem-nzinfosource: URL Mismatch http://hl7.org.nz/fhir/CodeSystem/nzinfosource vs https://standards.digital.health.nz/codesystem/nzinfosource
 == /Users/davidhay/nhiIG/resources/ig.xml ==
 == /Users/davidhay/nhiIG/resources/informationSource.StructureDefinition.xml ==
 == /Users/davidhay/nhiIG/resources/nzethnicity.StructureDefinition.xml ==

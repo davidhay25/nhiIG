@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="nzinfosource"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>New Zealand Information source for DOB &amp; DOD</h2><p>This code system https://standards.digital.health.nz/codesystem/nzinfosource defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">BRCT<a name="nzinfosource-BRCT"> </a></td><td>Birth Certificate</td><td>The source of the information was from a Birth Certificate</td></tr><tr><td style="white-space:nowrap">BREG<a name="nzinfosource-BREG"> </a></td><td>Birth Register</td><td/></tr><tr><td style="white-space:nowrap">HL7<a name="nzinfosource-HL7"> </a></td><td>HL7 applied</td><td/></tr><tr><td style="white-space:nowrap">MIGR<a name="nzinfosource-MIGR"> </a></td><td>Migrated</td><td/></tr><tr><td style="white-space:nowrap">NPRF<a name="nzinfosource-NPRF"> </a></td><td>Proof not sighted</td><td/></tr><tr><td style="white-space:nowrap">NZCI<a name="nzinfosource-NZCI"> </a></td><td>New Zealand Certificate of Identity</td><td/></tr><tr><td style="white-space:nowrap">NZCT<a name="nzinfosource-NZCT"> </a></td><td>New Zealand Citizenship Certificate</td><td/></tr><tr><td style="white-space:nowrap">NZET<a name="nzinfosource-NZET"> </a></td><td>New Zealand Emergency Travel Document</td><td/></tr><tr><td style="white-space:nowrap">NZRT<a name="nzinfosource-NZRT"> </a></td><td>New Zealand Refugee Travel Document</td><td/></tr><tr><td style="white-space:nowrap">OTHR<a name="nzinfosource-OTHR"> </a></td><td>Other</td><td/></tr><tr><td style="white-space:nowrap">PPRT<a name="nzinfosource-PPRT"> </a></td><td>Passport</td><td/></tr><tr><td style="white-space:nowrap">NZRS<a name="nzinfosource-NZRS"> </a></td><td>New Zealand Residency</td><td/></tr><tr><td style="white-space:nowrap">TRANS<a name="nzinfosource-TRANS"> </a></td><td>Transition Default</td><td/></tr><tr><td style="white-space:nowrap">NZPV<a name="nzinfosource-NZPV"> </a></td><td>New Zealand Permanent Visa</td><td/></tr><tr><td style="white-space:nowrap">NZTV<a name="nzinfosource-NZTV"> </a></td><td>New Zealand Resident Visa</td><td/></tr></table></div>
+  </text>
+  <url value="https://standards.digital.health.nz/codesystem/nzinfosource"/>
+  <name value="New Zealand Information source for DOB &amp; DOD"/>
+  <status value="draft"/>
+  <date value="2019-04-08T16:31:42+12:00"/>
+  <publisher value="David Hay"/>
+  <contact>
+    <name value="david hay"/>
+    <telecom>
+      <system value="email"/>
+      <value value="david.hay25@gmail.com"/>
+    </telecom>
+  </contact>
+  <content value="complete"/>
+  <concept>
+    <code value="BRCT"/>
+    <display value="Birth Certificate"/>
+    <definition value="The source of the information was from a Birth Certificate"/>
+  </concept>
+  <concept>
+    <code value="BREG"/>
+    <display value="Birth Register"/>
+  </concept>
+  <concept>
+    <code value="HL7"/>
+    <display value="HL7 applied"/>
+  </concept>
+  <concept>
+    <code value="MIGR"/>
+    <display value="Migrated"/>
+  </concept>
+  <concept>
+    <code value="NPRF"/>
+    <display value="Proof not sighted"/>
+  </concept>
+  <concept>
+    <code value="NZCI"/>
+    <display value="New Zealand Certificate of Identity"/>
+  </concept>
+  <concept>
+    <code value="NZCT"/>
+    <display value="New Zealand Citizenship Certificate"/>
+  </concept>
+  <concept>
+    <code value="NZET"/>
+    <display value="New Zealand Emergency Travel Document"/>
+  </concept>
+  <concept>
+    <code value="NZRT"/>
+    <display value="New Zealand Refugee Travel Document"/>
+  </concept>
+  <concept>
+    <code value="OTHR"/>
+    <display value="Other"/>
+  </concept>
+  <concept>
+    <code value="PPRT"/>
+    <display value="Passport"/>
+  </concept>
+  <concept>
+    <code value="NZRS"/>
+    <display value="New Zealand Residency"/>
+  </concept>
+  <concept>
+    <code value="TRANS"/>
+    <display value="Transition Default"/>
+  </concept>
+  <concept>
+    <code value="NZPV"/>
+    <display value="New Zealand Permanent Visa"/>
+  </concept>
+  <concept>
+    <code value="NZTV"/>
+    <display value="New Zealand Resident Visa"/>
+  </concept>
+</CodeSystem>
