@@ -10,7 +10,9 @@
             {"example":false,"sourceReference":{"reference":"StructureDefinition/informationsource"}},
             {"example":false,"sourceReference":{"reference":"StructureDefinition/NhiPatient"}},
             {"example":false,"sourceReference":{"reference":"ValueSet/ethnic-group-level-4"}},
-            {"example":false,"sourceReference":{"reference":"ValueSet/nzinfosource"}}
+            {"example":false,"sourceReference":{"reference":"ValueSet/nzinfosource"}},
+            {"example":false,"sourceReference":{"reference":"CodeSystem/NzCitizenship"}},
+            {"example":false,"sourceReference":{"reference":"ValueSet/NzCitizenship"}}
 
 
 

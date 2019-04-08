@@ -4,7 +4,7 @@ These Profiles have been defined for this implementation guide.
 
 ## Administration Profiles
 
-* [NHI Patient](StructureDefinition-NhiPatient.html) - NHI Patient
+* [NHI Patient](StructureDefinition-nhipatient.html) - NHI Patient
 
 
 

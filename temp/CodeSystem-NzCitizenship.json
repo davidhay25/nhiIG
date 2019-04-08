@@ -1,0 +1,47 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "NzCitizenship",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <h2>NZ Citizenship</h2>\n            <table>\n                <tr><th>Code</th><th>Display</th></tr>\n                <tr>\n                    <td>Y</td>\n                    <td>Is a NZ citizen</td>\n                </tr>\n                <tr>\n                    <td>N</td>\n                    <td>Is NOT a NZ citizen</td>\n                </tr>\n                <tr>\n                    <td>U</td>\n                    <td>Citizenship status unknown</td>\n                </tr>\n            </table>\n         \n        </div>"
+  },
+  "url": "https://standards.digital.health.nz/codesystem/NzCitizenship",
+  "version": "1.0.1",
+  "name": "NzCitizenship",
+  "title": "NZ Citizenship values",
+  "status": "active",
+  "experimental": true,
+  "date": "2019-03-22",
+  "publisher": "Ministry of Health",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "healthcareinterop@gmail.com"
+        }
+      ]
+    }
+  ],
+  "description": "NZ Ethnicity Level 4 Codes",
+  "copyright": "© 2010+ New Zealand Crown Copyright",
+  "caseSensitive": true,
+  "valueSet": "https://standards.digital.health.nz/valueset/NzCitizenship",
+  "compositional": false,
+  "versionNeeded": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "Y",
+      "display": "Is a New Zealand Citizen"
+    },
+    {
+      "code": "N",
+      "display": "Is NOT a New Zealand Citizen"
+    },
+    {
+      "code": "U",
+      "display": "Citizen is unknown"
+    }
+  ]
+}

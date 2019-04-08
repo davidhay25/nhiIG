@@ -82,12 +82,12 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "StructureDefinition-NhiPatient.html"
+              "valueUri": "StructureDefinition-nhipatient.html"
             }
           ],
           "example": false,
           "sourceReference": {
-            "reference": "StructureDefinition/NhiPatient"
+            "reference": "StructureDefinition/nhipatient"
           }
         },
         {
@@ -100,6 +100,42 @@
           "example": false,
           "sourceReference": {
             "reference": "ValueSet/ethnic-group-level-4"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "CodeSystem-NzEthnicityL4.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "CodeSystem/NzEthnicityL4"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "CodeSystem-NzCitizenship.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "CodeSystem/NzCitizenship"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-NzCitizenship.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/NzCitizenship"
           }
         },
         {
@@ -124,6 +160,18 @@
           "example": false,
           "sourceReference": {
             "reference": "OperationDefinition/nzAddressUpdate"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "Patient-example.html"
+            }
+          ],
+          "example": true,
+          "sourceReference": {
+            "reference": "Patient/example"
           }
         }
       ]

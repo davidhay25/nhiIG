@@ -1,9 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="62ae473e-f6f7-4a4b-a068-e25670e43a3e"/>
+  <id value="9d17ace1-22ed-4320-8df5-32b2a338ec82"/>
   <meta>
-    <lastUpdated value="2019-04-05T14:48:18.020+13:00"/>
+    <lastUpdated value="2019-04-08T13:15:42.039+12:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="https://standards.digital.health.nz/valueset/NzCitizenship"/>
+    <resource>
+      <ValueSet>
+        <id value="NzCitizenship"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://standards.digital.health.nz/codesystem/NzCitizenship version 1.0.1</p>
+            <p>All codes from system 
+              <a href="CodeSystem-NzCitizenship.html">
+                <code>https://standards.digital.health.nz/codesystem/NzCitizenship</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-NzCitizenship-Y"> </a>
+                  <a href="CodeSystem-NzCitizenship.html#NzCitizenship-Y">Y</a>
+                </td>
+                <td>Is a New Zealand Citizen</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-NzCitizenship-N"> </a>
+                  <a href="CodeSystem-NzCitizenship.html#NzCitizenship-N">N</a>
+                </td>
+                <td>Is NOT a New Zealand Citizen</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-NzCitizenship-U"> </a>
+                  <a href="CodeSystem-NzCitizenship.html#NzCitizenship-U">U</a>
+                </td>
+                <td>Citizen is unknown</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://standards.digital.health.nz/valueset/NzCitizenship"/>
+        <name value="NzCitizenship Source"/>
+        <status value="draft"/>
+        <date value="2019-04-08T13:15:42+12:00"/>
+        <publisher value="David Hay"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/fhir"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="david.hay25@gmail.com"/>
+          </telecom>
+        </contact>
+        <description value="New Zealand Citizenship status"/>
+        <immutable value="true"/>
+        <expansion>
+          <identifier value="urn:uuid:8ad47a2c-b3d3-49d4-8f7f-e2621f8d94b1"/>
+          <timestamp value="2019-04-08T13:15:46+12:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://standards.digital.health.nz/codesystem/NzCitizenship|1.0.1"/>
+          </parameter>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/NzCitizenship"/>
+            <code value="Y"/>
+            <display value="Is a New Zealand Citizen"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/NzCitizenship"/>
+            <code value="N"/>
+            <display value="Is NOT a New Zealand Citizen"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/NzCitizenship"/>
+            <code value="U"/>
+            <display value="Citizen is unknown"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
 </Bundle>

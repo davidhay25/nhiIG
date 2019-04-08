@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="NzCitizenship"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <h2>NZ Citizenship</h2>
+            <table>
+                <tr><th>Code</th><th>Display</th></tr>
+                <tr>
+                    <td>Y</td>
+                    <td>Is a NZ citizen</td>
+                </tr>
+                <tr>
+                    <td>N</td>
+                    <td>Is NOT a NZ citizen</td>
+                </tr>
+                <tr>
+                    <td>U</td>
+                    <td>Citizenship status unknown</td>
+                </tr>
+            </table>
+         
+        </div>
+  </text>
+  <url value="https://standards.digital.health.nz/codesystem/NzCitizenship"/>
+  <version value="1.0.1"/>
+  <name value="NzCitizenship"/>
+  <title value="NZ Citizenship values"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2019-03-22"/>
+  <publisher value="Ministry of Health"/>
+  <contact>
+    <telecom>
+      <system value="email"/>
+      <value value="healthcareinterop@gmail.com"/>
+    </telecom>
+  </contact>
+  <description value="NZ Ethnicity Level 4 Codes"/>
+  <copyright value="&#xA9; 2010+ New Zealand Crown Copyright"/>
+  <caseSensitive value="true"/>
+  <valueSet value="https://standards.digital.health.nz/valueset/NzCitizenship"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="Y"/>
+    <display value="Is a New Zealand Citizen"/>
+  </concept>
+  <concept>
+    <code value="N"/>
+    <display value="Is NOT a New Zealand Citizen"/>
+  </concept>
+  <concept>
+    <code value="U"/>
+    <display value="Citizen is unknown"/>
+  </concept>
+</CodeSystem>

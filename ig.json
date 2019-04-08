@@ -7,10 +7,13 @@
     "special-urls": [
         "https://standards.digital.health.nz/valueset/ethnic-group-level-4",
         "https://standards.digital.health.nz/codesystem/ethnic-group-level-4",
-        "https://standards.digital.health.nz/valueset/nzinfosource"
+        "https://standards.digital.health.nz/valueset/nzinfosource",
+        "https://standards.digital.health.nz/codesystem/NzCitizenship",
+        "https://standards.digital.health.nz/valueset/NzCitizenship"
     ],
     "npm-name": "hl7.fhir.nz.nhi",
     "extraTemplates": ["mappings"],
+    "gen-examples" : true,
     "path-pattern" : "[type]-[id].html",
     "defaults": {
       

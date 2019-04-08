@@ -24,20 +24,20 @@ Each SD will need some manually created files:
 	
 <ul class="nav nav-tabs">
 	<li class="active"><a href="#">Content</a></li>
-	<li><a href="StructureDefinition-NhiPatient-definitions.html">Detailed Descriptions</a></li>
-	<li><a href="StructureDefinition-NhiPatient-mappings.html">Mappings</a></li>
-	<li><a href="StructureDefinition-NhiPatient.xml.html">XML</a></li>
-	<li><a href="StructureDefinition-NhiPatient.json.html">JSON</a></li>
-	<li><a href="StructureDefinition-NhiPatient.ttl.html">Turtle</a></li>
+	<li><a href="StructureDefinition-nhipatient-definitions.html">Detailed Descriptions</a></li>
+	<li><a href="StructureDefinition-nhipatient-mappings.html">Mappings</a></li>
+	<li><a href="StructureDefinition-nhipatient.xml.html">XML</a></li>
+	<li><a href="StructureDefinition-nhipatient.json.html">JSON</a></li>
+	<li><a href="StructureDefinition-nhipatient.ttl.html">Turtle</a></li>
 </ul>
 
-<h3><span class="sectioncount">1.0<a name="intro"> </a></span>StructureDefinition-NhiPatient<a title="link to here" class="self-link" href="StructureDefinition-NhiPatient.html#intro"><img src="target.png"/></a></h3>
+<h3><span class="sectioncount">1.0<a name="intro"> </a></span>StructureDefinition-nhipatient<a title="link to here" class="self-link" href="StructureDefinition-nhipatient.html#intro"><img src="target.png"/></a></h3>
 
 <!-- introductiontext here-->
 <a name="introduction"> </a>
 
 
-{% capture my-include %}{% include NhiPatient-intro.md %}{% endcapture %}{{ my-include | markdownify }}
+{% capture my-include %}{% include nhipatient-intro.md %}{% endcapture %}{{ my-include | markdownify }}
 
 
 <!-- example here -->
@@ -46,16 +46,16 @@ Each SD will need some manually created files:
 <h5>Example: <a href="daf-{{page.code}}-{{page.example}}.html">{{page.tcode}} Example: {{page.example}}</a></h5>
 -->
 <!--  try build generated templates
-<h5>Example: <a href="NhiPatient.example.html">NhiPatient Example</a></h5> -->
-
+<h5>Example: <a href="nhipatient.example.html">nhipatient Example</a></h5> 
+-->
 
 <a name="profile"> </a>
 <h4><span class="sectioncount">1.0.1</span>
 Formal Views of Profile Content
- <a title="link to here" class="self-link" href="StructureDefinition-NhiPatient.html#profile"><img src="target.png"/></a>
+ <a title="link to here" class="self-link" href="StructureDefinition-nhipatient.html#profile"><img src="target.png"/></a>
 </h4>
 <!-- uri -->
-{% include StructureDefinition-NhiPatient-header.xhtml %}
+{% include StructureDefinition-nhipatient-header.xhtml %}
 
 <!-- uri -->
 <p>
@@ -78,9 +78,9 @@ Formal Views of Profile Content
   <div id="tbl-summ">
    <div id="tbl-diff-inner">
      <a name="summary"> </a>
-<!--{% include StructureDefinition-NhiPatient-summary.xhtml %}-->
+<!--{% include StructureDefinition-nhipatient-summary.xhtml %}-->
 
-{% capture my-include %}{% include NhiPatient-summary.md %}{% endcapture %}{{ my-include | markdownify }}
+{% capture my-include %}{% include nhipatient-summary.md %}{% endcapture %}{{ my-include | markdownify }}
    </div>
   </div>
  </div>
@@ -88,7 +88,7 @@ Formal Views of Profile Content
  <div id="tabs-diff">
   <div id="tbl-diff">
    <div id="tbl-diff-inner">
-  {% include StructureDefinition-NhiPatient-diff.xhtml %}
+  {% include StructureDefinition-nhipatient-diff.xhtml %}
    </div>
   </div>
  </div>
@@ -96,7 +96,7 @@ Formal Views of Profile Content
  <div id="tabs-snap">
   <div id="tbl-snap">
    <div id="tbl-snap-inner">
-{% include StructureDefinition-NhiPatient-snapshot.xhtml %}
+{% include StructureDefinition-nhipatient-snapshot.xhtml %}
    </div>
   </div>
  </div>
@@ -105,7 +105,7 @@ Formal Views of Profile Content
  <div id="tabs-xml">
   <div id="xml">
    <div id="xml-inner">
-{% include StructureDefinition-NhiPatient-pseudo-xml.xhtml %}
+{% include StructureDefinition-nhipatient-pseudo-xml.xhtml %}
    </div>
   </div>
  </div>
@@ -113,7 +113,7 @@ Formal Views of Profile Content
  <div id="tabs-json">
   <div id="json">
    <div id="json-inner">
-{% include StructureDefinition-NhiPatient-pseudo-json.xhtml %}
+{% include StructureDefinition-nhipatient-pseudo-json.xhtml %}
    </div>
   </div>
  </div>
@@ -123,35 +123,35 @@ Formal Views of Profile Content
   <div id="tbl-summ">
    <div id="tbl-diff-inner">
      <a name="summary"> </a>
-<!--   {% include StructureDefinition-NhiPatient-summary.xhtml %}  -->
-{% capture my-include %}{% include NhiPatient-summary.md %}{% endcapture %}{{ my-include | markdownify }}
+<!--   {% include StructureDefinition-nhipatient-summary.xhtml %}  -->
+{% capture my-include %}{% include nhipatient-summary.md %}{% endcapture %}{{ my-include | markdownify }}
    </div>
   </div>
 
  <div id="all-tbl-diff">
    <p><b>Differential View</b></p>
    <div id="all-tbl-diff-inner">
-   {% include StructureDefinition-NhiPatient-diff.xhtml %}
+   {% include StructureDefinition-nhipatient-diff.xhtml %}
    </div>
   </div>
   <div id="all-tbl-snap">
    <p><b>Snapshot View</b></p>
    <div id="all-tbl-snap-inner">
-{% include StructureDefinition-NhiPatient-snapshot.xhtml %}
+{% include StructureDefinition-nhipatient-snapshot.xhtml %}
    </div>
   </div>
 
   <!--
   <div id="all-xml">
    <p><b>XML Template</b></p>
-   <div id="all-xml-inner">{% include StructureDefinition-NhiPatient-pseudo-xml.xhtml %}
+   <div id="all-xml-inner">{% include StructureDefinition-nhipatient-pseudo-xml.xhtml %}
    </div>
   </div>
 
   <div id="all-json">
    <p><b>JSON Template</b></p>
    <div id="all-json-inner">
-{% include StructureDefinition-NhiPatient-pseudo-json.xhtml %}
+{% include StructureDefinition-nhipatient-pseudo-json.xhtml %}
    </div>
   </div>
 -->
@@ -160,29 +160,29 @@ Formal Views of Profile Content
 
 
 <a name="downloads"> </a>
-<p>Downloads: StructureDefinition: (<a href="StructureDefinition-NhiPatient.xml" download>XML</a>, <a href="StructureDefinition-NhiPatient.json" download>JSON</a>), Schema:  <a href="NhiPatient.sch" download>XML Schematron</a></p>
+<p>Downloads: StructureDefinition: (<a href="StructureDefinition-nhipatient.xml" download>XML</a>, <a href="StructureDefinition-nhipatient.json" download>JSON</a>), Schema:  <a href="nhipatient.sch" download>XML Schematron</a></p>
 
 <p>&nbsp;</p>
 
 <!-- search text here-->
 <a name="search"> </a>
-<h4><span class="sectioncount">1.0.2</span> Quick Start <a title="link to here" class="self-link" href="StructureDefinition-NhiPatient.html#search"><img src="target.png"/></a></h4>
+<h4><span class="sectioncount">1.0.2</span> Quick Start <a title="link to here" class="self-link" href="StructureDefinition-nhipatient.html#search"><img src="target.png"/></a></h4>
 <p>Below is an overview of the required search and read operations.</p>
 
 
-<p><b>Summary of Search Criteria for StructureDefinition-NhiPatient</b></p>
+<p><b>Summary of Search Criteria for StructureDefinition-nhipatient</b></p>
 
-{% capture my-include %}{% include NhiPatient-search.md %}{% endcapture %}{{ my-include | markdownify }}
+{% capture my-include %}{% include nhipatient-search.md %}{% endcapture %}{{ my-include | markdownify }}
 
 
 <!-- remove term and invarients sections
 
 <a name="tx"> </a>
-<h4><span class="sectioncount">D.4.1.3</span> Terminology Bindings <a title="link to here" class="self-link" href="StructureDefinition-NhiPatient.html#tx"><img src="target.png"/></a></h4>
-  {% include StructureDefinition-NhiPatient-tx.xhtml %}
+<h4><span class="sectioncount">D.4.1.3</span> Terminology Bindings <a title="link to here" class="self-link" href="StructureDefinition-nhipatient.html#tx"><img src="target.png"/></a></h4>
+  {% include StructureDefinition-nhipatient-tx.xhtml %}
 
-<h4><span class="sectioncount">D.4.1.4<a name="D.4.1.4"> </a></span> Constraints <a title="link to here" class="self-link" href="StructureDefinition-NhiPatient.html#D.4.1.3"><img src="target.png"/></a></h4>
-{% include StructureDefinition-NhiPatient-inv.xhtml %}
+<h4><span class="sectioncount">D.4.1.4<a name="D.4.1.4"> </a></span> Constraints <a title="link to here" class="self-link" href="StructureDefinition-nhipatient.html#D.4.1.3"><img src="target.png"/></a></h4>
+{% include StructureDefinition-nhipatient-inv.xhtml %}
 
 -->
 

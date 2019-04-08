@@ -1,0 +1,58 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org.nz/fhir/CodeSystem/NzCitizenship> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "NzCitizenship"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <h2>NZ Citizenship</h2>\n            <table>\n                <tr><th>Code</th><th>Display</th></tr>\n                <tr>\n                    <td>Y</td>\n                    <td>Is a NZ citizen</td>\n                </tr>\n                <tr>\n                    <td>N</td>\n                    <td>Is NOT a NZ citizen</td>\n                </tr>\n                <tr>\n                    <td>U</td>\n                    <td>Citizenship status unknown</td>\n                </tr>\n            </table>\n         \n        </div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://standards.digital.health.nz/codesystem/NzCitizenship"];
+  fhir:CodeSystem.version [ fhir:value "1.0.1"];
+  fhir:CodeSystem.name [ fhir:value "NzCitizenship"];
+  fhir:CodeSystem.title [ fhir:value "NZ Citizenship values"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.date [ fhir:value "2019-03-22"^^xsd:date];
+  fhir:CodeSystem.publisher [ fhir:value "Ministry of Health"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "healthcareinterop@gmail.com" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "NZ Ethnicity Level 4 Codes"];
+  fhir:CodeSystem.copyright [ fhir:value "© 2010+ New Zealand Crown Copyright"];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.valueSet [ fhir:value "https://standards.digital.health.nz/valueset/NzCitizenship"];
+  fhir:CodeSystem.compositional [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.versionNeeded [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "Y" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Is a New Zealand Citizen" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "N" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Is NOT a New Zealand Citizen" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "U" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Citizen is unknown" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org.nz/fhir/CodeSystem/NzCitizenship.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

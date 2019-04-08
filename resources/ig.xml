@@ -54,7 +54,7 @@
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="StructureDefinition/NhiPatient"/>
+        <reference value="StructureDefinition/nhipatient"/>
       </sourceReference>
     </resource>
     
@@ -77,6 +77,27 @@
     <resource>
       <example value="false"/>
       <sourceReference>
+        <reference value="CodeSystem/NzEthnicityL4"/>
+      </sourceReference>
+    </resource>
+    
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="CodeSystem/NzCitizenship"/>
+      </sourceReference>
+    </resource>
+    
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/NzCitizenship"/>
+      </sourceReference>
+    </resource>
+    
+    <resource>
+      <example value="false"/>
+      <sourceReference>
         <reference value="ValueSet/nzinfosource"/>
       </sourceReference>
     </resource>    
@@ -87,6 +108,13 @@
         <reference value="OperationDefinition/nzAddressUpdate"/>
       </sourceReference>
     </resource>    
+    
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Patient/example"/>
+      </sourceReference>
+    </resource>  
     
   </package>
   <page>

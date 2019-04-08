@@ -67,7 +67,7 @@
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/NhiPatient"
+        "reference" : "StructureDefinition/nhipatient"
       },
       "exampleBoolean" : false,
       "groupingId" : "p1"
@@ -75,6 +75,27 @@
     {
       "reference" : {
         "reference" : "ValueSet/ethnic-group-level-4"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/NzEthnicityL4"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/NzCitizenship"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/NzCitizenship"
       },
       "exampleBoolean" : false,
       "groupingId" : "p1"
@@ -91,6 +112,13 @@
         "reference" : "OperationDefinition/nzAddressUpdate"
       },
       "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "Patient/example"
+      },
+      "exampleBoolean" : true,
       "groupingId" : "p1"
     }],
     "page" : {

@@ -1,0 +1,90 @@
+<pre class="json">
+{
+  "<a href="http://hl7.org/fhir/STU3/patient.html#Patient">resourceType</a>" : "Patient",
+  "<a href="http://hl7.org/fhir/STU3/patient.html#Patient.id">id</a>" : "example",
+  "<a href="http://hl7.org/fhir/STU3/patient.html#Patient.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;\n      &lt;table&gt; \n        &lt;tbody&gt; \n          &lt;tr&gt; \n            &lt;td&gt; Name&lt;/td&gt; \n            &lt;td&gt; Peter James \n              &lt;b&gt; Chalmers&lt;/b&gt;  (&amp;quot;Jim&amp;quot;)\n            &lt;/td&gt; \n          &lt;/tr&gt; \n          &lt;tr&gt; \n            &lt;td&gt; Address&lt;/td&gt; \n            &lt;td&gt; 534 Erewhon, Pleasantville, Vic, 3999&lt;/td&gt; \n          &lt;/tr&gt; \n          &lt;tr&gt; \n            &lt;td&gt; Contacts&lt;/td&gt; \n            &lt;td&gt; Home: unknown. Work: (03) 5555 6473&lt;/td&gt; \n          &lt;/tr&gt; \n          &lt;tr&gt; \n            &lt;td&gt; Id&lt;/td&gt; \n            &lt;td&gt; MRN: 12345 (Acme Healthcare)&lt;/td&gt; \n          &lt;/tr&gt; \n        &lt;/tbody&gt; \n      &lt;/table&gt; \n    &lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/STU3/patient.html#Patient.active">active</a>" : true,
+  "<a href="http://hl7.org/fhir/STU3/patient.html#Patient.name">name</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#HumanName#HumanName.use">use</a>" : "official",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#HumanName#HumanName.family">family</a>" : "Chalmers",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#HumanName#HumanName.given">given</a>" : [
+        "Peter",
+        "James"
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#HumanName#HumanName.use">use</a>" : "usual",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#HumanName#HumanName.given">given</a>" : [
+        "Jim"
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#HumanName#HumanName.use">use</a>" : "maiden",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#HumanName#HumanName.family">family</a>" : "Windsor",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#HumanName#HumanName.given">given</a>" : [
+        "Peter",
+        "James"
+      ],
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#HumanName#HumanName.period">period</a>" : {
+        "<a href="http://hl7.org/fhir/STU3/datatypes.html#Period#Period.end">end</a>" : "2002"
+      }
+    }
+  ],
+  "<a href="http://hl7.org/fhir/STU3/patient.html#Patient.telecom">telecom</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "home"
+    },
+    {
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "phone",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "(03) 5555 6473",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "work",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.rank">rank</a>" : 1
+    },
+    {
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "phone",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "(03) 3410 5613",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "mobile",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.rank">rank</a>" : 2
+    },
+    {
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "phone",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "(03) 5555 8834",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "old",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.period">period</a>" : {
+        "<a href="http://hl7.org/fhir/STU3/datatypes.html#Period#Period.end">end</a>" : "2014"
+      }
+    }
+  ],
+  "<a href="http://hl7.org/fhir/STU3/patient.html#Patient.gender">gender</a>" : "male",
+  "<a href="http://hl7.org/fhir/STU3/patient.html#Patient.birthDate">birthDate</a>" : "1974-12-25",
+  "<a href="http://hl7.org/fhir/STU3/patient.html#Patient.birthDate">_birthDate</a>" : {
+    "<a href="http://hl7.org/fhir/STU3/datatypes.html#date#date.extension">extension</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+        "<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.value[x]">valueDateTime</a>" : "1974-12-25T14:35:45-05:00"
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/STU3/patient.html#Patient.deceased[x]">deceasedBoolean</a>" : false,
+  "<a href="http://hl7.org/fhir/STU3/patient.html#Patient.address">address</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#Address#Address.use">use</a>" : "home",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#Address#Address.type">type</a>" : "both",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#Address#Address.text">text</a>" : "534 Erewhon St PeasantVille, Rainbow, Vic  3999",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#Address#Address.line">line</a>" : [
+        "534 Erewhon St"
+      ],
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#Address#Address.city">city</a>" : "PleasantVille",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#Address#Address.district">district</a>" : "Rainbow",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#Address#Address.state">state</a>" : "Vic",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#Address#Address.postalCode">postalCode</a>" : "3999",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#Address#Address.period">period</a>" : {
+        "<a href="http://hl7.org/fhir/STU3/datatypes.html#Period#Period.start">start</a>" : "1974-12-25"
+      }
+    }
+  ]
+}</pre>

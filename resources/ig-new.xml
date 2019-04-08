@@ -64,7 +64,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/NhiPatient"/>
+        <reference value="StructureDefinition/nhipatient"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
@@ -72,6 +72,27 @@
     <resource>
       <reference>
         <reference value="ValueSet/ethnic-group-level-4"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/NzEthnicityL4"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/NzCitizenship"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/NzCitizenship"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
@@ -88,6 +109,13 @@
         <reference value="OperationDefinition/nzAddressUpdate"/>
       </reference>
       <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/example"/>
+      </reference>
+      <exampleBoolean value="true"/>
       <groupingId value="p1"/>
     </resource>
     <page>

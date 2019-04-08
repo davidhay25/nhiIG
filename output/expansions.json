@@ -1,8 +1,64 @@
 {
   "resourceType" : "Bundle",
-  "id" : "62ae473e-f6f7-4a4b-a068-e25670e43a3e",
+  "id" : "9d17ace1-22ed-4320-8df5-32b2a338ec82",
   "meta" : {
-    "lastUpdated" : "2019-04-05T14:48:18.020+13:00"
+    "lastUpdated" : "2019-04-08T13:15:42.039+12:00"
   },
-  "type" : "collection"
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://standards.digital.health.nz/valueset/NzCitizenship",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "NzCitizenship",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on https://standards.digital.health.nz/codesystem/NzCitizenship version 1.0.1</p><p>All codes from system <a href=\"CodeSystem-NzCitizenship.html\"><code>https://standards.digital.health.nz/codesystem/NzCitizenship</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---standards.digital.health.nz-codesystem-NzCitizenship-Y\"> </a><a href=\"CodeSystem-NzCitizenship.html#NzCitizenship-Y\">Y</a></td><td>Is a New Zealand Citizen</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---standards.digital.health.nz-codesystem-NzCitizenship-N\"> </a><a href=\"CodeSystem-NzCitizenship.html#NzCitizenship-N\">N</a></td><td>Is NOT a New Zealand Citizen</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---standards.digital.health.nz-codesystem-NzCitizenship-U\"> </a><a href=\"CodeSystem-NzCitizenship.html#NzCitizenship-U\">U</a></td><td>Citizen is unknown</td><td/></tr></table></div>"
+      },
+      "url" : "https://standards.digital.health.nz/valueset/NzCitizenship",
+      "name" : "NzCitizenship Source",
+      "status" : "draft",
+      "date" : "2019-04-08T13:15:42+12:00",
+      "publisher" : "David Hay",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://hl7.org/fhir"
+        },
+        {
+          "system" : "email",
+          "value" : "david.hay25@gmail.com"
+        }]
+      }],
+      "description" : "New Zealand Citizenship status",
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:8ad47a2c-b3d3-49d4-8f7f-e2621f8d94b1",
+        "timestamp" : "2019-04-08T13:15:46+12:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://standards.digital.health.nz/codesystem/NzCitizenship|1.0.1"
+        }],
+        "contains" : [{
+          "system" : "https://standards.digital.health.nz/codesystem/NzCitizenship",
+          "code" : "Y",
+          "display" : "Is a New Zealand Citizen"
+        },
+        {
+          "system" : "https://standards.digital.health.nz/codesystem/NzCitizenship",
+          "code" : "N",
+          "display" : "Is NOT a New Zealand Citizen"
+        },
+        {
+          "system" : "https://standards.digital.health.nz/codesystem/NzCitizenship",
+          "code" : "U",
+          "display" : "Citizen is unknown"
+        }]
+      }
+    }
+  }]
 }

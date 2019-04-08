@@ -61,11 +61,11 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="StructureDefinition-NhiPatient.html"/>
+        <valueUri value="StructureDefinition-nhipatient.html"/>
       </extension>
       <example value="false"/>
       <sourceReference>
-        <reference value="StructureDefinition/NhiPatient"/>
+        <reference value="StructureDefinition/nhipatient"/>
       </sourceReference>
     </resource>
     <resource>
@@ -75,6 +75,33 @@
       <example value="false"/>
       <sourceReference>
         <reference value="ValueSet/ethnic-group-level-4"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-NzEthnicityL4.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="CodeSystem/NzEthnicityL4"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-NzCitizenship.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="CodeSystem/NzCitizenship"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-NzCitizenship.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/NzCitizenship"/>
       </sourceReference>
     </resource>
     <resource>
@@ -93,6 +120,15 @@
       <example value="false"/>
       <sourceReference>
         <reference value="OperationDefinition/nzAddressUpdate"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Patient-example.html"/>
+      </extension>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Patient/example"/>
       </sourceReference>
     </resource>
   </package>

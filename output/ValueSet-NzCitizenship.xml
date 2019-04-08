@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="NzCitizenship"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NzCitizenship Source</h2><div><p>New Zealand Citizenship status</p>
+</div><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href="CodeSystem-NzCitizenship.html"><code>https://standards.digital.health.nz/codesystem/NzCitizenship</code></a></li></ul></div>
+  </text>
+  <url value="https://standards.digital.health.nz/valueset/NzCitizenship"/>
+  <name value="NzCitizenship Source"/>
+  <status value="draft"/>
+  <date value="2019-04-08T13:15:42+12:00"/>
+  <publisher value="David Hay"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="david.hay25@gmail.com"/>
+    </telecom>
+  </contact>
+  <description value="New Zealand Citizenship status"/>
+  <immutable value="true"/>
+  <compose>
+    <include>
+      <system value="https://standards.digital.health.nz/codesystem/NzCitizenship"/>
+    </include>
+  </compose>
+</ValueSet>

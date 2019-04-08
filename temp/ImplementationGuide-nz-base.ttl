@@ -87,12 +87,12 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "StructureDefinition-NhiPatient.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-nhipatient.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org.nz/fhir/StructureDefinition/NhiPatient>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/NhiPatient" ]
+         fhir:link <http://hl7.org.nz/fhir/StructureDefinition/nhipatient>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/nhipatient" ]
        ]
      ], [
        fhir:index 5;
@@ -111,6 +111,42 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-NzEthnicityL4.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <http://hl7.org.nz/fhir/CodeSystem/NzEthnicityL4>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/NzEthnicityL4" ]
+       ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-NzCitizenship.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <http://hl7.org.nz/fhir/CodeSystem/NzCitizenship>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/NzCitizenship" ]
+       ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-NzCitizenship.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <http://hl7.org.nz/fhir/ValueSet/NzCitizenship>;
+         fhir:Reference.reference [ fhir:value "ValueSet/NzCitizenship" ]
+       ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
          fhir:Extension.valueUri [ fhir:value "ValueSet-nzinfosource.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
@@ -119,7 +155,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/nzinfosource" ]
        ]
      ], [
-       fhir:index 7;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
@@ -129,6 +165,18 @@
        fhir:ImplementationGuide.package.resource.sourceReference [
          fhir:link <http://hl7.org.nz/fhir/OperationDefinition/nzAddressUpdate>;
          fhir:Reference.reference [ fhir:value "OperationDefinition/nzAddressUpdate" ]
+       ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "Patient-example.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <http://hl7.org.nz/fhir/Patient/example>;
+         fhir:Reference.reference [ fhir:value "Patient/example" ]
        ]
      ]
   ];
