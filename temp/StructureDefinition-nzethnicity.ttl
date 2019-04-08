@@ -16,7 +16,7 @@
   fhir:StructureDefinition.version [ fhir:value ".1"];
   fhir:StructureDefinition.name [ fhir:value "nzethnicity"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2019-04-08T13:15:42+12:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2019-04-08T16:13:10+12:00"^^xsd:dateTime];
   fhir:StructureDefinition.fhirVersion [ fhir:value "3.0.1"];
   fhir:StructureDefinition.mapping [
      fhir:index 0;

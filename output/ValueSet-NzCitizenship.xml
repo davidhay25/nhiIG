@@ -3,13 +3,13 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="NzCitizenship"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NzCitizenship Source</h2><div><p>New Zealand Citizenship status</p>
-</div><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href="CodeSystem-NzCitizenship.html"><code>https://standards.digital.health.nz/codesystem/NzCitizenship</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NzCitizenship</h2><div><p>New Zealand Citizenship status</p>
+</div><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href="CodeSystem-NzCitizenship.html"><code>https://standards.digital.health.nz/codesystem/NzCitizenship</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-NzCitizenship.html#NzCitizenship-Y">Y</a></td><td>Is a citizen</td><td/></tr><tr><td><a href="CodeSystem-NzCitizenship.html#NzCitizenship-N">N</a></td><td>Is NOT a citizen</td><td/></tr><tr><td><a href="CodeSystem-NzCitizenship.html#NzCitizenship-U">U</a></td><td>Citizenship status unknown</td><td/></tr></table></li></ul></div>
   </text>
   <url value="https://standards.digital.health.nz/valueset/NzCitizenship"/>
-  <name value="NzCitizenship Source"/>
+  <name value="NzCitizenship"/>
   <status value="draft"/>
-  <date value="2019-04-08T13:15:42+12:00"/>
+  <date value="2019-04-08T16:13:10+12:00"/>
   <publisher value="David Hay"/>
   <contact>
     <telecom>
@@ -26,6 +26,18 @@
   <compose>
     <include>
       <system value="https://standards.digital.health.nz/codesystem/NzCitizenship"/>
+      <concept>
+        <code value="Y"/>
+        <display value="Is a citizen"/>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="Is NOT a citizen"/>
+      </concept>
+      <concept>
+        <code value="U"/>
+        <display value="Citizenship status unknown"/>
+      </concept>
     </include>
   </compose>
 </ValueSet>

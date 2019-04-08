@@ -8,6 +8,6 @@
   }
 }}####
 e: {
-  "error" : "Error from server: Operation Outcome ERROR [] unable to find code system https://standards.digital.health.nz/codesystem/nzinfosource"
+  "error" : "Error from server: Error:org.hl7.fhir.dstu3.model.CodeableConcept@4fd7b79\r\n"
 }
 -------------------------------------------------------------------------------------

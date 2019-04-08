@@ -1,11 +1,3179 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="9d17ace1-22ed-4320-8df5-32b2a338ec82"/>
+  <id value="bf12cbc5-544b-496d-9a8c-a730a57fc13c"/>
   <meta>
-    <lastUpdated value="2019-04-08T13:15:42.039+12:00"/>
+    <lastUpdated value="2019-04-08T16:13:10.601+12:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="https://standards.digital.health.nz/valueset/ethnic-group-level-4"/>
+    <resource>
+      <ValueSet>
+        <id value="ethnic-group-level-4"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 239 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://standards.digital.health.nz/codesystem/ethnic-group-level-4 version 1.0.1</p>
+            <p>All codes from system 
+              <a href="CodeSystem-NzEthnicityL4.html">
+                <code>https://standards.digital.health.nz/codesystem/ethnic-group-level-4</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-10000"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-10000">10000</a>
+                </td>
+                <td>European NFD</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-11111"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-11111">11111</a>
+                </td>
+                <td>New Zealand European</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12100"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12100">12100</a>
+                </td>
+                <td>British NFD</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12111"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12111">12111</a>
+                </td>
+                <td>Celtic</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12112"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12112">12112</a>
+                </td>
+                <td>Channel Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12113"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12113">12113</a>
+                </td>
+                <td>Cornish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12114"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12114">12114</a>
+                </td>
+                <td>English</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12115"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12115">12115</a>
+                </td>
+                <td>Gaelic</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12116"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12116">12116</a>
+                </td>
+                <td>Irish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12117"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12117">12117</a>
+                </td>
+                <td>Manx</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12118"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12118">12118</a>
+                </td>
+                <td>Orkney Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12119"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12119">12119</a>
+                </td>
+                <td>Scottish (Scots)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12120"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12120">12120</a>
+                </td>
+                <td>Shetland Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12121"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12121">12121</a>
+                </td>
+                <td>Welsh</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12199"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12199">12199</a>
+                </td>
+                <td>British NEC</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12211"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12211">12211</a>
+                </td>
+                <td>Dutch/Netherlands</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12311"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12311">12311</a>
+                </td>
+                <td>Greek (including Greek Cypriot)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12411"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12411">12411</a>
+                </td>
+                <td>Polish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12500"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12500">12500</a>
+                </td>
+                <td>South Slav (formerly Yugoslav groups) NFD</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12511"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12511">12511</a>
+                </td>
+                <td>Croat/Croatian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12512"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12512">12512</a>
+                </td>
+                <td>Dalmatian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12513"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12513">12513</a>
+                </td>
+                <td>Macedonian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12514"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12514">12514</a>
+                </td>
+                <td>Serb/Serbian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12515"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12515">12515</a>
+                </td>
+                <td>Slovene/Slovenian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12516"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12516">12516</a>
+                </td>
+                <td>Bosnian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12599"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12599">12599</a>
+                </td>
+                <td>South Slav (formerly Yugoslav groups) NEC</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12611"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12611">12611</a>
+                </td>
+                <td>Italian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12711"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12711">12711</a>
+                </td>
+                <td>German</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12811"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12811">12811</a>
+                </td>
+                <td>Australian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12911"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12911">12911</a>
+                </td>
+                <td>Albanian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12912"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12912">12912</a>
+                </td>
+                <td>Armenian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12913"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12913">12913</a>
+                </td>
+                <td>Austrian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12914"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12914">12914</a>
+                </td>
+                <td>Belgian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12915"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12915">12915</a>
+                </td>
+                <td>Bulgarian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12916"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12916">12916</a>
+                </td>
+                <td>Belorussian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12917"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12917">12917</a>
+                </td>
+                <td>Corsican</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12918"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12918">12918</a>
+                </td>
+                <td>Cypriot Unspecified</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12919"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12919">12919</a>
+                </td>
+                <td>Czech</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12920"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12920">12920</a>
+                </td>
+                <td>Danish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12921"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12921">12921</a>
+                </td>
+                <td>Estonian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12922"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12922">12922</a>
+                </td>
+                <td>Finnish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12923"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12923">12923</a>
+                </td>
+                <td>Flemish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12924"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12924">12924</a>
+                </td>
+                <td>French</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12925"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12925">12925</a>
+                </td>
+                <td>Greenlander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12926"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12926">12926</a>
+                </td>
+                <td>Hungarian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12927"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12927">12927</a>
+                </td>
+                <td>Icelander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12928"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12928">12928</a>
+                </td>
+                <td>Latvian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12929"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12929">12929</a>
+                </td>
+                <td>Lithuanian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12930"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12930">12930</a>
+                </td>
+                <td>Maltese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12931"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12931">12931</a>
+                </td>
+                <td>Norwegian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12932"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12932">12932</a>
+                </td>
+                <td>Portuguese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12933"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12933">12933</a>
+                </td>
+                <td>Romanian / Rumanian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12934"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12934">12934</a>
+                </td>
+                <td>Romany / Gypsy</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12935"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12935">12935</a>
+                </td>
+                <td>Russian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12936"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12936">12936</a>
+                </td>
+                <td>Sardinian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12937"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12937">12937</a>
+                </td>
+                <td>Slavic / Slav</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12938"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12938">12938</a>
+                </td>
+                <td>Slovak</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12939"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12939">12939</a>
+                </td>
+                <td>Spanish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12940"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12940">12940</a>
+                </td>
+                <td>Swedish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12941"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12941">12941</a>
+                </td>
+                <td>Swiss</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12942"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12942">12942</a>
+                </td>
+                <td>Ukrainian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12943"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12943">12943</a>
+                </td>
+                <td>American (US)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12944"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12944">12944</a>
+                </td>
+                <td>Burgher</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12945"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12945">12945</a>
+                </td>
+                <td>Canadian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12946"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12946">12946</a>
+                </td>
+                <td>Falkland Islander / Kelper</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12947"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12947">12947</a>
+                </td>
+                <td>New Caledonian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12948"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12948">12948</a>
+                </td>
+                <td>South African</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12949"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12949">12949</a>
+                </td>
+                <td>Afrikaner</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12950"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12950">12950</a>
+                </td>
+                <td>Zimbabwean</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-12999"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-12999">12999</a>
+                </td>
+                <td>European NEC</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-21111"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-21111">21111</a>
+                </td>
+                <td>M&#x101;ori</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-30000"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-30000">30000</a>
+                </td>
+                <td>Pacific peoples NFD</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-31111"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-31111">31111</a>
+                </td>
+                <td>Samoan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-32100"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-32100">32100</a>
+                </td>
+                <td>Cook Island M&#x101;ori NFD</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-32111"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-32111">32111</a>
+                </td>
+                <td>Aitutaki Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-32112"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-32112">32112</a>
+                </td>
+                <td>Atiu Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-32113"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-32113">32113</a>
+                </td>
+                <td>Mangaia Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-32114"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-32114">32114</a>
+                </td>
+                <td>Manihiki Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-32115"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-32115">32115</a>
+                </td>
+                <td>Mauke Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-32116"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-32116">32116</a>
+                </td>
+                <td>Mitiaro Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-32117"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-32117">32117</a>
+                </td>
+                <td>Palmerston Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-32118"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-32118">32118</a>
+                </td>
+                <td>Penrhyn Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-32119"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-32119">32119</a>
+                </td>
+                <td>Pukapuka Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-32120"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-32120">32120</a>
+                </td>
+                <td>Rakahanga Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-32121"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-32121">32121</a>
+                </td>
+                <td>Rarotongan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-33111"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-33111">33111</a>
+                </td>
+                <td>Tongan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-34111"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-34111">34111</a>
+                </td>
+                <td>Niuean</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-35111"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-35111">35111</a>
+                </td>
+                <td>Tokelauan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-36111"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-36111">36111</a>
+                </td>
+                <td>Fijian (except Fiji Indian / Indo-Fijian)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37111"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37111">37111</a>
+                </td>
+                <td>Admiralty Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37112"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37112">37112</a>
+                </td>
+                <td>Australian Aboriginal</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37113"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37113">37113</a>
+                </td>
+                <td>Austral Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37114"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37114">37114</a>
+                </td>
+                <td>Belau / Palau Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37115"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37115">37115</a>
+                </td>
+                <td>Bismark Archipelagoan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37116"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37116">37116</a>
+                </td>
+                <td>Bougainvillean</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37117"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37117">37117</a>
+                </td>
+                <td>Caroline Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37118"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37118">37118</a>
+                </td>
+                <td>Easter Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37119"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37119">37119</a>
+                </td>
+                <td>Gambier Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37120"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37120">37120</a>
+                </td>
+                <td>Guadalcanalian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37121"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37121">37121</a>
+                </td>
+                <td>Guam Islander / Chamorro</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37122"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37122">37122</a>
+                </td>
+                <td>Hawaiian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37123"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37123">37123</a>
+                </td>
+                <td>Kanaka / Kanak</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37124"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37124">37124</a>
+                </td>
+                <td>I-Kiribati / Gilbertese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37125"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37125">37125</a>
+                </td>
+                <td>Malaitian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37126"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37126">37126</a>
+                </td>
+                <td>Manus Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37127"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37127">37127</a>
+                </td>
+                <td>Marianas Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37128"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37128">37128</a>
+                </td>
+                <td>Marquesas Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37129"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37129">37129</a>
+                </td>
+                <td>Marshall Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37130"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37130">37130</a>
+                </td>
+                <td>Nauru Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37131"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37131">37131</a>
+                </td>
+                <td>New Britain Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37132"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37132">37132</a>
+                </td>
+                <td>New Georgian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37133"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37133">37133</a>
+                </td>
+                <td>New Irelander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37134"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37134">37134</a>
+                </td>
+                <td>Ocean Islander / Banaban</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37135"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37135">37135</a>
+                </td>
+                <td>Papuan / New Guinean / Irian Jayan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37136"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37136">37136</a>
+                </td>
+                <td>Phoenix Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37137"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37137">37137</a>
+                </td>
+                <td>Pitcairn Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37138"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37138">37138</a>
+                </td>
+                <td>Rotuman / Rotuman Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37139"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37139">37139</a>
+                </td>
+                <td>Santa Cruz Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37140"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37140">37140</a>
+                </td>
+                <td>Society Islander (including Tahitian)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37141"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37141">37141</a>
+                </td>
+                <td>Solomon Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37142"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37142">37142</a>
+                </td>
+                <td>Torres Strait Islander / Thursday Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37143"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37143">37143</a>
+                </td>
+                <td>Tuamotu Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37144"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37144">37144</a>
+                </td>
+                <td>Tuvalu Islander / Ellice Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37145"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37145">37145</a>
+                </td>
+                <td>Vanuatu Islander / New Hebridean</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37146"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37146">37146</a>
+                </td>
+                <td>Wake Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37147"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37147">37147</a>
+                </td>
+                <td>Wallis Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37148"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37148">37148</a>
+                </td>
+                <td>Yap Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-37199"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-37199">37199</a>
+                </td>
+                <td>Other Pacific peoples NEC</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-40000"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-40000">40000</a>
+                </td>
+                <td>Asian NFD</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-41000"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-41000">41000</a>
+                </td>
+                <td>Southeast Asian NFD</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-41111"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-41111">41111</a>
+                </td>
+                <td>Filipino</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-41211"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-41211">41211</a>
+                </td>
+                <td>Khmer / Kampuchean / Cambodian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-41311"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-41311">41311</a>
+                </td>
+                <td>Vietnamese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-41411"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-41411">41411</a>
+                </td>
+                <td>Burmese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-41412"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-41412">41412</a>
+                </td>
+                <td>Indonesian (including Javanese / Sundanese / Sumatran)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-41413"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-41413">41413</a>
+                </td>
+                <td>Lao / Laotian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-41414"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-41414">41414</a>
+                </td>
+                <td>Malay / Malayan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-41415"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-41415">41415</a>
+                </td>
+                <td>Thai / Tai / Siamese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-41499"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-41499">41499</a>
+                </td>
+                <td>Other Southeast Asian NEC</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-42100"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-42100">42100</a>
+                </td>
+                <td>Chinese NFD</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-42111"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-42111">42111</a>
+                </td>
+                <td>Hong Kong Chinese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-42112"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-42112">42112</a>
+                </td>
+                <td>Kampuchean Chinese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-42113"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-42113">42113</a>
+                </td>
+                <td>Malaysian Chinese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-42114"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-42114">42114</a>
+                </td>
+                <td>Singaporean Chinese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-42115"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-42115">42115</a>
+                </td>
+                <td>Vietnamese Chinese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-42116"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-42116">42116</a>
+                </td>
+                <td>Taiwanese Chinese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-42199"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-42199">42199</a>
+                </td>
+                <td>Chinese NEC</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-43100"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-43100">43100</a>
+                </td>
+                <td>Indian NFD</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-43111"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-43111">43111</a>
+                </td>
+                <td>Bengali</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-43112"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-43112">43112</a>
+                </td>
+                <td>Fijian Indian / Indo-Fijian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-43113"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-43113">43113</a>
+                </td>
+                <td>Gujarati</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-43114"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-43114">43114</a>
+                </td>
+                <td>Tamil</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-43115"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-43115">43115</a>
+                </td>
+                <td>Punjabi</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-43116"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-43116">43116</a>
+                </td>
+                <td>Sikh</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-43117"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-43117">43117</a>
+                </td>
+                <td>Anglo Indian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-43199"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-43199">43199</a>
+                </td>
+                <td>Indian NEC</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-44100"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-44100">44100</a>
+                </td>
+                <td>Sri Lankan NFD</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-44111"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-44111">44111</a>
+                </td>
+                <td>Sinhalese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-44112"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-44112">44112</a>
+                </td>
+                <td>Sri Lankan Tamil</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-44199"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-44199">44199</a>
+                </td>
+                <td>Sri Lankan NEC</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-44211"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-44211">44211</a>
+                </td>
+                <td>Japanese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-44311"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-44311">44311</a>
+                </td>
+                <td>Korean</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-44411"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-44411">44411</a>
+                </td>
+                <td>Afghani</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-44412"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-44412">44412</a>
+                </td>
+                <td>Bangladeshi</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-44413"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-44413">44413</a>
+                </td>
+                <td>Nepalese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-44414"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-44414">44414</a>
+                </td>
+                <td>Pakistani</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-44415"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-44415">44415</a>
+                </td>
+                <td>Tibetan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-44416"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-44416">44416</a>
+                </td>
+                <td>Eurasian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-44499"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-44499">44499</a>
+                </td>
+                <td>Other Asian NEC</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51100"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51100">51100</a>
+                </td>
+                <td>Middle Eastern NFD</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51111"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51111">51111</a>
+                </td>
+                <td>Algerian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51112"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51112">51112</a>
+                </td>
+                <td>Arab</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51113"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51113">51113</a>
+                </td>
+                <td>Assyrian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51114"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51114">51114</a>
+                </td>
+                <td>Egyptian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51115"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51115">51115</a>
+                </td>
+                <td>Iranian / Persian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51116"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51116">51116</a>
+                </td>
+                <td>Iraqi</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51117"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51117">51117</a>
+                </td>
+                <td>Israeli / Jewish / Hebrew</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51118"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51118">51118</a>
+                </td>
+                <td>Jordanian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51119"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51119">51119</a>
+                </td>
+                <td>Kurd</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51120"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51120">51120</a>
+                </td>
+                <td>Lebanese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51121"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51121">51121</a>
+                </td>
+                <td>Libyan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51122"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51122">51122</a>
+                </td>
+                <td>Moroccan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51123"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51123">51123</a>
+                </td>
+                <td>Omani</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51124"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51124">51124</a>
+                </td>
+                <td>Palestinian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51125"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51125">51125</a>
+                </td>
+                <td>Syrian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51126"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51126">51126</a>
+                </td>
+                <td>Tunisian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51127"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51127">51127</a>
+                </td>
+                <td>Turkish (including Turkish Cypriot)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51128"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51128">51128</a>
+                </td>
+                <td>Yemeni</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-51199"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-51199">51199</a>
+                </td>
+                <td>Middle Eastern NEC</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52100"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52100">52100</a>
+                </td>
+                <td>Latin American / Hispanic NFD</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52111"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52111">52111</a>
+                </td>
+                <td>Argentinian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52112"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52112">52112</a>
+                </td>
+                <td>Bolivian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52113"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52113">52113</a>
+                </td>
+                <td>Brazilian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52114"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52114">52114</a>
+                </td>
+                <td>Chilean</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52115"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52115">52115</a>
+                </td>
+                <td>Colombian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52116"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52116">52116</a>
+                </td>
+                <td>Costa Rican</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52117"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52117">52117</a>
+                </td>
+                <td>Creole (Latin America)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52118"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52118">52118</a>
+                </td>
+                <td>Ecuadorian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52119"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52119">52119</a>
+                </td>
+                <td>Guatemalan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52120"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52120">52120</a>
+                </td>
+                <td>Guyanese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52121"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52121">52121</a>
+                </td>
+                <td>Honduran</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52122"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52122">52122</a>
+                </td>
+                <td>Malvinian (Spanish-speaking Falkland Islander)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52123"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52123">52123</a>
+                </td>
+                <td>Mexican</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52124"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52124">52124</a>
+                </td>
+                <td>Nicaraguan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52125"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52125">52125</a>
+                </td>
+                <td>Panamanian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52126"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52126">52126</a>
+                </td>
+                <td>Paraguayan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52127"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52127">52127</a>
+                </td>
+                <td>Peruvian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52128"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52128">52128</a>
+                </td>
+                <td>Puerto Rican</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52129"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52129">52129</a>
+                </td>
+                <td>Uruguayan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52130"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52130">52130</a>
+                </td>
+                <td>Venezuelan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-52199"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-52199">52199</a>
+                </td>
+                <td>Latin American / Hispanic NEC</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-53100"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-53100">53100</a>
+                </td>
+                <td>African NFD</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-53112"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-53112">53112</a>
+                </td>
+                <td>Creole (US)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-53113"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-53113">53113</a>
+                </td>
+                <td>Jamaican</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-53114"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-53114">53114</a>
+                </td>
+                <td>Kenyan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-53115"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-53115">53115</a>
+                </td>
+                <td>Nigerian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-53116"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-53116">53116</a>
+                </td>
+                <td>African American</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-53117"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-53117">53117</a>
+                </td>
+                <td>Ugandan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-53118"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-53118">53118</a>
+                </td>
+                <td>West Indian / Caribbean</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-53119"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-53119">53119</a>
+                </td>
+                <td>Somali</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-53120"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-53120">53120</a>
+                </td>
+                <td>Eritrean</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-53121"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-53121">53121</a>
+                </td>
+                <td>Ethiopian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-53122"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-53122">53122</a>
+                </td>
+                <td>Ghanaian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-53199"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-53199">53199</a>
+                </td>
+                <td>Other African NEC</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-61111"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-61111">61111</a>
+                </td>
+                <td>Central American Indian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-61112"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-61112">61112</a>
+                </td>
+                <td>Inuit / Eskimo</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-61113"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-61113">61113</a>
+                </td>
+                <td>North American Indian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-61114"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-61114">61114</a>
+                </td>
+                <td>South American Indian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-61115"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-61115">61115</a>
+                </td>
+                <td>Mauritian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-61116"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-61116">61116</a>
+                </td>
+                <td>Seychelles Islander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-61117"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-61117">61117</a>
+                </td>
+                <td>South African Coloured</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-61118"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-61118">61118</a>
+                </td>
+                <td>New Zealander</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-61199"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-61199">61199</a>
+                </td>
+                <td>Other NEC</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-94444"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-94444">94444</a>
+                </td>
+                <td>Don&#39;t know</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-95555"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-95555">95555</a>
+                </td>
+                <td>Refused to answer</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-96666"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-96666">96666</a>
+                </td>
+                <td>Repeated Value</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-97777"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-97777">97777</a>
+                </td>
+                <td>Response unidentifiable</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-98888"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-98888">98888</a>
+                </td>
+                <td>Response Outside Scope</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---standards.digital.health.nz-codesystem-ethnic-group-level-4-99999"> </a>
+                  <a href="CodeSystem-NzEthnicityL4.html#NzEthnicityL4-99999">99999</a>
+                </td>
+                <td>Not stated</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://standards.digital.health.nz/valueset/ethnic-group-level-4"/>
+        <version value="1.0.1"/>
+        <name value="NZ Ethnicity Level 4"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2019-03-07T00:00:00+13:00"/>
+        <publisher value="Patients First Ltd"/>
+        <contact>
+          <telecom>
+            <system value="email"/>
+            <value value="peter.jordan@patientsfirst.org.nz"/>
+          </telecom>
+        </contact>
+        <description value="Value Set of all NZ Ethnicity Level 4 Codes"/>
+        <copyright value="&#xA9; 2010+ New Zealand Crown Copyright"/>
+        <expansion>
+          <identifier value="urn:uuid:841119cb-b3e5-4784-93c3-dfb148c0c0ec"/>
+          <timestamp value="2019-04-08T16:13:15+12:00"/>
+          <total value="239"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4|1.0.1"/>
+          </parameter>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="10000"/>
+            <display value="European NFD"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="11111"/>
+            <display value="New Zealand European"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12100"/>
+            <display value="British NFD"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12111"/>
+            <display value="Celtic"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12112"/>
+            <display value="Channel Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12113"/>
+            <display value="Cornish"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12114"/>
+            <display value="English"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12115"/>
+            <display value="Gaelic"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12116"/>
+            <display value="Irish"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12117"/>
+            <display value="Manx"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12118"/>
+            <display value="Orkney Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12119"/>
+            <display value="Scottish (Scots)"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12120"/>
+            <display value="Shetland Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12121"/>
+            <display value="Welsh"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12199"/>
+            <display value="British NEC"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12211"/>
+            <display value="Dutch/Netherlands"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12311"/>
+            <display value="Greek (including Greek Cypriot)"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12411"/>
+            <display value="Polish"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12500"/>
+            <display value="South Slav (formerly Yugoslav groups) NFD"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12511"/>
+            <display value="Croat/Croatian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12512"/>
+            <display value="Dalmatian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12513"/>
+            <display value="Macedonian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12514"/>
+            <display value="Serb/Serbian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12515"/>
+            <display value="Slovene/Slovenian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12516"/>
+            <display value="Bosnian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12599"/>
+            <display value="South Slav (formerly Yugoslav groups) NEC"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12611"/>
+            <display value="Italian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12711"/>
+            <display value="German"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12811"/>
+            <display value="Australian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12911"/>
+            <display value="Albanian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12912"/>
+            <display value="Armenian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12913"/>
+            <display value="Austrian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12914"/>
+            <display value="Belgian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12915"/>
+            <display value="Bulgarian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12916"/>
+            <display value="Belorussian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12917"/>
+            <display value="Corsican"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12918"/>
+            <display value="Cypriot Unspecified"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12919"/>
+            <display value="Czech"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12920"/>
+            <display value="Danish"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12921"/>
+            <display value="Estonian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12922"/>
+            <display value="Finnish"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12923"/>
+            <display value="Flemish"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12924"/>
+            <display value="French"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12925"/>
+            <display value="Greenlander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12926"/>
+            <display value="Hungarian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12927"/>
+            <display value="Icelander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12928"/>
+            <display value="Latvian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12929"/>
+            <display value="Lithuanian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12930"/>
+            <display value="Maltese"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12931"/>
+            <display value="Norwegian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12932"/>
+            <display value="Portuguese"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12933"/>
+            <display value="Romanian / Rumanian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12934"/>
+            <display value="Romany / Gypsy"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12935"/>
+            <display value="Russian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12936"/>
+            <display value="Sardinian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12937"/>
+            <display value="Slavic / Slav"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12938"/>
+            <display value="Slovak"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12939"/>
+            <display value="Spanish"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12940"/>
+            <display value="Swedish"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12941"/>
+            <display value="Swiss"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12942"/>
+            <display value="Ukrainian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12943"/>
+            <display value="American (US)"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12944"/>
+            <display value="Burgher"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12945"/>
+            <display value="Canadian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12946"/>
+            <display value="Falkland Islander / Kelper"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12947"/>
+            <display value="New Caledonian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12948"/>
+            <display value="South African"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12949"/>
+            <display value="Afrikaner"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12950"/>
+            <display value="Zimbabwean"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="12999"/>
+            <display value="European NEC"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="21111"/>
+            <display value="M&#x101;ori"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="30000"/>
+            <display value="Pacific peoples NFD"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="31111"/>
+            <display value="Samoan"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="32100"/>
+            <display value="Cook Island M&#x101;ori NFD"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="32111"/>
+            <display value="Aitutaki Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="32112"/>
+            <display value="Atiu Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="32113"/>
+            <display value="Mangaia Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="32114"/>
+            <display value="Manihiki Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="32115"/>
+            <display value="Mauke Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="32116"/>
+            <display value="Mitiaro Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="32117"/>
+            <display value="Palmerston Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="32118"/>
+            <display value="Penrhyn Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="32119"/>
+            <display value="Pukapuka Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="32120"/>
+            <display value="Rakahanga Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="32121"/>
+            <display value="Rarotongan"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="33111"/>
+            <display value="Tongan"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="34111"/>
+            <display value="Niuean"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="35111"/>
+            <display value="Tokelauan"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="36111"/>
+            <display value="Fijian (except Fiji Indian / Indo-Fijian)"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37111"/>
+            <display value="Admiralty Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37112"/>
+            <display value="Australian Aboriginal"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37113"/>
+            <display value="Austral Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37114"/>
+            <display value="Belau / Palau Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37115"/>
+            <display value="Bismark Archipelagoan"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37116"/>
+            <display value="Bougainvillean"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37117"/>
+            <display value="Caroline Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37118"/>
+            <display value="Easter Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37119"/>
+            <display value="Gambier Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37120"/>
+            <display value="Guadalcanalian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37121"/>
+            <display value="Guam Islander / Chamorro"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37122"/>
+            <display value="Hawaiian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37123"/>
+            <display value="Kanaka / Kanak"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37124"/>
+            <display value="I-Kiribati / Gilbertese"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37125"/>
+            <display value="Malaitian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37126"/>
+            <display value="Manus Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37127"/>
+            <display value="Marianas Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37128"/>
+            <display value="Marquesas Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37129"/>
+            <display value="Marshall Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37130"/>
+            <display value="Nauru Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37131"/>
+            <display value="New Britain Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37132"/>
+            <display value="New Georgian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37133"/>
+            <display value="New Irelander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37134"/>
+            <display value="Ocean Islander / Banaban"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37135"/>
+            <display value="Papuan / New Guinean / Irian Jayan"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37136"/>
+            <display value="Phoenix Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37137"/>
+            <display value="Pitcairn Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37138"/>
+            <display value="Rotuman / Rotuman Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37139"/>
+            <display value="Santa Cruz Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37140"/>
+            <display value="Society Islander (including Tahitian)"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37141"/>
+            <display value="Solomon Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37142"/>
+            <display value="Torres Strait Islander / Thursday Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37143"/>
+            <display value="Tuamotu Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37144"/>
+            <display value="Tuvalu Islander / Ellice Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37145"/>
+            <display value="Vanuatu Islander / New Hebridean"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37146"/>
+            <display value="Wake Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37147"/>
+            <display value="Wallis Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37148"/>
+            <display value="Yap Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="37199"/>
+            <display value="Other Pacific peoples NEC"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="40000"/>
+            <display value="Asian NFD"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="41000"/>
+            <display value="Southeast Asian NFD"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="41111"/>
+            <display value="Filipino"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="41211"/>
+            <display value="Khmer / Kampuchean / Cambodian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="41311"/>
+            <display value="Vietnamese"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="41411"/>
+            <display value="Burmese"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="41412"/>
+            <display value="Indonesian (including Javanese / Sundanese / Sumatran)"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="41413"/>
+            <display value="Lao / Laotian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="41414"/>
+            <display value="Malay / Malayan"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="41415"/>
+            <display value="Thai / Tai / Siamese"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="41499"/>
+            <display value="Other Southeast Asian NEC"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="42100"/>
+            <display value="Chinese NFD"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="42111"/>
+            <display value="Hong Kong Chinese"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="42112"/>
+            <display value="Kampuchean Chinese"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="42113"/>
+            <display value="Malaysian Chinese"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="42114"/>
+            <display value="Singaporean Chinese"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="42115"/>
+            <display value="Vietnamese Chinese"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="42116"/>
+            <display value="Taiwanese Chinese"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="42199"/>
+            <display value="Chinese NEC"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="43100"/>
+            <display value="Indian NFD"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="43111"/>
+            <display value="Bengali"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="43112"/>
+            <display value="Fijian Indian / Indo-Fijian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="43113"/>
+            <display value="Gujarati"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="43114"/>
+            <display value="Tamil"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="43115"/>
+            <display value="Punjabi"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="43116"/>
+            <display value="Sikh"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="43117"/>
+            <display value="Anglo Indian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="43199"/>
+            <display value="Indian NEC"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="44100"/>
+            <display value="Sri Lankan NFD"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="44111"/>
+            <display value="Sinhalese"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="44112"/>
+            <display value="Sri Lankan Tamil"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="44199"/>
+            <display value="Sri Lankan NEC"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="44211"/>
+            <display value="Japanese"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="44311"/>
+            <display value="Korean"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="44411"/>
+            <display value="Afghani"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="44412"/>
+            <display value="Bangladeshi"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="44413"/>
+            <display value="Nepalese"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="44414"/>
+            <display value="Pakistani"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="44415"/>
+            <display value="Tibetan"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="44416"/>
+            <display value="Eurasian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="44499"/>
+            <display value="Other Asian NEC"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51100"/>
+            <display value="Middle Eastern NFD"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51111"/>
+            <display value="Algerian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51112"/>
+            <display value="Arab"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51113"/>
+            <display value="Assyrian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51114"/>
+            <display value="Egyptian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51115"/>
+            <display value="Iranian / Persian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51116"/>
+            <display value="Iraqi"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51117"/>
+            <display value="Israeli / Jewish / Hebrew"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51118"/>
+            <display value="Jordanian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51119"/>
+            <display value="Kurd"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51120"/>
+            <display value="Lebanese"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51121"/>
+            <display value="Libyan"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51122"/>
+            <display value="Moroccan"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51123"/>
+            <display value="Omani"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51124"/>
+            <display value="Palestinian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51125"/>
+            <display value="Syrian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51126"/>
+            <display value="Tunisian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51127"/>
+            <display value="Turkish (including Turkish Cypriot)"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51128"/>
+            <display value="Yemeni"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="51199"/>
+            <display value="Middle Eastern NEC"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52100"/>
+            <display value="Latin American / Hispanic NFD"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52111"/>
+            <display value="Argentinian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52112"/>
+            <display value="Bolivian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52113"/>
+            <display value="Brazilian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52114"/>
+            <display value="Chilean"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52115"/>
+            <display value="Colombian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52116"/>
+            <display value="Costa Rican"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52117"/>
+            <display value="Creole (Latin America)"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52118"/>
+            <display value="Ecuadorian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52119"/>
+            <display value="Guatemalan"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52120"/>
+            <display value="Guyanese"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52121"/>
+            <display value="Honduran"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52122"/>
+            <display value="Malvinian (Spanish-speaking Falkland Islander)"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52123"/>
+            <display value="Mexican"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52124"/>
+            <display value="Nicaraguan"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52125"/>
+            <display value="Panamanian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52126"/>
+            <display value="Paraguayan"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52127"/>
+            <display value="Peruvian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52128"/>
+            <display value="Puerto Rican"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52129"/>
+            <display value="Uruguayan"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52130"/>
+            <display value="Venezuelan"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="52199"/>
+            <display value="Latin American / Hispanic NEC"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="53100"/>
+            <display value="African NFD"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="53112"/>
+            <display value="Creole (US)"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="53113"/>
+            <display value="Jamaican"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="53114"/>
+            <display value="Kenyan"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="53115"/>
+            <display value="Nigerian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="53116"/>
+            <display value="African American"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="53117"/>
+            <display value="Ugandan"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="53118"/>
+            <display value="West Indian / Caribbean"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="53119"/>
+            <display value="Somali"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="53120"/>
+            <display value="Eritrean"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="53121"/>
+            <display value="Ethiopian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="53122"/>
+            <display value="Ghanaian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="53199"/>
+            <display value="Other African NEC"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="61111"/>
+            <display value="Central American Indian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="61112"/>
+            <display value="Inuit / Eskimo"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="61113"/>
+            <display value="North American Indian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="61114"/>
+            <display value="South American Indian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="61115"/>
+            <display value="Mauritian"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="61116"/>
+            <display value="Seychelles Islander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="61117"/>
+            <display value="South African Coloured"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="61118"/>
+            <display value="New Zealander"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="61199"/>
+            <display value="Other NEC"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="94444"/>
+            <display value="Don&#39;t know"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="95555"/>
+            <display value="Refused to answer"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="96666"/>
+            <display value="Repeated Value"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="97777"/>
+            <display value="Response unidentifiable"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="98888"/>
+            <display value="Response Outside Scope"/>
+          </contains>
+          <contains>
+            <system value="https://standards.digital.health.nz/codesystem/ethnic-group-level-4"/>
+            <code value="99999"/>
+            <display value="Not stated"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
   <entry>
     <fullUrl value="https://standards.digital.health.nz/valueset/NzCitizenship"/>
     <resource>
@@ -38,7 +3206,7 @@
                   <a name="https---standards.digital.health.nz-codesystem-NzCitizenship-Y"> </a>
                   <a href="CodeSystem-NzCitizenship.html#NzCitizenship-Y">Y</a>
                 </td>
-                <td>Is a New Zealand Citizen</td>
+                <td>Is a citizen</td>
                 <td/>
               </tr>
               <tr>
@@ -46,7 +3214,7 @@
                   <a name="https---standards.digital.health.nz-codesystem-NzCitizenship-N"> </a>
                   <a href="CodeSystem-NzCitizenship.html#NzCitizenship-N">N</a>
                 </td>
-                <td>Is NOT a New Zealand Citizen</td>
+                <td>Is NOT a citizen</td>
                 <td/>
               </tr>
               <tr>
@@ -54,16 +3222,16 @@
                   <a name="https---standards.digital.health.nz-codesystem-NzCitizenship-U"> </a>
                   <a href="CodeSystem-NzCitizenship.html#NzCitizenship-U">U</a>
                 </td>
-                <td>Citizen is unknown</td>
+                <td>Citizenship status unknown</td>
                 <td/>
               </tr>
             </table>
           </div>
         </text>
         <url value="https://standards.digital.health.nz/valueset/NzCitizenship"/>
-        <name value="NzCitizenship Source"/>
+        <name value="NzCitizenship"/>
         <status value="draft"/>
-        <date value="2019-04-08T13:15:42+12:00"/>
+        <date value="2019-04-08T16:13:10+12:00"/>
         <publisher value="David Hay"/>
         <contact>
           <telecom>
@@ -78,8 +3246,8 @@
         <description value="New Zealand Citizenship status"/>
         <immutable value="true"/>
         <expansion>
-          <identifier value="urn:uuid:8ad47a2c-b3d3-49d4-8f7f-e2621f8d94b1"/>
-          <timestamp value="2019-04-08T13:15:46+12:00"/>
+          <identifier value="urn:uuid:ce35cb05-16a9-4821-a4d2-91bcfcb0feff"/>
+          <timestamp value="2019-04-08T16:13:15+12:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -92,17 +3260,17 @@
           <contains>
             <system value="https://standards.digital.health.nz/codesystem/NzCitizenship"/>
             <code value="Y"/>
-            <display value="Is a New Zealand Citizen"/>
+            <display value="Is a citizen"/>
           </contains>
           <contains>
             <system value="https://standards.digital.health.nz/codesystem/NzCitizenship"/>
             <code value="N"/>
-            <display value="Is NOT a New Zealand Citizen"/>
+            <display value="Is NOT a citizen"/>
           </contains>
           <contains>
             <system value="https://standards.digital.health.nz/codesystem/NzCitizenship"/>
             <code value="U"/>
-            <display value="Citizen is unknown"/>
+            <display value="Citizenship status unknown"/>
           </contains>
         </expansion>
       </ValueSet>

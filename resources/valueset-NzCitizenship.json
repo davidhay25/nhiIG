@@ -2,7 +2,7 @@
     "resourceType": "ValueSet",
     "id": "NzCitizenship",
     "url": "https://standards.digital.health.nz/valueset/NzCitizenship",
-    "name": "NzCitizenship Source",
+    "name": "NzCitizenship",
     "status": "draft",
     "publisher": "David Hay",
     "contact": [
@@ -24,7 +24,13 @@
     "compose": {
         "include": [
             {
-                "system": "https://standards.digital.health.nz/codesystem/NzCitizenship"
+                "system": "https://standards.digital.health.nz/codesystem/NzCitizenship",
+                "concept" : [
+                    {"code":"Y","display":"Is a citizen"},
+                    {"code":"N","display":"Is NOT a citizen"}, 
+                    {"code":"U","display":"Citizenship status unknown"}
+                     
+                ]
             }
         ]
     }

@@ -10,12 +10,12 @@
   fhir:Resource.id [ fhir:value "NzCitizenship"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NzCitizenship Source</h2><div><p>New Zealand Citizenship status</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-NzCitizenship.html\"><code>https://standards.digital.health.nz/codesystem/NzCitizenship</code></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NzCitizenship</h2><div><p>New Zealand Citizenship status</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-NzCitizenship.html\"><code>https://standards.digital.health.nz/codesystem/NzCitizenship</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-NzCitizenship.html#NzCitizenship-Y\">Y</a></td><td>Is a citizen</td><td/></tr><tr><td><a href=\"CodeSystem-NzCitizenship.html#NzCitizenship-N\">N</a></td><td>Is NOT a citizen</td><td/></tr><tr><td><a href=\"CodeSystem-NzCitizenship.html#NzCitizenship-U\">U</a></td><td>Citizenship status unknown</td><td/></tr></table></li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "https://standards.digital.health.nz/valueset/NzCitizenship"];
-  fhir:ValueSet.name [ fhir:value "NzCitizenship Source"];
+  fhir:ValueSet.name [ fhir:value "NzCitizenship"];
   fhir:ValueSet.status [ fhir:value "draft"];
-  fhir:ValueSet.date [ fhir:value "2019-04-08T13:15:42+12:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2019-04-08T16:13:10+12:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "David Hay"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -34,7 +34,20 @@
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "https://standards.digital.health.nz/codesystem/NzCitizenship" ]
+       fhir:ValueSet.compose.include.system [ fhir:value "https://standards.digital.health.nz/codesystem/NzCitizenship" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "Y" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Is a citizen" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Is NOT a citizen" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "U" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Citizenship status unknown" ]
+       ]
      ]
   ] .
 
