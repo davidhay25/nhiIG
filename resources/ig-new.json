@@ -21,11 +21,10 @@
   "date" : "2010-02-15T00:00:00+13:00",
   "publisher" : "HL7 New Zealand",
   "contact" : [{
-    "name" : "David Hay",
+    "name" : "david hay",
     "telecom" : [{
       "system" : "email",
-      "value" : "david.hay25@gmail.com",
-      "use" : "work"
+      "value" : "david.hay25@gmail.com"
     }]
   }],
   "packageId" : "hl7.fhir.nz.nhi",
@@ -35,7 +34,7 @@
   "definition" : {
     "grouping" : [{
       "id" : "p1",
-      "name" : "base"
+      "name" : "NHI"
     }],
     "resource" : [{
       "reference" : {
@@ -74,6 +73,13 @@
     },
     {
       "reference" : {
+        "reference" : "CodeSystem/NzEthnicityL4"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
         "reference" : "ValueSet/ethnic-group-level-4"
       },
       "exampleBoolean" : false,
@@ -81,7 +87,7 @@
     },
     {
       "reference" : {
-        "reference" : "CodeSystem/NzEthnicityL4"
+        "reference" : "ValueSet/nzinfosource"
       },
       "exampleBoolean" : false,
       "groupingId" : "p1"
@@ -109,13 +115,6 @@
     },
     {
       "reference" : {
-        "reference" : "ValueSet/nzinfosource"
-      },
-      "exampleBoolean" : false,
-      "groupingId" : "p1"
-    },
-    {
-      "reference" : {
         "reference" : "OperationDefinition/nzAddressUpdate"
       },
       "exampleBoolean" : false,
@@ -130,7 +129,7 @@
     }],
     "page" : {
       "nameUrl" : "index.html",
-      "title" : "New Zealand Base Profiles Implementation Guide",
+      "title" : "NZ NHI",
       "generation" : "html"
     },
     "parameter" : [{

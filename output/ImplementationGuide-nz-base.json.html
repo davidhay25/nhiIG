@@ -79,6 +79,7 @@
         <li><a href="extensions.html">Extensions</a></li>
         <li><a href="terminology.html">Terminology</a></li>
         <li><a href="operations.html">Operations</a></li>
+        <li><a href="examples.html">Examples</a></li>
         <!--<li><a href="searchparams.html">Search Parameters</a></li>
         <li><a href="capstatements.html">Capability Statements</a></li>
         <li><a href="security.html">Security</a></li>-->
@@ -147,12 +148,11 @@ Raw <a href="ImplementationGuide-nz-base.json" download>json</a>
   "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.publisher">publisher</a>" : "HL7 New Zealand",
   "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.contact">contact</a>" : [
     {
-      "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactDetail#ContactDetail.name">name</a>" : "David Hay",
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactDetail#ContactDetail.name">name</a>" : "david hay",
       "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
         {
           "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
-          "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "david.hay25@gmail.com",
-          "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "work"
+          "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "david.hay25@gmail.com"
         }
       ]
     }
@@ -161,7 +161,7 @@ Raw <a href="ImplementationGuide-nz-base.json" download>json</a>
   "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package">package</a>" : [
     {
       "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.id">id</a>" : "p1",
-      "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.name">name</a>" : "base",
+      "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.name">name</a>" : "NHI",
       "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource">resource</a>" : [
         {
           "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
@@ -227,6 +227,18 @@ Raw <a href="ImplementationGuide-nz-base.json" download>json</a>
           "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
             {
               "<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "CodeSystem-NzEthnicityL4.html"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
+          "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
+            "<a href="http://hl7.org/fhir/STU3/datatypes.html#Reference#Reference.reference">reference</a>" : "CodeSystem/NzEthnicityL4"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "ValueSet-ethnic-group-level-4.html"
             }
           ],
@@ -239,12 +251,12 @@ Raw <a href="ImplementationGuide-nz-base.json" download>json</a>
           "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
             {
               "<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "CodeSystem-NzEthnicityL4.html"
+              "<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "ValueSet-nzinfosource.html"
             }
           ],
           "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
           "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
-            "<a href="http://hl7.org/fhir/STU3/datatypes.html#Reference#Reference.reference">reference</a>" : "CodeSystem/NzEthnicityL4"
+            "<a href="http://hl7.org/fhir/STU3/datatypes.html#Reference#Reference.reference">reference</a>" : "ValueSet/nzinfosource"
           }
         },
         {
@@ -287,18 +299,6 @@ Raw <a href="ImplementationGuide-nz-base.json" download>json</a>
           "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
             {
               "<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "ValueSet-nzinfosource.html"
-            }
-          ],
-          "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.example">example</a>" : false,
-          "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>" : {
-            "<a href="http://hl7.org/fhir/STU3/datatypes.html#Reference#Reference.reference">reference</a>" : "ValueSet/nzinfosource"
-          }
-        },
-        {
-          "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>" : [
-            {
-              "<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.value[x]">valueUri</a>" : "OperationDefinition-nzAddressUpdate.html"
             }
           ],
@@ -324,7 +324,7 @@ Raw <a href="ImplementationGuide-nz-base.json" download>json</a>
   ],
   "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.page">page</a>" : {
     "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.page.source">source</a>" : "index.html",
-    "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.page.title">title</a>" : "New Zealand Base Profiles Implementation Guide",
+    "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.page.title">title</a>" : "NZ NHI",
     "<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.page.kind">kind</a>" : "page"
   }
 }</pre>
@@ -354,7 +354,7 @@ Raw <a href="ImplementationGuide-nz-base.json" download>json</a>
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-        NZ NHI &copy; FHIR STU3 (IG Publisher v3.0.1-11917) generated on Mon, Apr 8, 2019 16:31+1200. |
+        NZ NHI &copy; FHIR STU3 (IG Publisher v3.0.1-11917) generated on Tue, Apr 9, 2019 11:44+1200. |
              <!--  <a style="color: #81BEF7" rel="license" <!-- <href="../license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> -->
                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a>
         </span>

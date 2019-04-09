@@ -1,7 +1,7 @@
 {
     "sct-edition": "http://snomed.info/sct/32506021000036107",
     "version": "3.0.1",
-    "source": "ig.xml",
+    "source": "nzig.json",
     "dependencyList": [],
     "spreadsheets": [],
     "special-urls": [
@@ -9,7 +9,8 @@
         "https://standards.digital.health.nz/codesystem/ethnic-group-level-4",
         "https://standards.digital.health.nz/valueset/nzinfosource",
         "https://standards.digital.health.nz/codesystem/NzCitizenship",
-        "https://standards.digital.health.nz/valueset/NzCitizenship"
+        "https://standards.digital.health.nz/valueset/NzCitizenship",
+        "https://standards.digital.health.nz/codesystem/nzinfosource"
     ],
     "npm-name": "hl7.fhir.nz.nhi",
     "extraTemplates": ["mappings"],

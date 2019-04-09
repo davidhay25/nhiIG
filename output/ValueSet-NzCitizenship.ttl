@@ -15,7 +15,7 @@
   fhir:ValueSet.url [ fhir:value "https://standards.digital.health.nz/valueset/NzCitizenship"];
   fhir:ValueSet.name [ fhir:value "NzCitizenship"];
   fhir:ValueSet.status [ fhir:value "draft"];
-  fhir:ValueSet.date [ fhir:value "2019-04-08T16:31:42+12:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2019-04-09T11:44:17+12:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "David Hay"];
   fhir:ValueSet.contact [
      fhir:index 0;

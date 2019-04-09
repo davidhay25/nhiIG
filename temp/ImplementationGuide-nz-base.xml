@@ -13,16 +13,15 @@
   <date value="2010-02-15T00:00:00+13:00"/>
   <publisher value="HL7 New Zealand"/>
   <contact>
-    <name value="David Hay"/>
+    <name value="david hay"/>
     <telecom>
       <system value="email"/>
       <value value="david.hay25@gmail.com"/>
-      <use value="work"/>
     </telecom>
   </contact>
   <fhirVersion value="3.0.1"/>
   <package id="p1">
-    <name value="base"/>
+    <name value="NHI"/>
     <resource>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
         <valueUri value="StructureDefinition-nzethnicity.html"/>
@@ -70,6 +69,15 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-NzEthnicityL4.html"/>
+      </extension>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="CodeSystem/NzEthnicityL4"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
         <valueUri value="ValueSet-ethnic-group-level-4.html"/>
       </extension>
       <example value="false"/>
@@ -79,11 +87,11 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-NzEthnicityL4.html"/>
+        <valueUri value="ValueSet-nzinfosource.html"/>
       </extension>
       <example value="false"/>
       <sourceReference>
-        <reference value="CodeSystem/NzEthnicityL4"/>
+        <reference value="ValueSet/nzinfosource"/>
       </sourceReference>
     </resource>
     <resource>
@@ -115,15 +123,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-nzinfosource.html"/>
-      </extension>
-      <example value="false"/>
-      <sourceReference>
-        <reference value="ValueSet/nzinfosource"/>
-      </sourceReference>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
         <valueUri value="OperationDefinition-nzAddressUpdate.html"/>
       </extension>
       <example value="false"/>
@@ -143,7 +142,7 @@
   </package>
   <page>
     <source value="index.html"/>
-    <title value="New Zealand Base Profiles Implementation Guide"/>
+    <title value="NZ NHI"/>
     <kind value="page"/>
   </page>
 </ImplementationGuide>

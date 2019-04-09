@@ -1,0 +1,49 @@
+{
+    "resourceType": "ImplementationGuide",
+
+    "id": "nz-base",
+    "url":"http://hl7.org.nz/fhir/ImplementationGuide/nz-base",
+    "version":"1.0.2",
+    "name":"Implementation Guide Template",
+    "status": "draft",
+    "experimental":true,
+    "date":"2010-02-15",
+    "publisher":"HL7 New Zealand",
+    "fhirVersion":"3.0.1",
+    "contact": [
+        {"name": "david hay",
+        "telecom": [
+            {"system":"email","value":"david.hay25@gmail.com"}
+            
+        ]
+        }
+    ],
+    
+    
+    
+  "package":[
+  
+    {"name":"NHI",
+        "resource" : [
+        
+            {"example":false,"sourceReference":{"reference":"StructureDefinition/nzethnicity"}},
+            {"example":false,"sourceReference":{"reference":"StructureDefinition/patient-birthplace"}},
+            {"example":false,"sourceReference":{"reference":"StructureDefinition/patient-nzcitizenship"}},
+            {"example":false,"sourceReference":{"reference":"StructureDefinition/informationsource"}},
+            {"example":false,"sourceReference":{"reference":"StructureDefinition/nhipatient"}},
+            {"example":false,"sourceReference":{"reference":"CodeSystem/NzEthnicityL4"}},
+            {"example":false,"sourceReference":{"reference":"ValueSet/ethnic-group-level-4"}},
+            {"example":false,"sourceReference":{"reference":"ValueSet/nzinfosource"}},
+            {"example":false,"sourceReference":{"reference":"CodeSystem/NzCitizenship"}},
+            {"example":false,"sourceReference":{"reference":"ValueSet/NzCitizenship"}},
+            {"example":false,"sourceReference":{"reference":"CodeSystem/nzinfosource"}},
+            {"example":false,"sourceReference":{"reference":"OperationDefinition/nzAddressUpdate"}},
+            {"example":true,"sourceReference":{"reference":"Patient/example"}}
+
+        ]
+    }
+  ],
+  "page" : {"source":"index.html","title":"NZ NHI","kind":"page"}
+    
+  
+}

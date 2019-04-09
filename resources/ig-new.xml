@@ -19,11 +19,10 @@
   <date value="2010-02-15T00:00:00+13:00"/>
   <publisher value="HL7 New Zealand"/>
   <contact>
-    <name value="David Hay"/>
+    <name value="david hay"/>
     <telecom>
       <system value="email"/>
       <value value="david.hay25@gmail.com"/>
-      <use value="work"/>
     </telecom>
   </contact>
   <packageId value="hl7.fhir.nz.nhi"/>
@@ -32,7 +31,7 @@
   <fhirVersion value="3.0.1"/>
   <definition>
     <grouping id="p1">
-      <name value="base"/>
+      <name value="NHI"/>
     </grouping>
     <resource>
       <reference>
@@ -71,6 +70,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="CodeSystem/NzEthnicityL4"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/ethnic-group-level-4"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -78,7 +84,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="CodeSystem/NzEthnicityL4"/>
+        <reference value="ValueSet/nzinfosource"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
@@ -106,13 +112,6 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/nzinfosource"/>
-      </reference>
-      <exampleBoolean value="false"/>
-      <groupingId value="p1"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="OperationDefinition/nzAddressUpdate"/>
       </reference>
       <exampleBoolean value="false"/>
@@ -127,7 +126,7 @@
     </resource>
     <page>
       <nameUrl value="index.html"/>
-      <title value="New Zealand Base Profiles Implementation Guide"/>
+      <title value="NZ NHI"/>
       <generation value="html"/>
     </page>
     <parameter>

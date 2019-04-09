@@ -12,9 +12,9 @@
   "toolingRevision": "3",
   "toolingVersionFull": "4.1.0 (3)",
   "totalFiles": 14,
-  "processedFiles": 122,
-  "genDate": "Mon, Apr 8, 2019 16:31+1200",
-  "genDay": "08/04/2019",
+  "processedFiles": 124,
+  "genDate": "Tue, Apr 9, 2019 11:44+1200",
+  "genDay": "09/04/2019",
   "ig": {
     "id": "nz-base",
     "name": "Implementation Guide Template",
@@ -25,7 +25,7 @@
     "publisher": "HL7 New Zealand",
     "contact": [
       {
-        "name": "David Hay",
+        "name": "david hay",
         "telecom": [
           "david.hay25@gmail.com"
         ]

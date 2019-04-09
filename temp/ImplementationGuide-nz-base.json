@@ -14,12 +14,11 @@
   "publisher": "HL7 New Zealand",
   "contact": [
     {
-      "name": "David Hay",
+      "name": "david hay",
       "telecom": [
         {
           "system": "email",
-          "value": "david.hay25@gmail.com",
-          "use": "work"
+          "value": "david.hay25@gmail.com"
         }
       ]
     }
@@ -28,7 +27,7 @@
   "package": [
     {
       "id": "p1",
-      "name": "base",
+      "name": "NHI",
       "resource": [
         {
           "extension": [
@@ -94,6 +93,18 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "CodeSystem-NzEthnicityL4.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "CodeSystem/NzEthnicityL4"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "valueUri": "ValueSet-ethnic-group-level-4.html"
             }
           ],
@@ -106,12 +117,12 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "CodeSystem-NzEthnicityL4.html"
+              "valueUri": "ValueSet-nzinfosource.html"
             }
           ],
           "example": false,
           "sourceReference": {
-            "reference": "CodeSystem/NzEthnicityL4"
+            "reference": "ValueSet/nzinfosource"
           }
         },
         {
@@ -154,18 +165,6 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "ValueSet-nzinfosource.html"
-            }
-          ],
-          "example": false,
-          "sourceReference": {
-            "reference": "ValueSet/nzinfosource"
-          }
-        },
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "valueUri": "OperationDefinition-nzAddressUpdate.html"
             }
           ],
@@ -191,7 +190,7 @@
   ],
   "page": {
     "source": "index.html",
-    "title": "New Zealand Base Profiles Implementation Guide",
+    "title": "NZ NHI",
     "kind": "page"
   }
 }

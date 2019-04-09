@@ -79,6 +79,7 @@
         <li><a href="extensions.html">Extensions</a></li>
         <li><a href="terminology.html">Terminology</a></li>
         <li><a href="operations.html">Operations</a></li>
+        <li><a href="examples.html">Examples</a></li>
         <!--<li><a href="searchparams.html">Search Parameters</a></li>
         <li><a href="capstatements.html">Capability Statements</a></li>
         <li><a href="security.html">Security</a></li>-->
@@ -146,16 +147,15 @@ Raw <a href="ImplementationGuide-nz-base.xml" download>xml</a>
   &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.date">date</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#dateTime">value</a>=&quot;2010-02-15T00:00:00+13:00&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.publisher">publisher</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;HL7 New Zealand&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.contact">contact</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;David Hay&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;david hay&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;email&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;david.hay25@gmail.com&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.use">use</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;work&quot;/&gt;
     &lt;/telecom&gt;
   &lt;/contact&gt;
   &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.fhirVersion">fhirVersion</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#id">value</a>=&quot;3.0.1&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package">package</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">id</a>=&quot;p1&quot;&gt;
-    &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.name">name</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;base&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.name">name</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;NHI&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
                  <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
@@ -209,6 +209,16 @@ Raw <a href="ImplementationGuide-nz-base.xml" download>xml</a>
     &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
                  <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>=&quot;CodeSystem-NzEthnicityL4.html&quot;/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;CodeSystem/NzEthnicityL4&quot;/&gt;
+      &lt;/sourceReference&gt;
+    &lt;/resource&gt;
+    &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
+                 <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>=&quot;ValueSet-ethnic-group-level-4.html&quot;/&gt;
       &lt;/extension&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
@@ -219,11 +229,11 @@ Raw <a href="ImplementationGuide-nz-base.xml" download>xml</a>
     &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
                  <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>=&quot;CodeSystem-NzEthnicityL4.html&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>=&quot;ValueSet-nzinfosource.html&quot;/&gt;
       &lt;/extension&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;CodeSystem/NzEthnicityL4&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;ValueSet/nzinfosource&quot;/&gt;
       &lt;/sourceReference&gt;
     &lt;/resource&gt;
     &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
@@ -259,16 +269,6 @@ Raw <a href="ImplementationGuide-nz-base.xml" download>xml</a>
     &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
                  <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>=&quot;ValueSet-nzinfosource.html&quot;/&gt;
-      &lt;/extension&gt;
-      &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.source[x]">sourceReference</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;ValueSet/nzinfosource&quot;/&gt;
-      &lt;/sourceReference&gt;
-    &lt;/resource&gt;
-    &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource">resource</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.extension">extension</a>
-                 <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/implementationguide-page&quot;&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>=&quot;OperationDefinition-nzAddressUpdate.html&quot;/&gt;
       &lt;/extension&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.package.resource.example">example</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
@@ -289,7 +289,7 @@ Raw <a href="ImplementationGuide-nz-base.xml" download>xml</a>
   &lt;/package&gt;
   &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.page">page</a>&gt;
     &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.page.source">source</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>=&quot;index.html&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.page.title">title</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;New Zealand Base Profiles Implementation Guide&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.page.title">title</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;NZ NHI&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/STU3/implementationguide.html#ImplementationGuide.page.kind">kind</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;page&quot;/&gt;
   &lt;/page&gt;
 &lt;/ImplementationGuide&gt;</pre>
@@ -319,7 +319,7 @@ Raw <a href="ImplementationGuide-nz-base.xml" download>xml</a>
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-        NZ NHI &copy; FHIR STU3 (IG Publisher v3.0.1-11917) generated on Mon, Apr 8, 2019 16:31+1200. |
+        NZ NHI &copy; FHIR STU3 (IG Publisher v3.0.1-11917) generated on Tue, Apr 9, 2019 11:44+1200. |
              <!--  <a style="color: #81BEF7" rel="license" <!-- <href="../license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> -->
                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a>
         </span>

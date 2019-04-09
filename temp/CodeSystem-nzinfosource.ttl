@@ -15,7 +15,7 @@
   fhir:CodeSystem.url [ fhir:value "https://standards.digital.health.nz/codesystem/nzinfosource"];
   fhir:CodeSystem.name [ fhir:value "New Zealand Information source for DOB & DOD"];
   fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.date [ fhir:value "2019-04-08T16:31:42+12:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2019-04-09T11:44:17+12:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "David Hay"];
   fhir:CodeSystem.contact [
      fhir:index 0;
