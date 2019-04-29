@@ -1,8 +1,8 @@
 ﻿Implementation Guide Template : Validation Results
 =========================================
 
-err = 4, warn = 0, info = 0
-Generated Tue Apr 09 11:44:26 NZST 2019. FHIR version 4.1.0 for hl7.fhir.nz.nhi#3.0.1 (canonical = http://hl7.org.nz/fhir)
+err = 20, warn = 8, info = 0
+Generated Mon Apr 29 12:58:00 NZST 2019. FHIR version 4.1.0 for hl7.fhir.nz.nhi#3.0.1 (canonical = http://hl7.org.nz/fhir)
 
  Build Errors : 246 / 0
  /Users/davidhay/nhiIG/examples/patient-example : 0 / 0
@@ -10,12 +10,16 @@ Generated Tue Apr 09 11:44:26 NZST 2019. FHIR version 4.1.0 for hl7.fhir.nz.nhi#
  /Users/davidhay/nhiIG/resources/codesystem-NzEthnicityL4 : 0 / 0
  /Users/davidhay/nhiIG/resources/codesystem-nzinfosource : 0 / 0
  /Users/davidhay/nhiIG/resources/informationsource.structuredefinition : 0 / 0
+ /Users/davidhay/nhiIG/resources/nhiAddress.structuredefinition : 1 / 1
+ /Users/davidhay/nhiIG/resources/nhiBuildingName.structuredefinition : 2 / 1
+ /Users/davidhay/nhiIG/resources/nhiOrganization.structuredefinition : 2 / 1
+ /Users/davidhay/nhiIG/resources/nhiSubhurb.structuredefinition : 2 / 1
  /Users/davidhay/nhiIG/resources/nzethnicity.structuredefinition : 0 / 0
  /Users/davidhay/nhiIG/resources/nzig : 0 / 0
  /Users/davidhay/nhiIG/resources/operationdefinition-nzAddressUpdate : 0 / 0
  /Users/davidhay/nhiIG/resources/patient-birthplace.structuredefinition : 0 / 0
  /Users/davidhay/nhiIG/resources/patient-nzcitizenship.structuredefinition : 0 / 0
- /Users/davidhay/nhiIG/resources/structuredefinition-nhipatient : 0 / 0
+ /Users/davidhay/nhiIG/resources/structuredefinition-nhipatient : 1 / 0
  /Users/davidhay/nhiIG/resources/valueset-NzCitizenship : 0 / 0
  /Users/davidhay/nhiIG/resources/valueset-ethnic-group-level-4 : 1 / 0
  /Users/davidhay/nhiIG/resources/valueset-nzinfosource : 1 / 0
@@ -280,12 +284,28 @@ ERROR: /Users/davidhay/nhiIG/output/ValueSet-ethnic-group-level-4.html#/html/bod
 == /Users/davidhay/nhiIG/resources/codesystem-NzEthnicityL4.xml ==
 == /Users/davidhay/nhiIG/resources/codesystem-nzinfosource.json ==
 == /Users/davidhay/nhiIG/resources/informationSource.StructureDefinition.xml ==
+== /Users/davidhay/nhiIG/resources/nhiAddress.StructureDefinition.xml ==
+ERROR: StructureDefinition/nhiAddress: StructureDefinition.differential: No slicing on the root element [element.first().slicing.empty()]
+WARNING: http://hl7.org.nz/fhir/StructureDefinition/nhiAddress: Profiles SHOULD state their own version
+== /Users/davidhay/nhiIG/resources/nhiBuildingName.StructureDefinition.xml ==
+ERROR: http://example.org/fhir/StructureDefinition/nhiBuildingName: conformance resource /Users/davidhay/nhiIG/resources/nhiBuildingName.StructureDefinition.xml canonical URL (http://hl7.org.nz/fhir/StructureDefinition/nhiBuildingName) does not match the URL (http://example.org/fhir/StructureDefinition/nhiBuildingName)
+WARNING: http://example.org/fhir/StructureDefinition/nhiBuildingName: Profiles SHOULD state their own version
+ERROR: /Users/davidhay/nhiIG/resources/nhiBuildingName.structuredefinition: URL Mismatch http://hl7.org.nz/fhir/StructureDefinition/nhiBuildingName vs http://example.org/fhir/StructureDefinition/nhiBuildingName
+== /Users/davidhay/nhiIG/resources/nhiOrganization.StructureDefinition.xml ==
+ERROR: http://example.org/fhir/StructureDefinition/nhiOrganization: conformance resource /Users/davidhay/nhiIG/resources/nhiOrganization.StructureDefinition.xml canonical URL (http://hl7.org.nz/fhir/StructureDefinition/nhiOrganization) does not match the URL (http://example.org/fhir/StructureDefinition/nhiOrganization)
+WARNING: http://example.org/fhir/StructureDefinition/nhiOrganization: Profiles SHOULD state their own version
+ERROR: /Users/davidhay/nhiIG/resources/nhiOrganization.structuredefinition: URL Mismatch http://hl7.org.nz/fhir/StructureDefinition/nhiOrganization vs http://example.org/fhir/StructureDefinition/nhiOrganization
+== /Users/davidhay/nhiIG/resources/nhiSubhurb.StructureDefinition.xml ==
+ERROR: http://example.org/fhir/StructureDefinition/nhiSubhurb: conformance resource /Users/davidhay/nhiIG/resources/nhiSubhurb.StructureDefinition.xml canonical URL (http://hl7.org.nz/fhir/StructureDefinition/nhiSubhurb) does not match the URL (http://example.org/fhir/StructureDefinition/nhiSubhurb)
+WARNING: http://example.org/fhir/StructureDefinition/nhiSubhurb: Profiles SHOULD state their own version
+ERROR: /Users/davidhay/nhiIG/resources/nhiSubhurb.structuredefinition: URL Mismatch http://hl7.org.nz/fhir/StructureDefinition/nhiSubhurb vs http://example.org/fhir/StructureDefinition/nhiSubhurb
 == /Users/davidhay/nhiIG/resources/nzethnicity.StructureDefinition.xml ==
 == /Users/davidhay/nhiIG/resources/nzig.json ==
 == /Users/davidhay/nhiIG/resources/operationdefinition-nzAddressUpdate.xml ==
 == /Users/davidhay/nhiIG/resources/patient-birthplace.StructureDefinition.xml ==
 == /Users/davidhay/nhiIG/resources/patient-nzcitizenship.StructureDefinition.xml ==
 == /Users/davidhay/nhiIG/resources/structuredefinition-nhipatient.json ==
+ERROR: StructureDefinition/nhipatient: StructureDefinition.differential: No slicing on the root element [element.first().slicing.empty()]
 == /Users/davidhay/nhiIG/resources/valueset-NzCitizenship.json ==
 == /Users/davidhay/nhiIG/resources/valueset-ethnic-group-level-4.xml ==
 ERROR: ethnic-group-level-4: Error from server: Error:org.hl7.fhir.dstu3.model.CodeableConcept@2dbfa972

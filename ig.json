@@ -1,6 +1,7 @@
 {
     "sct-edition": "http://snomed.info/sct/32506021000036107",
-    "version": "3.0.1",
+
+     "version": "3.0.1",
     "source": "nzig.json",
     "dependencyList": [],
     "spreadsheets": [],

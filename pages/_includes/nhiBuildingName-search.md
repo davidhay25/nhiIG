@@ -1,0 +1,1 @@
+There are no searches defined for this extension

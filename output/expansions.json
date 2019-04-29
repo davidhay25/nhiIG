@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "a4b26394-719d-4629-bfe5-21a3965fd8ba",
+  "id" : "d5d50ea5-ec53-4d91-8001-a03bd3013f1a",
   "meta" : {
-    "lastUpdated" : "2019-04-09T11:44:17.893+12:00"
+    "lastUpdated" : "2019-04-29T12:57:49.694+12:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -17,7 +17,7 @@
       "url" : "https://standards.digital.health.nz/valueset/NzCitizenship",
       "name" : "NzCitizenship",
       "status" : "draft",
-      "date" : "2019-04-09T11:44:17+12:00",
+      "date" : "2019-04-29T12:57:49+12:00",
       "publisher" : "David Hay",
       "contact" : [{
         "telecom" : [{
@@ -32,8 +32,8 @@
       "description" : "New Zealand Citizenship status",
       "immutable" : true,
       "expansion" : {
-        "identifier" : "urn:uuid:712c4584-043a-48fa-a312-b456e2c6fec1",
-        "timestamp" : "2019-04-09T11:44:22+12:00",
+        "identifier" : "urn:uuid:91e7e795-4509-49ab-8463-65b83e7c4d73",
+        "timestamp" : "2019-04-29T12:57:55+12:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",

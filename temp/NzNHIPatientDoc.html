@@ -1,0 +1,969 @@
+   
+                    <html><head>
+                    <style>
+                    
+                        h1, h2, h3, h4 {
+                         font-family: Arial, Helvetica, sans-serif;
+                        }
+                    
+                        tr, td {
+                            border: 1px solid black;
+                            padding : 10px;
+                        }
+                    
+                        .dTable {
+                            font-family: Arial, Helvetica, sans-serif;
+                            width:100%;
+                            border: 1px solid black;
+                            border-collapse: collapse;
+                        }
+                        
+                        .col1 {
+                            background-color:Gainsboro;
+                        }
+                                   
+                    </style>
+                    </head>
+                    <body style="padding: 8px;">
+                    
+                <h1>NzNHIPatient
+<h3>NHI</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>NHI</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>NHI</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>The National Health Idenitifier</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>1..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>Identifier</div></td>
+</tr>
+</table>
+<h3>identifier</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>identifier</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>An identifier for this patient</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>Other identifiers that may be exchanged</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Comments</td>
+<td>includes dormant and unrelated. Could use identifier.type to distinguish (though an extension might be better as type means something slightly different)</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..*</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>Identifier</div></td>
+</tr>
+</table>
+<h3>active</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>active</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>Whether this patient's record is in active use</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>Whether this patient record is in active use.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>boolean</div></td>
+</tr>
+</table>
+<h3>name</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>name</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>A name associated with the patient</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>A name associated with the individual.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..*</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>HumanName</div></td>
+</tr>
+</table>
+<h3>telecom</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>telecom</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>A contact detail for the individual</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>A contact detail (e.g. a telephone number or an email address) by which the individual may be contacted.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..*</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>ContactPoint</div></td>
+</tr>
+</table>
+<h3>gender</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>gender</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>male | female | other | unknown</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>Administrative Gender - the gender that the patient is considered to have for administration and record keeping purposes.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>code</div></td>
+</tr>
+</table>
+<h3>birthDate</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>birthDate</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>The date of birth for the individual</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>The date of birth for the individual. Will always be included in an NHI interaction.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Comments</td>
+<td>Will always be included in the NHI</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>1..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>date</div></td>
+</tr>
+</table>
+<h3>birthDate.source</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>source</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>source</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>The source of the date of birth - eg from a birth certificate or a passport</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Comments</td>
+<td>supplied by the NHI</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>CodeableConcept</div></td>
+</tr>
+</table>
+<h3>ethnicity</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>ethnicity</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>ethnicity</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>The ethnicity of the patient. Has 4 levels of detail.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Comments</td>
+<td>HISO 10046</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..*</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>CodeableConcept</div></td>
+</tr>
+</table>
+<h3>placeOfBirth</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>placeOfBirth</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>placeOfBirth</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>The town, suburb, city where the patient was born.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>string</div></td>
+</tr>
+</table>
+<br/><br/><hr/>
+<h2>countryOfBirth</h2>
+<p>The country where the person was born</p>
+<h3>countryOfBirth.country</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>country</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>country</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>The birth country.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Comments</td>
+<td>ISO 3166-1:2006 Codes for the representation of names of countries and their subdivisions – Part 1: Country Code 
+HISO 10046 Country of birth code</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>CodeableConcept</div></td>
+</tr>
+</table>
+<h3>countryOfBirth.source</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>source</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>source</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>The source of information concerning the country of birth</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>CodeableConcept</div></td>
+</tr>
+</table>
+<br/><br/><hr/>
+<h2>nzcitizenship</h2>
+<p>New Zealand citizenship</p>
+<h3>nzcitizenship.status</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>status</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>status</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>No description</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Comments</td>
+<td>This is where the vs binding will occur - not in the extension...</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>CodeableConcept</div></td>
+</tr>
+</table>
+<h3>nzcitizenship.source</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>source</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>source</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>The source of the information</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>CodeableConcept</div></td>
+</tr>
+</table>
+<h3>nzcitizenship.dateRecorded</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>dateRecorded</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>dateRecorded</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>The date that the citizenship was last updated</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>date</div></td>
+</tr>
+</table>
+<br/><br/><hr/>
+<h2>nzResidencyStatus</h2>
+<p>The status of residency of the patient</p>
+<h3>nzResidencyStatus.status</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>status</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>status</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>The residency status</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>CodeableConcept</div></td>
+</tr>
+</table>
+<h3>nzResidencyStatus.source</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>source</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>source</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>source of information</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>CodeableConcept</div></td>
+</tr>
+</table>
+<h3>mothersBirthName</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>mothersBirthName</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>mothersBirthName</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>The maiden name of the mother if this patient is a child</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>string</div></td>
+</tr>
+</table>
+<h3>dateOfDeath</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>dateOfDeath</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>dateOfDeath</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>No description</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>date</div></td>
+</tr>
+</table>
+<h3>dateOfDeath.source</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>source</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>source</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>Who stated the patient was deceased</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>CodeableConcept</div></td>
+</tr>
+</table>
+<h3>address</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>address</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>Addresses for the individual</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>Addresses for the individual.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..*</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>Address</div></td>
+</tr>
+</table>
+<h3>maritalStatus</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>maritalStatus</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>Marital (civil) status of a patient</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>This field contains a patient's most recent marital (civil) status.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>CodeableConcept</div></td>
+</tr>
+</table>
+<h3>multipleBirth[x]</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>multipleBirth[x]</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>Whether patient is part of a multiple birth</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>Indicates whether the patient is part of a multiple (bool) or indicates the actual birth order (integer).</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>boolean</div><div>integer</div></td>
+</tr>
+</table>
+<h3>photo</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>photo</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>Image of the patient</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>Image of the patient.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..*</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>Attachment</div></td>
+</tr>
+</table>
+<br/><br/><hr/>
+<h2>contact</h2>
+<p>A contact party (e.g. guardian, partner, friend) for the patient.</p>
+<h3>contact.relationship</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>relationship</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>The kind of relationship</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>The nature of the relationship between the patient and the contact person.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..*</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>CodeableConcept</div></td>
+</tr>
+</table>
+<h3>contact.name</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>name</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>A name associated with the contact person</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>A name associated with the contact person.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>HumanName</div></td>
+</tr>
+</table>
+<h3>contact.telecom</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>telecom</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>A contact detail for the person</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>A contact detail for the person, e.g. a telephone number or an email address.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..*</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>ContactPoint</div></td>
+</tr>
+</table>
+<h3>contact.address</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>address</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>Address for the contact person</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>Address for the contact person.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>Address</div></td>
+</tr>
+</table>
+<h3>contact.gender</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>gender</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>male | female | other | unknown</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>Administrative Gender - the gender that the contact person is considered to have for administration and record keeping purposes.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>code</div></td>
+</tr>
+</table>
+<h3>contact.organization</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>organization</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>Organization that is associated with the contact</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>Organization on behalf of which the contact is acting or for which the contact is working.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>Reference --> Organization</div></td>
+</tr>
+</table>
+<h3>contact.period</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>period</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>The period during which this contact person or organization is valid to be contacted relating to this patient</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>The period during which this contact person or organization is valid to be contacted relating to this patient.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>Period</div></td>
+</tr>
+</table>
+<br/><br/><hr/>
+<h2>communication</h2>
+<p>Languages which may be used to communicate with the patient about his or her health.</p>
+<h3>communication.language</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>language</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>The language which can be used to communicate with the patient about his or her health</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. "en" for English, or "en-US" for American English versus "en-EN" for England English.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>1..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>CodeableConcept</div></td>
+</tr>
+</table>
+<h3>communication.preferred</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>preferred</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>Language preference indicator</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>Indicates whether or not the patient prefers this language (over other languages he masters up a certain level).</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>boolean</div></td>
+</tr>
+</table>
+<h3>communication.ability</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>ability</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>ability</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>The persons ability to speak this language</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>CodeableConcept</div></td>
+</tr>
+</table>
+<h3>communication.proficiency</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>proficiency</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>proficiency</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>persons proficience in the language. ?How is this different to ability?</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>string</div></td>
+</tr>
+</table>
+<h3>generalPractitioner</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>generalPractitioner</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>Patient's nominated primary care provider</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>Patient's nominated care provider.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..*</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>Reference --> Organization</div><div>Reference --> Practitioner</div></td>
+</tr>
+</table>
+<h3>managingOrganization</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>managingOrganization</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>Organization that is the custodian of the patient record</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>Organization that is the custodian of the patient record.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>0..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>Reference --> Organization</div></td>
+</tr>
+</table>
+<br/><br/><hr/>
+<h2>link</h2>
+<p>Link to another patient resource that concerns the same actual patient.</p>
+<h3>link.other</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>other</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>The other patient or related person resource that the link refers to</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>The other patient resource that the link refers to.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>1..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>Reference --> Patient</div></td>
+</tr>
+</table>
+<h3>link.type</h3>
+<table class='dTable'>
+<tr>
+<td width="20%" class="col1">Name</td>
+<td>type</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Short description</td>
+<td>replaced-by | replaces | refer | seealso - type of link</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Full description</td>
+<td>The type of link between this patient resource and another patient resource.</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Multiplicity</td>
+<td>1..1</td>
+</tr>
+<tr>
+<td width="20%" class="col1">Datatype/s</td>
+<td><div>code</div></td>
+</tr>
+</table></body></html>

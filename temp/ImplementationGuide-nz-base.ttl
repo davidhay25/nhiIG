@@ -98,6 +98,54 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-nhiOrganization.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <http://hl7.org.nz/fhir/StructureDefinition/nhiOrganization>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/nhiOrganization" ]
+       ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-nhiBuildingName.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <http://hl7.org.nz/fhir/StructureDefinition/nhiBuildingName>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/nhiBuildingName" ]
+       ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-nhiAddress.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <http://hl7.org.nz/fhir/StructureDefinition/nhiAddress>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/nhiAddress" ]
+       ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-nhiSubhurb.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <http://hl7.org.nz/fhir/StructureDefinition/nhiSubhurb>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/nhiSubhurb" ]
+       ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
          fhir:Extension.valueUri [ fhir:value "CodeSystem-NzEthnicityL4.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
@@ -106,7 +154,7 @@
          fhir:Reference.reference [ fhir:value "CodeSystem/NzEthnicityL4" ]
        ]
      ], [
-       fhir:index 6;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
@@ -118,7 +166,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/ethnic-group-level-4" ]
        ]
      ], [
-       fhir:index 7;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
@@ -130,7 +178,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/nzinfosource" ]
        ]
      ], [
-       fhir:index 8;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
@@ -142,7 +190,7 @@
          fhir:Reference.reference [ fhir:value "CodeSystem/NzCitizenship" ]
        ]
      ], [
-       fhir:index 9;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
@@ -154,7 +202,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/NzCitizenship" ]
        ]
      ], [
-       fhir:index 10;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
@@ -166,7 +214,7 @@
          fhir:Reference.reference [ fhir:value "CodeSystem/nzinfosource" ]
        ]
      ], [
-       fhir:index 11;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
@@ -178,7 +226,7 @@
          fhir:Reference.reference [ fhir:value "OperationDefinition/nzAddressUpdate" ]
        ]
      ], [
-       fhir:index 12;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];

@@ -1,0 +1,1 @@
+A string extension to record the building name in an NHI address

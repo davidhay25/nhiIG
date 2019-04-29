@@ -10,7 +10,7 @@
     "basename": "Extension",
     "basepath": "http://hl7.org/fhir/STU3/datatypes.html#Extension",
     "status": "draft",
-    "date": "Tue Apr 09 11:44:17 NZST 2019",
+    "date": "Mon Apr 29 12:57:49 NZST 2019",
     "contexts": [
       {
         "type": "Patient"
@@ -28,7 +28,7 @@
     "basename": "Extension",
     "basepath": "http://hl7.org/fhir/STU3/datatypes.html#Extension",
     "status": "draft",
-    "date": "Tue Apr 09 11:44:17 NZST 2019",
+    "date": "Mon Apr 29 12:57:49 NZST 2019",
     "contexts": [
       {
         "type": "Patient"
@@ -46,7 +46,7 @@
     "basename": "Extension",
     "basepath": "http://hl7.org/fhir/STU3/datatypes.html#Extension",
     "status": "draft",
-    "date": "Tue Apr 09 11:44:17 NZST 2019",
+    "date": "Mon Apr 29 12:57:49 NZST 2019",
     "contexts": [
       {
         "type": "Patient"
@@ -64,7 +64,7 @@
     "basename": "Extension",
     "basepath": "http://hl7.org/fhir/STU3/datatypes.html#Extension",
     "status": "draft",
-    "date": "Tue Apr 09 11:44:17 NZST 2019",
+    "date": "Mon Apr 29 12:57:49 NZST 2019",
     "description": "The source of the information",
     "contexts": [
       {
@@ -83,6 +83,69 @@
     "basename": "Patient",
     "basepath": "http://hl7.org/fhir/STU3/patient.html",
     "status": "draft",
-    "date": "Tue Apr 09 11:44:17 NZST 2019"
+    "date": "Mon Apr 29 12:57:49 NZST 2019"
+  },
+  "nhiOrganization": {
+    "index": 5,
+    "url": "http://example.org/fhir/StructureDefinition/nhiOrganization",
+    "name": "nhiOrganization",
+    "path": "StructureDefinition-nhiOrganization.html",
+    "kind": "resource",
+    "type": "Organization",
+    "base": "http://hl7.org/fhir/StructureDefinition/Organization",
+    "basename": "Organization",
+    "basepath": "http://hl7.org/fhir/STU3/organization.html",
+    "status": "draft",
+    "date": "Mon Apr 29 12:57:49 NZST 2019"
+  },
+  "nhiBuildingName": {
+    "index": 6,
+    "url": "http://example.org/fhir/StructureDefinition/nhiBuildingName",
+    "name": "nhiBuildingName",
+    "path": "StructureDefinition-nhiBuildingName.html",
+    "kind": "complex-type",
+    "type": "Extension",
+    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename": "Extension",
+    "basepath": "http://hl7.org/fhir/STU3/datatypes.html#Extension",
+    "status": "draft",
+    "date": "Mon Apr 29 12:57:49 NZST 2019",
+    "description": "The building name for an nhi address",
+    "contexts": [
+      {
+        "type": "Address"
+      }
+    ]
+  },
+  "nhiAddress": {
+    "index": 7,
+    "url": "http://hl7.org.nz/fhir/StructureDefinition/nhiAddress",
+    "name": "nhiAddress",
+    "path": "StructureDefinition-nhiAddress.html",
+    "kind": "complex-type",
+    "type": "Address",
+    "base": "http://hl7.org/fhir/StructureDefinition/Address",
+    "basename": "Address",
+    "basepath": "http://hl7.org/fhir/STU3/datatypes.html#Address",
+    "status": "draft",
+    "date": "Mon Apr 29 12:57:49 NZST 2019"
+  },
+  "nhiSubhurb": {
+    "index": 8,
+    "url": "http://example.org/fhir/StructureDefinition/nhiSubhurb",
+    "name": "nhiSubhurb",
+    "path": "StructureDefinition-nhiSubhurb.html",
+    "kind": "complex-type",
+    "type": "Extension",
+    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename": "Extension",
+    "basepath": "http://hl7.org/fhir/STU3/datatypes.html#Extension",
+    "status": "draft",
+    "date": "Mon Apr 29 12:57:49 NZST 2019",
+    "contexts": [
+      {
+        "type": "Address"
+      }
+    ]
   }
 }

@@ -40,6 +40,13 @@
     <resource>
       <example value="false"/>
       <sourceReference>
+        <reference value="StructureDefinition/nhiBuildingName"/>
+      </sourceReference>
+    </resource>
+    
+    <resource>
+      <example value="false"/>
+      <sourceReference>
         <reference value="StructureDefinition/patient-nzcitizenship"/>
       </sourceReference>
     </resource>

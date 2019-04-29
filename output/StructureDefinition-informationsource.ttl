@@ -16,7 +16,7 @@
   fhir:StructureDefinition.version [ fhir:value ".1"];
   fhir:StructureDefinition.name [ fhir:value "informationsource"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2019-04-09T11:44:17+12:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2019-04-29T12:57:49+12:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "The source of the information"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "3.0.1"];
   fhir:StructureDefinition.mapping [

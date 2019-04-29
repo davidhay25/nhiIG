@@ -8,3 +8,7 @@ These extensions have been defined for this implementation guide.
 * [Birthplace](StructureDefinition-patient-birthplace.html) - New Zealand Birthplace
 * [Citizenship](StructureDefinition-patient-nzcitizenship.html) - New Zealand Citizenship
 * [Information Source](StructureDefinition-informationsource.html) - Information Source
+
+## DataType
+* [BuildingName](StructureDefinition-nhiBuildingName.html) - Building Name
+* [BuildingName](StructureDefinition-nhiSubhurb.html) - Subhurb
